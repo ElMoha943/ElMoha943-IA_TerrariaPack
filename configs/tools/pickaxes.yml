@@ -1,0 +1,163 @@
+info:
+  namespace: terraria
+items:
+#PICKAXES
+  copper_pickaxe:
+    display_name: display-name-copper_pickaxe
+    resource:
+      material: STONE_PICKAXE
+      generate: true
+      textures:
+      - item/copper_pickaxe
+    durability:
+      max_custom_durability: 150
+  tin_pickaxe:
+    display_name: display-name-tin_pickaxe
+    resource:
+      material: STONE_PICKAXE
+      generate: true
+      textures:
+      - item/tin_pickaxe
+    durability:
+      max_custom_durability: 175
+  lead_pickaxe:
+    display_name: display-name-lead_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/lead_pickaxe
+    durability:
+      max_custom_durability: 200
+  #iron_pickaxe
+  silver_pickaxe:
+    display_name: display-name-silver_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/silver_pickaxe
+    durability:
+      max_custom_durability: 300
+  #gold_pickaxe
+  tungsten_pickaxe:
+    display_name: display-name-tungsten_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/tungsten_pickaxe
+    durability:
+      max_custom_durability: 500
+  platinum_pickaxe:
+    display_name: display-name-platinum_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/platinum_pickaxe
+    durability:
+      max_custom_durability: 1000
+  #---FACE 2
+  demonite_pickaxe:
+    display_name: display-name-demonite_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/demonite_pickaxe
+    durability:
+      max_custom_durability: 2100
+  meteorite_pickaxe:
+    display_name: display-name-meteorite_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/meteorite_pickaxe
+    durability:
+      max_custom_durability: 2100
+  hellstone_pickaxe:
+    display_name: display-name-hellstone_pickaxe
+    resource:
+      material: DIAMOND_PICKAXE
+      generate: true
+      textures:
+      - item/hellstone_pickaxe
+    durability:
+      max_custom_durability: 2100
+  #---FACE 3
+  cobalt_pickaxe:
+    display_name: display-name-cobalt_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/cobalt_pickaxe
+    durability:
+      max_custom_durability: 2250
+  palladium_pickaxe:
+    display_name: display-name-palladium_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/palladium_pickaxe
+    durability:
+      max_custom_durability: 2250
+  orichalcum_pickaxe:
+    display_name: display-name-orichalcum_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/orichalcum_pickaxe
+    durability:
+      max_custom_durability: 2500
+  mythril_pickaxe:
+    display_name: display-name-mythril_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/mythril_pickaxe
+    durability:
+      max_custom_durability: 2500
+  adamantite_pickaxe:
+    display_name: display-name-adamantite_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/adamantite_pickaxe
+    durability:
+      max_custom_durability: 2750
+  titanium_pickaxe:
+    display_name: display-name-titanium_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/titanium_pickaxe
+    durability:
+      max_custom_durability: 2750
+  #---FACE 4
+  chlorophyte_pickaxe:
+    display_name: display-name-chlorophyte_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/chlorophyte_pickaxe
+    durability:
+      max_custom_durability: 2900
+  #shroomite_pickaxe
+  luminite_pickaxe:
+    display_name: display-name-luminite_pickaxe
+    resource:
+      material: NETHERITE_PICKAXE
+      generate: true
+      textures:
+      - item/luminite_pickaxe
+    durability:
+      max_custom_durability: 3000

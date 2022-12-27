@@ -1,0 +1,724 @@
+info:
+  namespace: terraria
+recipes:
+  crafting_table:
+    copper_helmet: 
+      permission: terraria.copper_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: COPPER_INGOT
+      result: 
+        item: copper_helmet
+        amount: 1
+    copper_chest:
+      permission: terraria.copper_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: COPPER_INGOT
+      result: 
+        item: copper_chest
+        amount: 1
+    copper_legs:
+      permission: terraria.copper_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: COPPER_INGOT
+      result: 
+        item: copper_legs
+        amount: 1
+    copper_boots:
+      permission: terraria.copper_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: COPPER_INGOT
+      result: 
+        item: copper_boots
+        amount: 1
+    tin_helmet: 
+      permission: terraria.tin_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: tin_bar
+      result: 
+        item: tin_helmet
+        amount: 1
+    tin_chest:
+      permission: terraria.tin_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: tin_bar
+      result: 
+        item: tin_chest
+        amount: 1
+    tin_legs:
+      permission: terraria.tin_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: tin_bar
+      result: 
+        item: tin_legs
+        amount: 1
+    tin_boots:
+      permission: terraria.tin_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: tin_bar
+      result: 
+        item: tin_boots
+        amount: 1
+    lead_helmet: 
+      permission: terraria.lead_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: lead_bar
+      result: 
+        item: lead_helmet
+        amount: 1
+    lead_chest:
+      permission: terraria.lead_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: lead_bar
+      result: 
+        item: lead_chest
+        amount: 1
+    lead_legs:
+      permission: terraria.lead_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: lead_bar
+      result: 
+        item: lead_legs
+        amount: 1
+    lead_boots:
+      permission: terraria.lead_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: lead_bar
+      result: 
+        item: lead_boots
+        amount: 1
+    silver_helmet:
+      permission: terraria.silver_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: silver_bar
+      result: 
+        item: silver_helmet
+        amount: 1
+    silver_chest:
+      permission: terraria.silver_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: silver_bar
+      result: 
+        item: silver_chest
+        amount: 1
+    silver_legs:
+      permission: terraria.silver_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: silver_bar
+      result: 
+        item: silver_legs
+        amount: 1
+    silver_boots:
+      permission: terraria.silver_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: silver_bar
+      result: 
+        item: silver_boots
+        amount: 1
+    tungsten_helmet:
+      permission: terraria.tungsten_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: tungsten_bar
+      result: 
+        item: tungsten_helmet
+        amount: 1
+    tungsten_chest:
+      permission: terraria.tungsten_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: tungsten_bar
+      result: 
+        item: tungsten_chest
+        amount: 1
+    tungsten_legs:
+      permission: terraria.tungsten_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: tungsten_bar
+      result: 
+        item: tungsten_legs
+        amount: 1
+    tungsten_boots:
+      permission: terraria.tungsten_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: tungsten_bar
+      result: 
+        item: tungsten_boots
+        amount: 1
+    platinum_helmet:
+      permission: terraria.platinum_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: platinum_bar
+      result: 
+        item: platinum_helmet
+        amount: 1
+    platinum_chest:
+      permission: terraria.platinum_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: platinum_bar
+      result: 
+        item: platinum_chest
+        amount: 1
+    platinum_legs:
+      permission: terraria.platinum_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: platinum_bar
+      result: 
+        item: platinum_legs
+        amount: 1
+    platinum_boots:
+      permission: terraria.platinum_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: platinum_bar
+      result: 
+        item: platinum_boots
+        amount: 1
+    demonite_helmet:
+      permission: terraria.demonite_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: demonite_bar
+      result: 
+        item: demonite_helmet
+        amount: 1
+    demonite_chest:
+      permission: terraria.demonite_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: demonite_bar
+      result: 
+        item: demonite_chest
+        amount: 1
+    demonite_legs:
+      permission: terraria.demonite_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: demonite_bar
+      result: 
+        item: demonite_legs
+        amount: 1
+    demonite_boots:
+      permission: terraria.demonite_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: demonite_bar
+      result: 
+        item: demonite_boots
+        amount: 1
+    meteorite_helmet:
+      permission: terraria.meteorite_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: meteorite_bar
+      result: 
+        item: meteorite_helmet
+        amount: 1
+    meteorite_chest:
+      permission: terraria.meteorite_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: meteorite_bar
+      result: 
+        item: meteorite_chest
+        amount: 1
+    meteorite_legs:
+      permission: terraria.meteorite_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: meteorite_bar
+      result: 
+        item: meteorite_legs
+        amount: 1
+    meteorite_boots:
+      permission: terraria.meteorite_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: meteorite_bar
+      result: 
+        item: meteorite_boots
+        amount: 1
+    hellstone_helmet:
+      permission: terraria.hellstone_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: hellstone_bar
+      result: 
+        item: hellstone_helmet
+        amount: 1
+    hellstone_chest:
+      permission: terraria.hellstone_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: hellstone_bar
+      result: 
+        item: hellstone_chest
+        amount: 1
+    hellstone_legs:
+      permission: terraria.hellstone_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: hellstone_bar
+      result: 
+        item: hellstone_legs
+        amount: 1
+    hellstone_boots:
+      permission: terraria.hellstone_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: hellstone_bar
+      result: 
+        item: hellstone_boots
+        amount: 1
+    cobalt_helmet:
+      permission: terraria.cobalt_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: cobalt_bar
+      result: 
+        item: cobalt_helmet
+        amount: 1
+    cobalt_chest:
+      permission: terraria.cobalt_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: cobalt_bar
+      result: 
+        item: cobalt_chest
+        amount: 1
+    cobalt_legs:
+      permission: terraria.cobalt_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: cobalt_bar
+      result: 
+        item: cobalt_legs
+        amount: 1
+    cobalt_boots:
+      permission: terraria.cobalt_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: cobalt_bar
+      result: 
+        item: cobalt_boots
+        amount: 1
+    palladium_helmet:
+      permission: terraria.palladium_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: palladium_bar
+      result: 
+        item: palladium_helmet
+        amount: 1
+    palladium_chest:
+      permission: terraria.palladium_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: palladium_bar
+      result: 
+        item: palladium_chest
+        amount: 1
+    palladium_legs:
+      permission: terraria.palladium_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: palladium_bar
+      result: 
+        item: palladium_legs
+        amount: 1
+    palladium_boots:
+      permission: terraria.palladium_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: palladium_bar
+      result: 
+        item: palladium_boots
+        amount: 1
+    orichalcum_helmet:
+      permission: terraria.orichalcum_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: orichalcum_bar
+      result: 
+        item: orichalcum_helmet
+        amount: 1
+    orichalcum_chest:
+      permission: terraria.orichalcum_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: orichalcum_bar
+      result: 
+        item: orichalcum_chest
+        amount: 1
+    orichalcum_legs:
+      permission: terraria.orichalcum_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: orichalcum_bar
+      result: 
+        item: orichalcum_legs
+        amount: 1
+    orichalcum_boots:
+      permission: terraria.orichalcum_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: orichalcum_bar
+      result: 
+        item: orichalcum_boots
+        amount: 1
+    mythril_helmet:
+      permission: terraria.mythril_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: mythril_bar
+      result: 
+        item: mythril_helmet
+        amount: 1
+    mythril_chest:
+      permission: terraria.mythril_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: mythril_bar
+      result: 
+        item: mythril_chest
+        amount: 1
+    mythril_legs:
+      permission: terraria.mythril_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: mythril_bar
+      result: 
+        item: mythril_legs
+        amount: 1
+    mythril_boots:
+      permission: terraria.mythril_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: mythril_bar
+      result: 
+        item: mythril_boots
+        amount: 1
+    adamantite_helmet:
+      permission: terraria.adamantite_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: adamantite_bar
+      result: 
+        item: adamantite_helmet
+        amount: 1
+    adamantite_chest:
+      permission: terraria.adamantite_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: adamantite_bar
+      result: 
+        item: adamantite_chest
+        amount: 1
+    adamantite_legs:
+      permission: terraria.adamantite_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: adamantite_bar
+      result: 
+        item: adamantite_legs
+        amount: 1
+    adamantite_boots:
+      permission: terraria.adamantite_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: adamantite_bar
+      result: 
+        item: adamantite_boots
+        amount: 1
+    titanium_helmet:
+      permission: terraria.titanium_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: titanium_bar
+      result: 
+        item: titanium_helmet
+        amount: 1
+    titanium_chest:
+      permission: terraria.titanium_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: titanium_bar
+      result: 
+        item: titanium_chest
+        amount: 1
+    titanium_legs:
+      permission: terraria.titanium_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: titanium_bar
+      result: 
+        item: titanium_legs
+        amount: 1
+    titanium_boots:
+      permission: terraria.titanium_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: titanium_bar
+      result: 
+        item: titanium_boots
+        amount: 1

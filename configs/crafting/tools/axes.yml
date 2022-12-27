@@ -1,0 +1,229 @@
+info:
+  namespace: terraria
+recipes:
+  crafting_table:
+    copper_axe:
+      permission: terraria.copper_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: COPPER_INGOT
+        B: STICK
+      result: 
+        item: copper_axe
+        amount: 1
+    tin_axe:
+      permission: terraria.tin_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: tin_bar
+        B: STICK
+      result: 
+        item: tin_axe
+        amount: 1
+    lead_axe:
+      permission: terraria.lead_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: lead_bar
+        B: STICK
+      result: 
+        item: lead_axe
+        amount: 1
+    silver_axe:
+      permission: terraria.silver_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: silver_bar
+        B: STICK
+      result: 
+        item: silver_axe
+        amount: 1
+    #gold_axe
+    tungsten_axe:
+      permission: terraria.tungsten_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: tungsten_bar
+        B: STICK
+      result: 
+        item: tungsten_axe
+        amount: 1
+    platinum_axe:
+      permission: terraria.platinum_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: platinum_bar
+        B: STICK
+      result: 
+        item: platinum_axe
+        amount: 1
+    #---FACE 2
+    demonite_axe:
+      permission: terraria.demonite_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: demonite_bar
+        B: STICK
+      result: 
+        item: demonite_axe
+        amount: 1
+    meteorite_axe:
+      permission: terraria.meteorite_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: meteorite_bar
+        B: STICK
+      result: 
+        item: meteorite_axe
+        amount: 1
+    hellstone_axe:
+      permission: terraria.hellstone_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: hellstone_bar
+        B: STICK
+      result: 
+        item: hellstone_axe
+        amount: 1
+    #---FACE 3
+    cobalt_axe:
+      permission: terraria.cobalt_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: cobalt_bar
+        B: STICK
+      result: 
+        item: cobalt_axe
+        amount: 1
+    palladium_axe:
+      permission: terraria.palladium_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: palladium_bar
+        B: STICK
+      result: 
+        item: palladium_axe
+        amount: 1
+    orichalcum_axe:
+      permission: terraria.orichalcum_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: orichalcum_bar
+        B: STICK
+      result: 
+        item: orichalcum_axe
+        amount: 1
+    mythril_axe:
+      permission: terraria.mythril_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: mythril_bar
+        B: STICK
+      result: 
+        item: mythril_axe
+        amount: 1
+    adamantite_axe:
+      permission: terraria.adamantite_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: adamantite_bar
+        B: STICK
+      result: 
+        item: adamantite_axe
+        amount: 1
+    titanium_axe:
+      permission: terraria.titanium_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: titanium_bar
+        B: STICK
+      result: 
+        item: titanium_axe
+        amount: 1
+    #---FACE 4
+    chlorophyte_axe:
+      permission: terraria.chlorophyte_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: chlorophyte_bar
+        B: STICK
+      result: 
+        item: chlorophyte_axe
+        amount: 1
+    luminite_axe:
+      permission: terraria.luminite_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: luminite_bar
+        B: STICK
+      result: 
+        item: luminite_axe
+        amount: 1

@@ -1,0 +1,227 @@
+info:
+  namespace: terraria
+recipes:
+  crafting_table:
+    copper_shovel:
+      permission: terraria.copper_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: COPPER_INGOT
+        B: STICK
+      result: 
+        item: copper_shovel
+        amount: 1
+    tin_shovel:
+      permission: terraria.tin_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: tin_bar
+        B: STICK
+      result: 
+        item: tin_shovel
+        amount: 1
+    lead_shovel:
+      permission: terraria.lead_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: lead_bar
+        B: STICK
+      result: 
+        item: lead_shovel
+        amount: 1
+    silver_shovel:
+      permission: terraria.silver_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: silver_bar
+        B: STICK
+      result: 
+        item: silver_shovel
+        amount: 1
+    #gold_shovel
+    tungsten_shovel:
+      permission: terraria.tungsten_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: tungsten_bar
+        B: STICK
+      result: 
+        item: tungsten_shovel
+        amount: 1
+    platinum_shovel:
+      permission: terraria.platinum_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: platinum_bar
+        B: STICK
+      result: 
+        item: platinum_shovel
+        amount: 1
+    #---FACE 2
+    demonite_shovel:
+      permission: terraria.demonite_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: demonite_bar
+        B: STICK
+      result: 
+        item: demonite_shovel
+        amount: 1
+    meteorite_shovel:
+      permission: terraria.meteorite_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: meteorite_bar
+        B: STICK
+      result: 
+        item: meteorite_shovel
+        amount: 1
+    hellstone_shovel:
+      permission: terraria.hellstone_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: hellstone_bar
+        B: STICK
+      result: 
+        item: hellstone_shovel
+        amount: 1
+    cobalt_shovel:
+      permission: terraria.cobalt_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: cobalt_bar
+        B: STICK
+      result: 
+        item: cobalt_shovel
+        amount: 1
+    palladium_shovel:
+      permission: terraria.palladium_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: palladium_bar
+        B: STICK
+      result: 
+        item: palladium_shovel
+        amount: 1
+    orichalcum_shovel:
+      permission: terraria.orichalcum_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: orichalcum_bar
+        B: STICK
+      result: 
+        item: orichalcum_shovel
+        amount: 1
+    mythril_shovel:
+      permission: terraria.mythril_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: mythril_bar
+        B: STICK
+      result: 
+        item: mythril_shovel
+        amount: 1
+    adamantite_shovel:
+      permission: terraria.adamantite_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: adamantite_bar
+        B: STICK
+      result: 
+        item: adamantite_shovel
+        amount: 1
+    titanium_shovel:
+      permission: terraria.titanium_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: titanium_bar
+        B: STICK
+      result: 
+        item: titanium_shovel
+        amount: 1
+    chlorophyte_shovel:
+      permission: terraria.chlorophyte_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: chlorophyte_bar
+        B: STICK
+      result: 
+        item: chlorophyte_shovel
+        amount: 1
+    luminite_shovel:
+      permission: terraria.luminite_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: luminite_bar
+        B: STICK
+      result: 
+        item: luminite_shovel
+        amount: 1

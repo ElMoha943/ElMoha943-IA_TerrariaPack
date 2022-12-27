@@ -1,0 +1,161 @@
+info:
+  namespace: terraria
+items:
+#AXES
+  copper_axe:
+    display_name: display-name-copper_axe
+    resource:
+      material: STONE_AXE
+      generate: true
+      textures:
+      - item/copper_axe
+    durability:
+      max_custom_durability: 150
+  tin_axe:
+    display_name: display-name-tin_axe
+    resource:
+      material: STONE_AXE
+      generate: true
+      textures:
+      - item/tin_axe
+    durability:
+      max_custom_durability: 175
+  lead_axe:
+    display_name: display-name-lead_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/lead_axe
+    durability:
+      max_custom_durability: 200
+  #iron_axe
+  silver_axe:
+    display_name: display-name-silver_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/silver_axe
+    durability:
+      max_custom_durability: 300
+  #gold_axe
+  tungsten_axe:
+    display_name: display-name-tungsten_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/tungsten_axe
+    durability:
+      max_custom_durability: 500
+  platinum_axe:
+    display_name: display-name-platinum_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/platinum_axe
+    durability:
+      max_custom_durability: 1000
+  #---FACE 2
+  demonite_axe:
+    display_name: display-name-demonite_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/demonite_axe
+    durability:
+      max_custom_durability: 2100
+  meteorite_axe:
+    display_name: display-name-meteorite_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/meteorite_axe
+    durability:
+      max_custom_durability: 2100
+  hellstone_axe:
+    display_name: display-name-hellstone_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/hellstone_axe
+    durability:
+      max_custom_durability: 2100
+  #---FACE 3
+  cobalt_axe:
+    display_name: display-name-cobalt_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/cobalt_axe
+    durability:
+      max_custom_durability: 2250
+  palladium_axe:
+    display_name: display-name-palladium_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/palladium_axe
+    durability:
+      max_custom_durability: 2250
+  orichalcum_axe:
+    display_name: display-name-orichalcum_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/orichalcum_axe
+    durability:
+      max_custom_durability: 2500
+  mythril_axe:
+    display_name: display-name-mythril_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/mythril_axe
+    durability:
+      max_custom_durability: 2500
+  adamantite_axe:
+    display_name: display-name-adamantite_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/adamantite_axe
+    durability:
+      max_custom_durability: 2750
+  titanium_axe:
+    display_name: display-name-titanium_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/titanium_axe
+  #---FACE 4
+  chlorophyte_axe:
+    display_name: display-name-chlorophyte_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/chlorophyte_axe
+    durability:
+      max_custom_durability: 2900
+  #shroomite_axe
+  luminite_axe:
+    display_name: display-name-luminite_axe
+    resource:
+      material: NETHERITE_AXE
+      generate: true
+      textures:
+      - item/luminite_axe
+    durability:
+      max_custom_durability: 3000

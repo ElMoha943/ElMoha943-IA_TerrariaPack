@@ -1,0 +1,230 @@
+info:
+  namespace: terraria
+recipes:
+  crafting_table:
+    copper_pickaxe:
+      permission: terraria.copper_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: COPPER_INGOT
+        B: STICK
+      result: 
+        item: copper_pickaxe
+        amount: 1
+    tin_pickaxe:
+      permission: terraria.tin_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: tin_bar
+        B: STICK
+      result: 
+        item: tin_pickaxe
+        amount: 1
+    lead_pickaxe:
+      permission: terraria.lead_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: lead_bar
+        B: STICK
+      result: 
+        item: lead_pickaxe
+        amount: 1
+    #iron_pickaxe
+    silver_pickaxe:
+      permission: terraria.silver_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: silver_bar
+        B: STICK
+      result: 
+        item: silver_pickaxe
+        amount: 1
+    #gold_pickaxe
+    tungsten_pickaxe:
+      permission: terraria.tungsten_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: tungsten_bar
+        B: STICK
+      result: 
+        item: tungsten_pickaxe
+        amount: 1
+    platinum_pickaxe:
+      permission: terraria.platinum_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: platinum_bar
+        B: STICK
+      result: 
+        item: platinum_pickaxe
+        amount: 1
+    #---FACE 2
+    demonite_pickaxe:
+      permission: terraria.demonite_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: demonite_bar
+        B: STICK
+      result: 
+        item: demonite_pickaxe
+        amount: 1
+    meteorite_pickaxe:
+      permission: terraria.meteorite_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: meteorite_bar
+        B: STICK
+      result: 
+        item: meteorite_pickaxe
+        amount: 1
+    hellstone_pickaxe:
+      permission: terraria.hellstone_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: hellstone_bar
+        B: STICK
+      result: 
+        item: hellstone_pickaxe
+        amount: 1
+    #---FACE 3
+    cobalt_pickaxe:
+      permission: terraria.cobalt_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: cobalt_bar
+        B: STICK
+      result: 
+        item: cobalt_pickaxe
+        amount: 1
+    palladium_pickaxe:
+      permission: terraria.palladium_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: palladium_bar
+        B: STICK
+      result: 
+        item: palladium_pickaxe
+        amount: 1
+    orichalcum_pickaxe:
+      permission: terraria.orichalcum_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: orichalcum_bar
+        B: STICK
+      result: 
+        item: orichalcum_pickaxe
+        amount: 1
+    mythril_pickaxe:
+      permission: terraria.mythril_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: mythril_bar
+        B: STICK
+      result: 
+        item: mythril_pickaxe
+        amount: 1
+    adamantite_pickaxe:
+      permission: terraria.adamantite_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: adamantite_bar
+        B: STICK
+      result: 
+        item: adamantite_pickaxe
+        amount: 1
+    titanium_pickaxe:
+      permission: terraria.titanium_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: titanium_bar
+        B: STICK
+      result: 
+        item: titanium_pickaxe
+        amount: 1
+    #---FACE 4
+    chlorophyte_pickaxe:
+      permission: terraria.chlorophyte_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: chlorophyte_bar
+        B: STICK
+      result: 
+        item: chlorophyte_pickaxe
+        amount: 1
+    luminite_pickaxe:
+      permission: terraria.luminite_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: luminite_bar
+        B: STICK
+      result: 
+        item: luminite_pickaxe
+        amount: 1

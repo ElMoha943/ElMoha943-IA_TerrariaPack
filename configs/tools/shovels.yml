@@ -1,0 +1,160 @@
+info:
+  namespace: terraria
+items:
+  copper_shovel:
+    display_name: display-name-copper_shovel
+    resource:
+      material: STONE_SHOVEL
+      generate: true
+      textures:
+      - item/copper_shovel
+    durability:
+      max_custom_durability: 150
+  tin_shovel:
+    display_name: display-name-tin_shovel
+    resource:
+      material: STONE_SHOVEL
+      generate: true
+      textures:
+      - item/tin_shovel
+    durability:
+      max_custom_durability: 175
+  lead_shovel:
+    display_name: display-name-lead_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/lead_shovel
+    durability:
+      max_custom_durability: 200
+  #iron_shovel
+  silver_shovel:
+    display_name: display-name-silver_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/silver_shovel
+    durability:
+      max_custom_durability: 300
+  #gold_shovel
+  tungsten_shovel:
+    display_name: display-name-tungsten_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/tungsten_shovel
+    durability:
+      max_custom_durability: 500
+  platinum_shovel:
+    display_name: display-name-platinum_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/platinum_shovel
+    durability:
+      max_custom_durability: 1000
+  #---FACE 2
+  demonite_shovel:
+    display_name: display-name-demonite_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/demonite_shovel
+    durability:
+      max_custom_durability: 2100
+  meteorite_shovel:
+    display_name: display-name-meteorite_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/meteorite_shovel
+    durability:
+      max_custom_durability: 2100
+  hellstone_shovel:
+    display_name: display-name-hellstone_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/hellstone_shovel
+    durability:
+      max_custom_durability: 2100
+  #---FACE 3
+  cobalt_shovel:
+    display_name: display-name-cobalt_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/cobalt_shovel
+    durability:
+      max_custom_durability: 2250
+  palladium_shovel:
+    display_name: display-name-palladium_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/palladium_shovel
+    durability:
+      max_custom_durability: 2250
+  orichalcum_shovel:
+    display_name: display-name-orichalcum_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/orichalcum_shovel
+    durability:
+      max_custom_durability: 2500
+  mythril_shovel:
+    display_name: display-name-mythril_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/mythril_shovel
+    durability:
+      max_custom_durability: 2500
+  adamantite_shovel:
+    display_name: display-name-adamantite_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/adamantite_shovel
+    durability:
+      max_custom_durability: 2750
+  titanium_shovel:
+    display_name: display-name-titanium_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/titanium_shovel
+  #---FACE 4
+  chlorophyte_shovel:
+    display_name: display-name-chlorophyte_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/chlorophyte_shovel
+    durability:
+      max_custom_durability: 2900
+  #shroomite_shovel
+  luminite_shovel:
+    display_name: display-name-luminite_shovel
+    resource:
+      material: NETHERITE_SHOVEL
+      generate: true
+      textures:
+      - item/luminite_shovel
+    durability:
+      max_custom_durability: 3000
