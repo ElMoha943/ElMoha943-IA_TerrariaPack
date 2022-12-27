@@ -1,0 +1,214 @@
+info:
+  namespace: terraria
+items:
+  copper_sword:
+    display_name: display-name-copper_sword
+    resource:
+      material: STONE_SWORD
+      generate: true
+      textures:
+      - item/copper_sword
+    durability:
+      max_custom_durability: 150
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 5.25
+  tin_sword:
+    display_name: display-name-tin_sword
+    resource:
+      material: STONE_SWORD
+      generate: true
+      textures:
+      - item/tin_sword
+    durability:
+      max_custom_durability: 175
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 5.5
+  lead_sword:
+    display_name: display-name-lead_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/lead_sword
+    durability:
+      max_custom_durability: 200
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 5.75
+  #iron_sword
+  silver_sword:
+    display_name: display-name-silver_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/silver_sword
+    durability:
+      max_custom_durability: 300
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.25
+  tungsten_sword:
+    display_name: display-name-tungsten_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/tungsten_sword
+    durability:
+      max_custom_durability: 500
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.5
+  #gold_sword
+  platinum_sword:
+    display_name: display-name-platinum_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/platinum_sword
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.75
+  # diamond sword
+  #---FACE 2
+  demonite_sword:
+    display_name: display-name-demonite_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/demonite_sword
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.5
+  meteorite_sword:
+    display_name: display-name-meteorite_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/meteorite_sword
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8
+  hellstone_sword:
+    display_name: display-name-hellstone_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/hellstone_sword
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 8.5
+  #---FACE 3
+  cobalt_sword:
+    display_name: display-name-cobalt_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:
+      - item/cobalt_sword
+    durability:
+      max_custom_durability: 2250
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 10
+  palladium_sword:
+    display_name: display-name-palladium_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:
+      - item/palladium_sword
+    durability:
+      max_custom_durability: 2250
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 10.5
+  orichalcum_sword:
+    display_name: display-name-orichalcum_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:
+      - item/orichalcum_sword
+    durability:
+      max_custom_durability: 2500
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 11
+  mythril_sword:
+    display_name: display-name-mythril_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:
+      - item/mythril_sword
+    durability:
+      max_custom_durability: 2500
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 11.5
+  adamantite_sword:
+    display_name: display-name-adamantite_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:
+      - item/adamantite_sword
+    durability:
+      max_custom_durability: 2750
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 12
+  titanium_sword:
+    display_name: display-name-titanium_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:
+      - item/titanium_sword
+    durability:
+      max_custom_durability: 2750
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 12.5
+  #---FACE 4
+  chlorophyte_sword:
+    display_name: display-name-chlorophyte_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:
+      - item/chlorophyte_sword
+    durability:
+      max_custom_durability: 2900
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 13
+  #shroomite_sword
+  luminite_sword:
+    display_name: display-name-luminite_sword
+    resource:
+      material: NETHERITE_SWORD
+      generate: true
+      textures:
+      - item/luminite_sword
+    durability:
+      max_custom_durability: 3000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 15

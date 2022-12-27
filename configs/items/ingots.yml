@@ -1,7 +1,6 @@
 info:
   namespace: terraria
 items:
-#BARS
   #copper_bar:
   tin_bar:
     display_name: display-name-tin_bar

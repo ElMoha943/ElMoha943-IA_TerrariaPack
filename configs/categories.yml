@@ -1,7 +1,7 @@
 info:
   namespace: terraria
 categories:
-  bloques:
+  blocks:
     enabled: true 
     skip_if_already: false
     icon: terraria:cobalt_ore
@@ -30,7 +30,7 @@ categories:
       - terraria:chlorophyte_ore
       - terraria:chlorophyte_ore_deepslate
       - terraria:luminite_ore
-  espadas:
+  swords:
     enabled: true 
     skip_if_already: false
     icon: terraria:palladium_sword
@@ -53,7 +53,7 @@ categories:
       - terraria:titanium_sword
       - terraria:chlorophyte_sword
       - terraria:luminite_sword
-  picos:
+  pickaxes:
     enabled: true 
     skip_if_already: false
     icon: terraria:demonite_pickaxe
@@ -76,7 +76,7 @@ categories:
       - terraria:titanium_pickaxe
       - terraria:chlorophyte_pickaxe
       - terraria:luminite_pickaxe
-  hachas:
+  axes:
     enabled: true 
     skip_if_already: false
     icon: terraria:mythril_axe
@@ -99,7 +99,7 @@ categories:
       - terraria:titanium_axe
       - terraria:chlorophyte_axe
       - terraria:luminite_axe
-  palas:
+  shovels:
     enabled: true 
     skip_if_already: false
     icon: terraria:adamantite_shovel
@@ -122,7 +122,30 @@ categories:
       - terraria:titanium_shovel
       - terraria:chlorophyte_shovel
       - terraria:luminite_shovel
-  lingotes:
+  hoes:
+    enabled: true 
+    skip_if_already: false
+    icon: terraria:mythril_hoe
+    name: display-category-hoes
+    items:
+      - terraria:copper_hoe
+      - terraria:tin_hoe
+      - terraria:lead_hoe
+      - terraria:silver_hoe
+      - terraria:platinum_hoe
+      - terraria:tungsten_hoe
+      - terraria:demonite_hoe
+      - terraria:hellstone_hoe
+      - terraria:meteorite_hoe
+      - terraria:cobalt_hoe
+      - terraria:palladium_hoe
+      - terraria:orichalcum_hoe
+      - terraria:mythril_hoe
+      - terraria:adamantite_hoe
+      - terraria:titanium_hoe
+      - terraria:chlorophyte_hoe
+      - terraria:luminite_hoe
+  ingots:
     enabled: true 
     skip_if_already: false
     icon: terraria:tungsten_bar
@@ -144,7 +167,7 @@ categories:
       - terraria:titanium_bar
       - terraria:chlorophyte_bar
       - terraria:luminite_bar
-  crudos:
+  raws:
     enabled: true
     skip_if_already: false
     icon: terraria:raw_tin
@@ -166,7 +189,7 @@ categories:
       - terraria:raw_titanium
       - terraria:raw_chlorophyte
       - terraria:raw_luminite
-  armaduras:
+  armor:
     enabled: true
     skip_if_already: false
     icon: terraria:mythril_helmet
@@ -240,7 +263,7 @@ categories:
       - terraria:luminite_chest
       - terraria:luminite_legs
       - terraria:luminite_boots
-  otros:
+  other:
     enabled: true 
     skip_if_already: false
     icon: terraria:music_disc_frost_moon
