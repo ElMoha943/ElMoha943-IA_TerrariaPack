@@ -2,3 +2,228 @@ info:
   namespace: terraria
 recipes:
   crafting_table:
+    copper_hoe:
+      permission: terraria.copper_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: COPPER_INGOT
+        B: STICK
+      result: 
+        item: copper_hoe
+        amount: 1
+    tin_hoe:
+      permission: terraria.tin_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: tin_bar
+        B: STICK
+      result: 
+        item: tin_hoe
+        amount: 1
+    lead_hoe:
+      permission: terraria.lead_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: lead_bar
+        B: STICK
+      result: 
+        item: lead_hoe
+        amount: 1
+    silver_hoe:
+      permission: terraria.silver_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: silver_bar
+        B: STICK
+      result: 
+        item: silver_hoe
+        amount: 1
+    #gold_hoe
+    tungsten_hoe:
+      permission: terraria.tungsten_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: tungsten_bar
+        B: STICK
+      result: 
+        item: tungsten_hoe
+        amount: 1
+    platinum_hoe:
+      permission: terraria.platinum_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: platinum_bar
+        B: STICK
+      result: 
+        item: platinum_hoe
+        amount: 1
+    #---FACE 2
+    demonite_hoe:
+      permission: terraria.demonite_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: demonite_bar
+        B: STICK
+      result: 
+        item: demonite_hoe
+        amount: 1
+    meteorite_hoe:
+      permission: terraria.meteorite_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: meteorite_bar
+        B: STICK
+      result: 
+        item: meteorite_hoe
+        amount: 1
+    hellstone_hoe:
+      permission: terraria.hellstone_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: hellstone_bar
+        B: STICK
+      result: 
+        item: hellstone_hoe
+        amount: 1
+    #---FACE 3
+    cobalt_hoe:
+      permission: terraria.cobalt_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: cobalt_bar
+        B: STICK
+      result: 
+        item: cobalt_hoe
+        amount: 1
+    palladium_hoe:
+      permission: terraria.palladium_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: palladium_bar
+        B: STICK
+      result: 
+        item: palladium_hoe
+        amount: 1
+    orichalcum_hoe:
+      permission: terraria.orichalcum_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: orichalcum_bar
+        B: STICK
+      result: 
+        item: orichalcum_hoe
+        amount: 1
+    mythril_hoe:
+      permission: terraria.mythril_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: mythril_bar
+        B: STICK
+      result: 
+        item: mythril_hoe
+        amount: 1
+    adamantite_hoe:
+      permission: terraria.adamantite_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: adamantite_bar
+        B: STICK
+      result: 
+        item: adamantite_hoe
+        amount: 1
+    titanium_hoe:
+      permission: terraria.titanium_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: titanium_bar
+        B: STICK
+      result: 
+        item: titanium_hoe
+        amount: 1
+    #---FACE 4
+    chlorophyte_hoe:
+      permission: terraria.chlorophyte_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: chlorophyte_bar
+        B: STICK
+      result: 
+        item: chlorophyte_hoe
+        amount: 1
+    luminite_hoe:
+      permission: terraria.luminite_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: luminite_bar
+        B: STICK
+      result: 
+        item: luminite_hoe
+        amount: 1
