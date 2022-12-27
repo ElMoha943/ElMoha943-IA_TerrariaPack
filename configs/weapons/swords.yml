@@ -75,6 +75,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 6.75
+  # diamond sword
   #---FACE 2
   demonite_sword:
     display_name: display-name-demonite_sword
@@ -87,7 +88,7 @@ items:
       max_custom_durability: 2100
     attribute_modifiers:
       mainhand:
-        attackDamage: 10
+        attackDamage: 7.5
   meteorite_sword:
     display_name: display-name-meteorite_sword
     resource:
@@ -99,7 +100,7 @@ items:
       max_custom_durability: 2100
     attribute_modifiers:
       mainhand:
-        attackDamage: 11
+        attackDamage: 8
   hellstone_sword:
     display_name: display-name-hellstone_sword
     resource:
@@ -111,7 +112,7 @@ items:
       max_custom_durability: 2100
     attribute_modifiers:
       mainhand:
-        attackDamage: 12
+        attackDamage: 8.5
   #---FACE 3
   cobalt_sword:
     display_name: display-name-cobalt_sword
@@ -124,7 +125,7 @@ items:
       max_custom_durability: 2250
     attribute_modifiers:
       mainhand:
-        attackDamage: 15
+        attackDamage: 10
   palladium_sword:
     display_name: display-name-palladium_sword
     resource:
@@ -136,7 +137,7 @@ items:
       max_custom_durability: 2250
     attribute_modifiers:
       mainhand:
-        attackDamage: 16
+        attackDamage: 10.5
   orichalcum_sword:
     display_name: display-name-orichalcum_sword
     resource:
@@ -148,7 +149,7 @@ items:
       max_custom_durability: 2500
     attribute_modifiers:
       mainhand:
-        attackDamage: 18
+        attackDamage: 11
   mythril_sword:
     display_name: display-name-mythril_sword
     resource:
@@ -160,7 +161,7 @@ items:
       max_custom_durability: 2500
     attribute_modifiers:
       mainhand:
-        attackDamage: 19
+        attackDamage: 11.5
   adamantite_sword:
     display_name: display-name-adamantite_sword
     resource:
@@ -172,7 +173,7 @@ items:
       max_custom_durability: 2750
     attribute_modifiers:
       mainhand:
-        attackDamage: 22
+        attackDamage: 12
   titanium_sword:
     display_name: display-name-titanium_sword
     resource:
@@ -184,7 +185,7 @@ items:
       max_custom_durability: 2750
     attribute_modifiers:
       mainhand:
-        attackDamage: 23
+        attackDamage: 12.5
   #---FACE 4
   chlorophyte_sword:
     display_name: display-name-chlorophyte_sword
@@ -197,7 +198,7 @@ items:
       max_custom_durability: 2900
     attribute_modifiers:
       mainhand:
-        attackDamage: 25
+        attackDamage: 13
   #shroomite_sword
   luminite_sword:
     display_name: display-name-luminite_sword
@@ -210,4 +211,4 @@ items:
       max_custom_durability: 3000
     attribute_modifiers:
       mainhand:
-        attackDamage: 30
+        attackDamage: 15
