@@ -1,0 +1,17 @@
+info:
+  namespace: terraria
+items:
+  music_disc_frost_moon:
+    display_name: display-name-music_disc_frost_moon
+    lore:
+    - '&3The frost moon is rising...'
+    resource:
+      material: STICK
+      generate: true
+      textures:
+      - item/music_disc_frost_moon.png
+    behaviours:
+      music_disc:
+        song:
+          name: terraria:music_disc.frost_moon
+          description: Terraria 32 - Frost Moon

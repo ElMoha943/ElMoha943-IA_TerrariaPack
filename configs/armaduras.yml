@@ -1,0 +1,1816 @@
+info:
+  namespace: terraria
+armors_rendering:
+  copper_armor:
+    color: "#d51001"
+    layer_1: armor/copper_armor_layer1
+    layer_2: armor/copper_armor_layer2
+    use_color: false
+  tin_armor:
+    color: "#d51002"
+    layer_1: armor/tin_armor_layer1
+    layer_2: armor/tin_armor_layer2
+    use_color: false
+  lead_armor:
+    color: "#d51003"
+    layer_1: armor/lead_armor_layer1
+    layer_2: armor/lead_armor_layer2
+    use_color: false
+  silver_armor:
+    color: "#d51004"
+    layer_1: armor/silver_armor_layer1
+    layer_2: armor/silver_armor_layer2
+    use_color: false
+  platinum_armor:
+    color: "#d51005"
+    layer_1: armor/platinum_armor_layer1
+    layer_2: armor/platinum_armor_layer2
+    use_color: false
+  tungsten_armor:
+    color: "#d51006"
+    layer_1: armor/tungsten_armor_layer1
+    layer_2: armor/tungsten_armor_layer2
+    use_color: false
+  hellstone_armor:
+    color: "#d51007"
+    layer_1: armor/hellstone_armor_layer1
+    layer_2: armor/hellstone_armor_layer2
+    emissive_1: armor/hellstone_armor_layer1_e
+    emissive_2: armor/hellstone_armor_layer2_e
+    use_color: false
+  demonite_armor:
+    color: "#d51008"
+    layer_1: armor/demonite_armor_layer1
+    layer_2: armor/demonite_armor_layer2
+    emissive_1: armor/demonite_armor_layer1_e
+    emissive_2: armor/demonite_armor_layer2_e
+    use_color: false
+  meteorite_armor:
+    color: "#d51009"
+    layer_1: armor/meteorite_armor_layer1
+    layer_2: armor/meteorite_armor_layer2
+    emissive_1: armor/meteorite_armor_layer1_e
+    emissive_2: armor/meteorite_armor_layer2_e
+    use_color: false
+  cobalt_armor:
+    color: "#d61001"
+    layer_1: armor/cobalt_armor_layer1
+    layer_2: armor/cobalt_armor_layer2
+    use_color: false
+  palladium_armor:
+    color: "#d61002"
+    layer_1: armor/palladium_armor_layer1
+    layer_2: armor/palladium_armor_layer2
+    use_color: false
+  mythril_armor:
+    color: "#d61003"
+    layer_1: armor/mythril_armor_layer1
+    layer_2: armor/mythril_armor_layer2
+    use_color: false
+  orichalcum_armor:
+    color: "#d61004"
+    layer_1: armor/orichalcum_armor_layer1
+    layer_2: armor/orichalcum_armor_layer2
+    use_color: false
+  adamantite_armor:
+    color: "#d61005"
+    layer_1: armor/adamantite_armor_layer1
+    layer_2: armor/adamantite_armor_layer2
+    use_color: false
+  titanium_armor:
+    color: "#d61006"
+    layer_1: armor/titanium_armor_layer1
+    layer_2: armor/titanium_armor_layer2
+    use_color: false
+  chlorophyte_armor:
+    color: "#d61007"
+    layer_1: armor/chlorophyte_armor_layer1
+    layer_2: armor/chlorophyte_armor_layer2
+    use_color: false
+  luminite_armor:
+    color: "#d61008"
+    layer_1: armor/luminite_armor_layer1
+    layer_2: armor/luminite_armor_layer2
+    use_color: false
+items:
+#copper
+  copper_helmet:
+    display_name: display-name-copper_helmet
+    permission: copper_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/copper_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: copper_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  copper_chest:
+    display_name: display-name-copper_chest
+    permission: copper_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/copper_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: copper_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  copper_legs:
+    display_name: display-name-copper_legs
+    permission: copper_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/copper_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: copper_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  copper_boots:
+    display_name: display-name-copper_boots
+    permission: copper_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/copper_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: copper_armor
+#tin
+  tin_helmet:
+    display_name: display-name-tin_helmet
+    permission: tin_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/tin_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: tin_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  tin_chest:
+    display_name: display-name-tin_chest
+    permission: tin_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/tin_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: tin_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  tin_legs:
+    display_name: display-name-tin_legs
+    permission: tin_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/tin_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: tin_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  tin_boots:
+    display_name: display-name-tin_boots
+    permission: tin_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/tin_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: tin_armor
+#lead
+  lead_helmet:
+    display_name: display-name-lead_helmet
+    permission: lead_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/lead_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: lead_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  lead_chest:
+    display_name: display-name-lead_chest
+    permission: lead_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/lead_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: lead_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  lead_legs:
+    display_name: display-name-lead_legs
+    permission: lead_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/lead_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: lead_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  lead_boots:
+    display_name: display-name-lead_boots
+    permission: lead_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/lead_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: lead_armor
+#silver
+  silver_helmet:
+    display_name: display-name-silver_helmet
+    permission: silver_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/silver_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: silver_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  silver_chest:
+    display_name: display-name-silver_chest
+    permission: silver_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/silver_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: silver_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  silver_legs:
+    display_name: display-name-silver_legs
+    permission: silver_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/silver_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: silver_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  silver_boots:
+    display_name: display-name-silver_boots
+    permission: silver_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/silver_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: silver_armor
+#tungsten
+  tungsten_helmet:
+    display_name: display-name-tungsten_helmet
+    permission: tungsten_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/tungsten_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: tungsten_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  tungsten_chest:
+    display_name: display-name-tungsten_chest
+    permission: tungsten_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/tungsten_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: tungsten_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  tungsten_legs:
+    display_name: display-name-tungsten_legs
+    permission: tungsten_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/tungsten_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: tungsten_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  tungsten_boots:
+    display_name: display-name-tungsten_boots
+    permission: tungsten_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/tungsten_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: tungsten_armor
+#platinum
+  platinum_helmet:
+    display_name: display-name-platinum_helmet
+    permission: platinum_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/platinum_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: platinum_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  platinum_chest:
+    display_name: display-name-platinum_chest
+    permission: platinum_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/platinum_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: platinum_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  platinum_legs:
+    display_name: display-name-platinum_legs
+    permission: platinum_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/platinum_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: platinum_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  platinum_boots:
+    display_name: display-name-platinum_boots
+    permission: platinum_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/platinum_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: platinum_armor
+#demonite
+  demonite_helmet:
+    display_name: display-name-demonite_helmet
+    permission: demonite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/demonite_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: demonite_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  demonite_chest:
+    display_name: display-name-demonite_chest
+    permission: demonite_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/demonite_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: demonite_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  demonite_legs:
+    display_name: display-name-demonite_legs
+    permission: demonite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/demonite_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: demonite_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  demonite_boots:
+    display_name: display-name-demonite_boots
+    permission: demonite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/demonite_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: demonite_armor
+#hellstone
+  hellstone_helmet:
+    display_name: display-name-hellstone_helmet
+    permission: hellstone_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/hellstone_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: hellstone_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  hellstone_chest:
+    display_name: display-name-hellstone_chest
+    permission: hellstone_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/hellstone_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: hellstone_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  hellstone_legs:
+    display_name: display-name-hellstone_legs
+    permission: hellstone_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/hellstone_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: hellstone_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  hellstone_boots:
+    display_name: display-name-hellstone_boots
+    permission: hellstone_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/hellstone_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: hellstone_armor
+#meteorite
+  meteorite_helmet:
+    display_name: display-name-meteorite_helmet
+    permission: meteorite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/meteorite_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: meteorite_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  meteorite_chest:
+    display_name: display-name-meteorite_chest
+    permission: meteorite_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/meteorite_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: meteorite_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  meteorite_legs:
+    display_name: display-name-meteorite_legs
+    permission: meteorite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/meteorite_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: meteorite_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  meteorite_boots:
+    display_name: display-name-meteorite_boots
+    permission: meteorite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/meteorite_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: meteorite_armor
+#cobalt
+  cobalt_helmet:
+    display_name: display-name-cobalt_helmet
+    permission: cobalt_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/cobalt_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: cobalt_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  cobalt_chest:
+    display_name: display-name-cobalt_chest
+    permission: cobalt_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/cobalt_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: cobalt_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  cobalt_legs:
+    display_name: display-name-cobalt_legs
+    permission: cobalt_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/cobalt_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: cobalt_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  cobalt_boots:
+    display_name: display-name-cobalt_boots
+    permission: cobalt_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/cobalt_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: cobalt_armor
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+#palladium
+  palladium_helmet:
+    display_name: display-name-palladium_helmet
+    permission: palladium_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/palladium_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: palladium_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  palladium_chest:
+    display_name: display-name-palladium_chest
+    permission: palladium_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/palladium_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: palladium_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  palladium_legs:
+    display_name: display-name-palladium_legs
+    permission: palladium_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/palladium_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: palladium_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  palladium_boots:
+    display_name: display-name-palladium_boots
+    permission: palladium_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/palladium_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: palladium_armor
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+#mythril
+  mythril_helmet:
+    display_name: display-name-mythril_helmet
+    permission: mythril_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/mythril_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: mythril_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  mythril_chest:
+    display_name: display-name-mythril_chest
+    permission: mythril_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/mythril_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: mythril_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  mythril_legs:
+    display_name: display-name-mythril_legs
+    permission: mythril_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/mythril_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: mythril_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  mythril_boots:
+    display_name: display-name-mythril_boots
+    permission: mythril_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/mythril_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: mythril_armor
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+#Orichalcum
+  orichalcum_helmet:
+    display_name: display-name-orichalcum_helmet
+    permission: orichalcum_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/orichalcum_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: orichalcum_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  orichalcum_chest:
+    display_name: display-name-orichalcum_chest
+    permission: orichalcum_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/orichalcum_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: orichalcum_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  orichalcum_legs:
+    display_name: display-name-orichalcum_legs
+    permission: orichalcum_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/orichalcum_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: orichalcum_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  orichalcum_boots:
+    display_name: display-name-orichalcum_boots
+    permission: orichalcum_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/orichalcum_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: orichalcum_armor
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+#Adamantite
+  adamantite_helmet:
+    display_name: display-name-adamantite_helmet
+    permission: adamantite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/adamantite_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: adamantite_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  adamantite_chest:
+    display_name: display-name-adamantite_chest
+    permission: adamantite_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/adamantite_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: adamantite_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  adamantite_legs:
+    display_name: display-name-adamantite_legs
+    permission: adamantite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/adamantite_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: adamantite_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  adamantite_boots:
+    display_name: display-name-adamantite_boots
+    permission: adamantite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/adamantite_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: adamantite_armor
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+#titanium
+  titanium_helmet:
+    display_name: display-name-titanium_helmet
+    permission: titanium_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/titanium_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: titanium_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  titanium_chest:
+    display_name: display-name-titanium_chest
+    permission: titanium_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/titanium_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: titanium_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  titanium_legs:
+    display_name: display-name-titanium_legs
+    permission: titanium_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/titanium_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: titanium_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  titanium_boots:
+    display_name: display-name-titanium_boots
+    permission: titanium_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/titanium_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: titanium_armor
+    attribute_modifiers:
+      feet:
+        armor: 3
+        armorToughness: 2
+recipes:
+  crafting_table:
+    copper_helmet: 
+      permission: terraria.copper_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: COPPER_INGOT
+      result: 
+        item: copper_helmet
+        amount: 1
+    copper_chest:
+      permission: terraria.copper_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: COPPER_INGOT
+      result: 
+        item: copper_chest
+        amount: 1
+    copper_legs:
+      permission: terraria.copper_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: COPPER_INGOT
+      result: 
+        item: copper_legs
+        amount: 1
+    copper_boots:
+      permission: terraria.copper_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: COPPER_INGOT
+      result: 
+        item: copper_boots
+        amount: 1
+    tin_helmet: 
+      permission: terraria.tin_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: tin_bar
+      result: 
+        item: tin_helmet
+        amount: 1
+    tin_chest:
+      permission: terraria.tin_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: tin_bar
+      result: 
+        item: tin_chest
+        amount: 1
+    tin_legs:
+      permission: terraria.tin_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: tin_bar
+      result: 
+        item: tin_legs
+        amount: 1
+    tin_boots:
+      permission: terraria.tin_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: tin_bar
+      result: 
+        item: tin_boots
+        amount: 1
+    lead_helmet: 
+      permission: terraria.lead_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: lead_bar
+      result: 
+        item: lead_helmet
+        amount: 1
+    lead_chest:
+      permission: terraria.lead_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: lead_bar
+      result: 
+        item: lead_chest
+        amount: 1
+    lead_legs:
+      permission: terraria.lead_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: lead_bar
+      result: 
+        item: lead_legs
+        amount: 1
+    lead_boots:
+      permission: terraria.lead_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: lead_bar
+      result: 
+        item: lead_boots
+        amount: 1
+    silver_helmet:
+      permission: terraria.silver_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: silver_bar
+      result: 
+        item: silver_helmet
+        amount: 1
+    silver_chest:
+      permission: terraria.silver_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: silver_bar
+      result: 
+        item: silver_chest
+        amount: 1
+    silver_legs:
+      permission: terraria.silver_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: silver_bar
+      result: 
+        item: silver_legs
+        amount: 1
+    silver_boots:
+      permission: terraria.silver_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: silver_bar
+      result: 
+        item: silver_boots
+        amount: 1
+    tungsten_helmet:
+      permission: terraria.tungsten_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: tungsten_bar
+      result: 
+        item: tungsten_helmet
+        amount: 1
+    tungsten_chest:
+      permission: terraria.tungsten_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: tungsten_bar
+      result: 
+        item: tungsten_chest
+        amount: 1
+    tungsten_legs:
+      permission: terraria.tungsten_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: tungsten_bar
+      result: 
+        item: tungsten_legs
+        amount: 1
+    tungsten_boots:
+      permission: terraria.tungsten_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: tungsten_bar
+      result: 
+        item: tungsten_boots
+        amount: 1
+    platinum_helmet:
+      permission: terraria.platinum_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: platinum_bar
+      result: 
+        item: platinum_helmet
+        amount: 1
+    platinum_chest:
+      permission: terraria.platinum_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: platinum_bar
+      result: 
+        item: platinum_chest
+        amount: 1
+    platinum_legs:
+      permission: terraria.platinum_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: platinum_bar
+      result: 
+        item: platinum_legs
+        amount: 1
+    platinum_boots:
+      permission: terraria.platinum_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: platinum_bar
+      result: 
+        item: platinum_boots
+        amount: 1
+    demonite_helmet:
+      permission: terraria.demonite_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: demonite_bar
+      result: 
+        item: demonite_helmet
+        amount: 1
+    demonite_chest:
+      permission: terraria.demonite_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: demonite_bar
+      result: 
+        item: demonite_chest
+        amount: 1
+    demonite_legs:
+      permission: terraria.demonite_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: demonite_bar
+      result: 
+        item: demonite_legs
+        amount: 1
+    demonite_boots:
+      permission: terraria.demonite_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: demonite_bar
+      result: 
+        item: demonite_boots
+        amount: 1
+    meteorite_helmet:
+      permission: terraria.meteorite_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: meteorite_bar
+      result: 
+        item: meteorite_helmet
+        amount: 1
+    meteorite_chest:
+      permission: terraria.meteorite_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: meteorite_bar
+      result: 
+        item: meteorite_chest
+        amount: 1
+    meteorite_legs:
+      permission: terraria.meteorite_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: meteorite_bar
+      result: 
+        item: meteorite_legs
+        amount: 1
+    meteorite_boots:
+      permission: terraria.meteorite_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: meteorite_bar
+      result: 
+        item: meteorite_boots
+        amount: 1
+    hellstone_helmet:
+      permission: terraria.hellstone_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: hellstone_bar
+      result: 
+        item: hellstone_helmet
+        amount: 1
+    hellstone_chest:
+      permission: terraria.hellstone_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: hellstone_bar
+      result: 
+        item: hellstone_chest
+        amount: 1
+    hellstone_legs:
+      permission: terraria.hellstone_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: hellstone_bar
+      result: 
+        item: hellstone_legs
+        amount: 1
+    hellstone_boots:
+      permission: terraria.hellstone_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: hellstone_bar
+      result: 
+        item: hellstone_boots
+        amount: 1
+    cobalt_helmet:
+      permission: terraria.cobalt_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: cobalt_bar
+      result: 
+        item: cobalt_helmet
+        amount: 1
+    cobalt_chest:
+      permission: terraria.cobalt_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: cobalt_bar
+      result: 
+        item: cobalt_chest
+        amount: 1
+    cobalt_legs:
+      permission: terraria.cobalt_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: cobalt_bar
+      result: 
+        item: cobalt_legs
+        amount: 1
+    cobalt_boots:
+      permission: terraria.cobalt_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: cobalt_bar
+      result: 
+        item: cobalt_boots
+        amount: 1
+    palladium_helmet:
+      permission: terraria.palladium_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: palladium_bar
+      result: 
+        item: palladium_helmet
+        amount: 1
+    palladium_chest:
+      permission: terraria.palladium_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: palladium_bar
+      result: 
+        item: palladium_chest
+        amount: 1
+    palladium_legs:
+      permission: terraria.palladium_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: palladium_bar
+      result: 
+        item: palladium_legs
+        amount: 1
+    palladium_boots:
+      permission: terraria.palladium_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: palladium_bar
+      result: 
+        item: palladium_boots
+        amount: 1
+    orichalcum_helmet:
+      permission: terraria.orichalcum_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: orichalcum_bar
+      result: 
+        item: orichalcum_helmet
+        amount: 1
+    orichalcum_chest:
+      permission: terraria.orichalcum_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: orichalcum_bar
+      result: 
+        item: orichalcum_chest
+        amount: 1
+    orichalcum_legs:
+      permission: terraria.orichalcum_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: orichalcum_bar
+      result: 
+        item: orichalcum_legs
+        amount: 1
+    orichalcum_boots:
+      permission: terraria.orichalcum_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: orichalcum_bar
+      result: 
+        item: orichalcum_boots
+        amount: 1
+    mythril_helmet:
+      permission: terraria.mythril_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: mythril_bar
+      result: 
+        item: mythril_helmet
+        amount: 1
+    mythril_chest:
+      permission: terraria.mythril_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: mythril_bar
+      result: 
+        item: mythril_chest
+        amount: 1
+    mythril_legs:
+      permission: terraria.mythril_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: mythril_bar
+      result: 
+        item: mythril_legs
+        amount: 1
+    mythril_boots:
+      permission: terraria.mythril_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: mythril_bar
+      result: 
+        item: mythril_boots
+        amount: 1
+    adamantite_helmet:
+      permission: terraria.adamantite_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: adamantite_bar
+      result: 
+        item: adamantite_helmet
+        amount: 1
+    adamantite_chest:
+      permission: terraria.adamantite_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: adamantite_bar
+      result: 
+        item: adamantite_chest
+        amount: 1
+    adamantite_legs:
+      permission: terraria.adamantite_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: adamantite_bar
+      result: 
+        item: adamantite_legs
+        amount: 1
+    adamantite_boots:
+      permission: terraria.adamantite_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: adamantite_bar
+      result: 
+        item: adamantite_boots
+        amount: 1
+    titanium_helmet:
+      permission: terraria.titanium_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: titanium_bar
+      result: 
+        item: titanium_helmet
+        amount: 1
+    titanium_chest:
+      permission: terraria.titanium_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: titanium_bar
+      result: 
+        item: titanium_chest
+        amount: 1
+    titanium_legs:
+      permission: terraria.titanium_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: titanium_bar
+      result: 
+        item: titanium_legs
+        amount: 1
+    titanium_boots:
+      permission: terraria.titanium_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: titanium_bar
+      result: 
+        item: titanium_boots
+        amount: 1

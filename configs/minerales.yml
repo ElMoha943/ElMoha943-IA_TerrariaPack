@@ -1,0 +1,431 @@
+info:
+  namespace: terraria
+items:
+#BARS
+  #copper_bar:
+  tin_bar:
+    display_name: display-name-tin_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/tin_bar
+  lead_bar:
+    display_name: display-name-lead_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/lead_bar
+  #iron_bar
+  silver_bar:
+    display_name: display-name-silver_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/silver_bar
+  tungsten_bar:
+    display_name: display-name-tungsten_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/tungsten_bar
+  #gold_bar
+  platinum_bar:
+    display_name: display-name-platinum_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/platinum_bar
+#---FACE 2
+  demonite_bar:
+    display_name: display-name-demonite_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/demonite_bar
+  meteorite_bar:
+    display_name: display-name-meteorite_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/meteorite_bar
+  hellstone_bar:
+    display_name: display-name-hellstone_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/hellstone_bar
+#---FACE 3
+  cobalt_bar:
+    display_name: display-name-cobalt_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/cobalt_bar
+  palladium_bar:
+    display_name: display-name-palladium_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/palladium_bar
+  orichalcum_bar:
+    display_name: display-name-orichalcum_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/orichalcum_bar
+  mythril_bar:
+    display_name: display-name-mythril_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/mythril_bar
+  adamantite_bar:
+    display_name: display-name-adamantite_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/adamantite_bar
+  titanium_bar:
+    display_name: display-name-titanium_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/titanium_bar
+#---FACE 4
+  chlorophyte_bar:
+    display_name: display-name-chlorophyte_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/chlorophyte_bar
+  #shroomite_bar
+  luminite_bar:
+    display_name: display-name-luminite_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/luminite_bar
+#RAWS
+  #raw_copper:
+  raw_tin:
+    display_name: display-name-raw_tin
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_tin
+  raw_lead:
+    display_name: display-name-raw_lead
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_lead
+  #raw_iron
+  raw_silver:
+    display_name: display-name-raw_silver
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_silver
+  #raw_gold
+  raw_tungsten:
+    display_name: display-name-raw_tungsten
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_tungsten
+  raw_platinum:
+    display_name: display-name-raw_platinum
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_platinum
+  #---FACE 2
+  raw_demonite:
+    display_name: display-name-raw_demonite
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_demonite
+  raw_meteorite:
+    display_name: display-name-raw_meteorite
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_meteorite
+  raw_hellstone:
+    display_name: display-name-raw_hellstone
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_hellstone
+  #---FACE 3
+  raw_cobalt:
+    display_name: display-name-raw_cobalt
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_cobalt
+  raw_palladium:
+    display_name: display-name-raw_palladium
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_palladium
+  raw_orichalcum:
+    display_name: display-name-raw_orichalcum
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_orichalcum
+  raw_mythril:
+    display_name: display-name-raw_mythril
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_mythril
+  raw_adamantite:
+    display_name: display-name-raw_adamantite
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_adamantite
+  raw_titanium:
+    display_name: display-name-raw_titanium
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_titanium
+  #---FACE 4
+  raw_chlorophyte:
+    display_name: display-name-raw_chlorophyte
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_chlorophyte
+  #raw_shroomite
+  raw_luminite:
+    display_name: display-name-raw_luminite
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_luminite
+recipes:
+  cooking:
+    tin_bar:
+      permission: terraria.tin_bar
+      ingredient:
+        item: raw_tin
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: tin_bar
+        amount: 1
+    lead_bar:
+      permission: terraria.lead_bar
+      ingredient:
+        item: raw_lead
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: lead_bar
+        amount: 1
+    silver_bar:
+      permission: terraria.silver_bar
+      ingredient:
+        item: raw_silver
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: silver_bar
+        amount: 1
+    tungsten_bar:
+      permission: terraria.tungsten_bar
+      ingredient:
+        item: raw_tungsten
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: tungsten_bar
+        amount: 1
+    platinum_bar:
+      permission: terraria.platinum_bar
+      ingredient:
+        item: raw_platinum
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 1
+      cook_time: 200
+      result:
+        item: platinum_bar
+        amount: 1
+    #---FACE 2
+    demonite_bar:
+      permission: terraria.demonite_bar
+      ingredient:
+        item: raw_demonite
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 3
+      cook_time: 200
+      result:
+        item: demonite_bar
+        amount: 1
+    meteorite_bar:
+      permission: terraria.meteorite_bar
+      ingredient:
+        item: raw_meteorite
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 3
+      cook_time: 200
+      result:
+        item: meteorite_bar
+        amount: 1
+    hellstone_bar:
+      permission: terraria.hellstone_bar
+      ingredient:
+        item: raw_hellstone
+      machines:
+      - BLAST_FURNACE
+      exp: 3
+      cook_time: 200
+      result:
+        item: hellstone_bar
+        amount: 1
+    #---FACE 3
+    cobalt_bar:
+      permission: terraria.cobalt_bar
+      ingredient:
+        item: raw_cobalt
+      machines:
+      - BLAST_FURNACE
+      exp: 5
+      cook_time: 250
+      result:
+        item: cobalt_bar
+        amount: 1
+    palladium_bar:
+      permission: terraria.palladium_bar
+      ingredient:
+        item: raw_palladium
+      machines:
+      - BLAST_FURNACE
+      exp: 5
+      cook_time: 250
+      result:
+        item: palladium_bar
+        amount: 1
+    orichalcum_bar:
+      permission: terraria.orichalcum_bar
+      ingredient:
+        item: raw_orichalcum
+      machines:
+      - BLAST_FURNACE
+      exp: 5
+      cook_time: 250
+      result:
+        item: orichalcum_bar
+        amount: 1
+    mythril_bar:
+      permission: terraria.mythril_bar
+      ingredient:
+        item: raw_mythril
+      machines:
+      - BLAST_FURNACE
+      exp: 5
+      cook_time: 250
+      result:
+        item: mythril_bar
+        amount: 1
+    adamantite_bar:
+      permission: terraria.adamantite_bar
+      ingredient:
+        item: raw_adamantite
+      machines:
+      - BLAST_FURNACE
+      exp: 5
+      cook_time: 250
+      result:
+        item: adamantite_bar
+        amount: 1
+    titanium_bar:
+      permission: terraria.titanium_bar
+      ingredient:
+        item: raw_titanium
+      machines:
+      - BLAST_FURNACE
+      exp: 5
+      cook_time: 250
+      result:
+        item: titanium_bar
+        amount: 1
+    #---FACE 4
+    chlorophyte_bar:
+      permission: terraria.chlorophyte_bar
+      ingredient:
+        item: raw_chlorophyte
+      machines:
+      - BLAST_FURNACE
+      exp: 10
+      cook_time: 300
+      result:
+        item: chlorophyte_bar
+        amount: 1
+    luminite_bar:
+      permission: terraria.luminite_bar
+      ingredient:
+        item: raw_luminite
+      machines:
+      - BLAST_FURNACE
+      exp: 10
+      cook_time: 400
+      result:
+        item: luminite_bar
+        amount: 1

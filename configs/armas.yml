@@ -1,0 +1,436 @@
+info:
+  namespace: terraria
+items:
+  copper_sword:
+    display_name: display-name-copper_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/copper_sword
+    durability:
+      max_custom_durability: 150
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 5.25
+  tin_sword:
+    display_name: display-name-tin_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/tin_sword
+    durability:
+      max_custom_durability: 175
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 5.5
+  lead_sword:
+    display_name: display-name-lead_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/lead_sword
+    durability:
+      max_custom_durability: 200
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 5.75
+  #iron_sword
+  silver_sword:
+    display_name: display-name-silver_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/silver_sword
+    durability:
+      max_custom_durability: 300
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.25
+  tungsten_sword:
+    display_name: display-name-tungsten_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/tungsten_sword
+    durability:
+      max_custom_durability: 500
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.5
+  #gold_sword
+  platinum_sword:
+    display_name: display-name-platinum_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/platinum_sword
+    durability:
+      max_custom_durability: 1000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6.75
+  #---FACE 2
+  demonite_sword:
+    display_name: display-name-demonite_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/demonite_sword
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 10
+  meteorite_sword:
+    display_name: display-name-meteorite_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/meteorite_sword
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 11
+  hellstone_sword:
+    display_name: display-name-hellstone_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/hellstone_sword
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 12
+  #---FACE 3
+  cobalt_sword:
+    display_name: display-name-cobalt_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/cobalt_sword
+    durability:
+      max_custom_durability: 2250
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 15
+  palladium_sword:
+    display_name: display-name-palladium_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/palladium_sword
+    durability:
+      max_custom_durability: 2250
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 16
+  orichalcum_sword:
+    display_name: display-name-orichalcum_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/orichalcum_sword
+    durability:
+      max_custom_durability: 2500
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 18
+  mythril_sword:
+    display_name: display-name-mythril_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/mythril_sword
+    durability:
+      max_custom_durability: 2500
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 19
+  adamantite_sword:
+    display_name: display-name-adamantite_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/adamantite_sword
+    durability:
+      max_custom_durability: 2750
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 22
+  titanium_sword:
+    display_name: display-name-titanium_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/titanium_sword
+    durability:
+      max_custom_durability: 2750
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 23
+  #---FACE 4
+  chlorophyte_sword:
+    display_name: display-name-chlorophyte_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/chlorophyte_sword
+    durability:
+      max_custom_durability: 2900
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 25
+  #shroomite_sword
+  luminite_sword:
+    display_name: display-name-luminite_sword
+    resource:
+      material: IRON_SWORD
+      generate: true
+      textures:
+      - item/luminite_sword
+    durability:
+      max_custom_durability: 3000
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 30
+recipes:
+  crafting_table:
+    copper_sword:
+      permission: terraria.copper_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: COPPER_INGOT
+        B: STICK
+      result: 
+        item: copper_sword
+        amount: 1
+    tin_sword:
+      permission: terraria.tin_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: tin_bar
+        B: STICK
+      result: 
+        item: tin_sword
+        amount: 1
+    lead_sword:
+      permission: terraria.lead_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: lead_bar
+        B: STICK
+      result: 
+        item: lead_sword
+        amount: 1
+    silver_sword:
+      permission: terraria.silver_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: silver_bar
+        B: STICK
+      result: 
+        item: silver_sword
+        amount: 1
+    tungsten_sword:
+      permission: terraria.tungsten_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: tungsten_bar
+        B: STICK
+      result: 
+        item: tungsten_sword
+        amount: 1
+    platinum_sword:
+      permission: terraria.platinum_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: platinum_bar
+        B: STICK
+      result: 
+        item: platinum_sword
+        amount: 1
+    demonite_sword:
+      permission: terraria.demonite_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: demonite_bar
+        B: STICK
+      result: 
+        item: demonite_sword
+        amount: 1
+    meteorite_sword:
+      permission: terraria.meteorite_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: meteorite_bar
+        B: STICK
+      result: 
+        item: meteorite_sword
+        amount: 1
+    hellstone_sword:
+      permission: terraria.hellstone_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: hellstone_bar
+        B: STICK
+      result: 
+        item: hellstone_sword
+        amount: 1
+    cobalt_sword:
+      permission: terraria.cobalt_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: cobalt_bar
+        B: STICK
+      result: 
+        item: cobalt_sword
+        amount: 1
+    palladium_sword:
+      permission: terraria.palladium_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: palladium_bar
+        B: STICK
+      result: 
+        item: palladium_sword
+        amount: 1
+    orichalcum_sword:
+      permission: terraria.orichalcum_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: orichalcum_bar
+        B: STICK
+      result: 
+        item: orichalcum_sword
+        amount: 1
+    mythril_sword:
+      permission: terraria.mythril_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: mythril_bar
+        B: STICK
+      result: 
+        item: mythril_sword
+        amount: 1
+    adamantite_sword:
+      permission: terraria.adamantite_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: adamantite_bar
+        B: STICK
+      result: 
+        item: adamantite_sword
+        amount: 1
+    titanium_sword:
+      permission: terraria.titanium_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: titanium_bar
+        B: STICK
+      result: 
+        item: titanium_sword
+        amount: 1
+    chlorophyte_sword:
+      permission: terraria.chlorophyte_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: chlorophyte_bar
+        B: STICK
+      result: 
+        item: chlorophyte_sword
+        amount: 1
+    luminite_sword:
+      permission: terraria.luminite_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: luminite_bar
+        B: STICK
+      result: 
+        item: luminite_sword
+        amount: 1

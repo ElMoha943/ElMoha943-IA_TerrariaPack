@@ -1,0 +1,1160 @@
+info:
+  namespace: terraria
+items:
+#PICKAXES
+  copper_pickaxe:
+    display_name: display-name-copper_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/copper_pickaxe
+    durability:
+      max_custom_durability: 150
+  tin_pickaxe:
+    display_name: display-name-tin_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/tin_pickaxe
+    durability:
+      max_custom_durability: 175
+  lead_pickaxe:
+    display_name: display-name-lead_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/lead_pickaxe
+    durability:
+      max_custom_durability: 200
+  #iron_pickaxe
+  silver_pickaxe:
+    display_name: display-name-silver_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/silver_pickaxe
+    durability:
+      max_custom_durability: 300
+  #gold_pickaxe
+  tungsten_pickaxe:
+    display_name: display-name-tungsten_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/tungsten_pickaxe
+    durability:
+      max_custom_durability: 500
+  platinum_pickaxe:
+    display_name: display-name-platinum_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/platinum_pickaxe
+    durability:
+      max_custom_durability: 1000
+  #---FACE 2
+  demonite_pickaxe:
+    display_name: display-name-demonite_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/demonite_pickaxe
+    durability:
+      max_custom_durability: 2100
+  meteorite_pickaxe:
+    display_name: display-name-meteorite_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/meteorite_pickaxe
+    durability:
+      max_custom_durability: 2100
+  hellstone_pickaxe:
+    display_name: display-name-hellstone_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/hellstone_pickaxe
+    durability:
+      max_custom_durability: 2100
+  #---FACE 3
+  cobalt_pickaxe:
+    display_name: display-name-cobalt_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/cobalt_pickaxe
+    durability:
+      max_custom_durability: 2250
+  palladium_pickaxe:
+    display_name: display-name-palladium_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/palladium_pickaxe
+    durability:
+      max_custom_durability: 2250
+  orichalcum_pickaxe:
+    display_name: display-name-orichalcum_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/orichalcum_pickaxe
+    durability:
+      max_custom_durability: 2500
+  mythril_pickaxe:
+    display_name: display-name-mythril_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/mythril_pickaxe
+    durability:
+      max_custom_durability: 2500
+  adamantite_pickaxe:
+    display_name: display-name-adamantite_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/adamantite_pickaxe
+    durability:
+      max_custom_durability: 2750
+  titanium_pickaxe:
+    display_name: display-name-titanium_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/titanium_pickaxe
+    durability:
+      max_custom_durability: 2750
+  #---FACE 4
+  chlorophyte_pickaxe:
+    display_name: display-name-chlorophyte_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/chlorophyte_pickaxe
+    durability:
+      max_custom_durability: 2900
+  #shroomite_pickaxe
+  luminite_pickaxe:
+    display_name: display-name-luminite_pickaxe
+    resource:
+      material: IRON_PICKAXE
+      generate: true
+      textures:
+      - item/luminite_pickaxe
+    durability:
+      max_custom_durability: 3000
+
+#AXES
+  copper_axe:
+    display_name: display-name-copper_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/copper_axe
+    durability:
+      max_custom_durability: 150
+  tin_axe:
+    display_name: display-name-tin_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/tin_axe
+    durability:
+      max_custom_durability: 175
+  lead_axe:
+    display_name: display-name-lead_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/lead_axe
+    durability:
+      max_custom_durability: 200
+  #iron_axe
+  silver_axe:
+    display_name: display-name-silver_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/silver_axe
+    durability:
+      max_custom_durability: 300
+  #gold_axe
+  tungsten_axe:
+    display_name: display-name-tungsten_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/tungsten_axe
+    durability:
+      max_custom_durability: 500
+  platinum_axe:
+    display_name: display-name-platinum_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/platinum_axe
+    durability:
+      max_custom_durability: 1000
+  #---FACE 2
+  demonite_axe:
+    display_name: display-name-demonite_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/demonite_axe
+    durability:
+      max_custom_durability: 2100
+  meteorite_axe:
+    display_name: display-name-meteorite_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/meteorite_axe
+    durability:
+      max_custom_durability: 2100
+  hellstone_axe:
+    display_name: display-name-hellstone_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/hellstone_axe
+    durability:
+      max_custom_durability: 2100
+  #---FACE 3
+  cobalt_axe:
+    display_name: display-name-cobalt_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/cobalt_axe
+    durability:
+      max_custom_durability: 2250
+  palladium_axe:
+    display_name: display-name-palladium_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/palladium_axe
+    durability:
+      max_custom_durability: 2250
+  orichalcum_axe:
+    display_name: display-name-orichalcum_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/orichalcum_axe
+    durability:
+      max_custom_durability: 2500
+  mythril_axe:
+    display_name: display-name-mythril_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/mythril_axe
+    durability:
+      max_custom_durability: 2500
+  adamantite_axe:
+    display_name: display-name-adamantite_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/adamantite_axe
+    durability:
+      max_custom_durability: 2750
+  titanium_axe:
+    display_name: display-name-titanium_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/titanium_axe
+  #---FACE 4
+  chlorophyte_axe:
+    display_name: display-name-chlorophyte_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/chlorophyte_axe
+    durability:
+      max_custom_durability: 2900
+  #shroomite_axe
+  luminite_axe:
+    display_name: display-name-luminite_axe
+    resource:
+      material: IRON_AXE
+      generate: true
+      textures:
+      - item/luminite_axe
+    durability:
+      max_custom_durability: 3000
+
+#PALAS
+  copper_shovel:
+    display_name: display-name-copper_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/copper_shovel
+    durability:
+      max_custom_durability: 150
+  tin_shovel:
+    display_name: display-name-tin_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/tin_shovel
+    durability:
+      max_custom_durability: 175
+  lead_shovel:
+    display_name: display-name-lead_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/lead_shovel
+    durability:
+      max_custom_durability: 200
+  #iron_shovel
+  silver_shovel:
+    display_name: display-name-silver_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/silver_shovel
+    durability:
+      max_custom_durability: 300
+  #gold_shovel
+  tungsten_shovel:
+    display_name: display-name-tungsten_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/tungsten_shovel
+    durability:
+      max_custom_durability: 500
+  platinum_shovel:
+    display_name: display-name-platinum_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/platinum_shovel
+    durability:
+      max_custom_durability: 1000
+  #---FACE 2
+  demonite_shovel:
+    display_name: display-name-demonite_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/demonite_shovel
+    durability:
+      max_custom_durability: 2100
+  meteorite_shovel:
+    display_name: display-name-meteorite_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/meteorite_shovel
+    durability:
+      max_custom_durability: 2100
+  hellstone_shovel:
+    display_name: display-name-hellstone_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/hellstone_shovel
+    durability:
+      max_custom_durability: 2100
+  #---FACE 3
+  cobalt_shovel:
+    display_name: display-name-cobalt_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/cobalt_shovel
+    durability:
+      max_custom_durability: 2250
+  palladium_shovel:
+    display_name: display-name-palladium_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/palladium_shovel
+    durability:
+      max_custom_durability: 2250
+  orichalcum_shovel:
+    display_name: display-name-orichalcum_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/orichalcum_shovel
+    durability:
+      max_custom_durability: 2500
+  mythril_shovel:
+    display_name: display-name-mythril_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/mythril_shovel
+    durability:
+      max_custom_durability: 2500
+  adamantite_shovel:
+    display_name: display-name-adamantite_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/adamantite_shovel
+    durability:
+      max_custom_durability: 2750
+  titanium_shovel:
+    display_name: display-name-titanium_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/titanium_shovel
+  #---FACE 4
+  chlorophyte_shovel:
+    display_name: display-name-chlorophyte_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/chlorophyte_shovel
+    durability:
+      max_custom_durability: 2900
+  #shroomite_shovel
+  luminite_shovel:
+    display_name: display-name-luminite_shovel
+    resource:
+      material: IRON_SHOVEL
+      generate: true
+      textures:
+      - item/luminite_shovel
+    durability:
+      max_custom_durability: 3000
+# Martillos 
+recipes:
+  crafting_table:
+    copper_pickaxe:
+      permission: terraria.copper_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: COPPER_INGOT
+        B: STICK
+      result: 
+        item: copper_pickaxe
+        amount: 1
+    tin_pickaxe:
+      permission: terraria.tin_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: tin_bar
+        B: STICK
+      result: 
+        item: tin_pickaxe
+        amount: 1
+    lead_pickaxe:
+      permission: terraria.lead_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: lead_bar
+        B: STICK
+      result: 
+        item: lead_pickaxe
+        amount: 1
+    #iron_pickaxe
+    silver_pickaxe:
+      permission: terraria.silver_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: silver_bar
+        B: STICK
+      result: 
+        item: silver_pickaxe
+        amount: 1
+    #gold_pickaxe
+    tungsten_pickaxe:
+      permission: terraria.tungsten_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: tungsten_bar
+        B: STICK
+      result: 
+        item: tungsten_pickaxe
+        amount: 1
+    platinum_pickaxe:
+      permission: terraria.platinum_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: platinum_bar
+        B: STICK
+      result: 
+        item: platinum_pickaxe
+        amount: 1
+    #---FACE 2
+    demonite_pickaxe:
+      permission: terraria.demonite_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: demonite_bar
+        B: STICK
+      result: 
+        item: demonite_pickaxe
+        amount: 1
+    meteorite_pickaxe:
+      permission: terraria.meteorite_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: meteorite_bar
+        B: STICK
+      result: 
+        item: meteorite_pickaxe
+        amount: 1
+    hellstone_pickaxe:
+      permission: terraria.hellstone_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: hellstone_bar
+        B: STICK
+      result: 
+        item: hellstone_pickaxe
+        amount: 1
+    #---FACE 3
+    cobalt_pickaxe:
+      permission: terraria.cobalt_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: cobalt_bar
+        B: STICK
+      result: 
+        item: cobalt_pickaxe
+        amount: 1
+    palladium_pickaxe:
+      permission: terraria.palladium_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: palladium_bar
+        B: STICK
+      result: 
+        item: palladium_pickaxe
+        amount: 1
+    orichalcum_pickaxe:
+      permission: terraria.orichalcum_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: orichalcum_bar
+        B: STICK
+      result: 
+        item: orichalcum_pickaxe
+        amount: 1
+    mythril_pickaxe:
+      permission: terraria.mythril_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: mythril_bar
+        B: STICK
+      result: 
+        item: mythril_pickaxe
+        amount: 1
+    adamantite_pickaxe:
+      permission: terraria.adamantite_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: adamantite_bar
+        B: STICK
+      result: 
+        item: adamantite_pickaxe
+        amount: 1
+    titanium_pickaxe:
+      permission: terraria.titanium_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: titanium_bar
+        B: STICK
+      result: 
+        item: titanium_pickaxe
+        amount: 1
+    #---FACE 4
+    chlorophyte_pickaxe:
+      permission: terraria.chlorophyte_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: chlorophyte_bar
+        B: STICK
+      result: 
+        item: chlorophyte_pickaxe
+        amount: 1
+    luminite_pickaxe:
+      permission: terraria.luminite_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: luminite_bar
+        B: STICK
+      result: 
+        item: luminite_pickaxe
+        amount: 1
+# Hacha
+    copper_axe:
+      permission: terraria.copper_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: COPPER_INGOT
+        B: STICK
+      result: 
+        item: copper_axe
+        amount: 1
+    tin_axe:
+      permission: terraria.tin_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: tin_bar
+        B: STICK
+      result: 
+        item: tin_axe
+        amount: 1
+    lead_axe:
+      permission: terraria.lead_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: lead_bar
+        B: STICK
+      result: 
+        item: lead_axe
+        amount: 1
+    silver_axe:
+      permission: terraria.silver_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: silver_bar
+        B: STICK
+      result: 
+        item: silver_axe
+        amount: 1
+    #gold_axe
+    tungsten_axe:
+      permission: terraria.tungsten_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: tungsten_bar
+        B: STICK
+      result: 
+        item: tungsten_axe
+        amount: 1
+    platinum_axe:
+      permission: terraria.platinum_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: platinum_bar
+        B: STICK
+      result: 
+        item: platinum_axe
+        amount: 1
+    #---FACE 2
+    demonite_axe:
+      permission: terraria.demonite_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: demonite_bar
+        B: STICK
+      result: 
+        item: demonite_axe
+        amount: 1
+    meteorite_axe:
+      permission: terraria.meteorite_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: meteorite_bar
+        B: STICK
+      result: 
+        item: meteorite_axe
+        amount: 1
+    hellstone_axe:
+      permission: terraria.hellstone_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: hellstone_bar
+        B: STICK
+      result: 
+        item: hellstone_axe
+        amount: 1
+    #---FACE 3
+    cobalt_axe:
+      permission: terraria.cobalt_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: cobalt_bar
+        B: STICK
+      result: 
+        item: cobalt_axe
+        amount: 1
+    palladium_axe:
+      permission: terraria.palladium_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: palladium_bar
+        B: STICK
+      result: 
+        item: palladium_axe
+        amount: 1
+    orichalcum_axe:
+      permission: terraria.orichalcum_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: orichalcum_bar
+        B: STICK
+      result: 
+        item: orichalcum_axe
+        amount: 1
+    mythril_axe:
+      permission: terraria.mythril_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: mythril_bar
+        B: STICK
+      result: 
+        item: mythril_axe
+        amount: 1
+    adamantite_axe:
+      permission: terraria.adamantite_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: adamantite_bar
+        B: STICK
+      result: 
+        item: adamantite_axe
+        amount: 1
+    titanium_axe:
+      permission: terraria.titanium_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: titanium_bar
+        B: STICK
+      result: 
+        item: titanium_axe
+        amount: 1
+    #---FACE 4
+    chlorophyte_axe:
+      permission: terraria.chlorophyte_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: chlorophyte_bar
+        B: STICK
+      result: 
+        item: chlorophyte_axe
+        amount: 1
+    luminite_axe:
+      permission: terraria.luminite_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: luminite_bar
+        B: STICK
+      result: 
+        item: luminite_axe
+        amount: 1
+# Pala
+    copper_shovel:
+      permission: terraria.copper_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: COPPER_INGOT
+        B: STICK
+      result: 
+        item: copper_shovel
+        amount: 1
+    tin_shovel:
+      permission: terraria.tin_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: tin_bar
+        B: STICK
+      result: 
+        item: tin_shovel
+        amount: 1
+    lead_shovel:
+      permission: terraria.lead_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: lead_bar
+        B: STICK
+      result: 
+        item: lead_shovel
+        amount: 1
+    silver_shovel:
+      permission: terraria.silver_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: silver_bar
+        B: STICK
+      result: 
+        item: silver_shovel
+        amount: 1
+    #gold_shovel
+    tungsten_shovel:
+      permission: terraria.tungsten_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: tungsten_bar
+        B: STICK
+      result: 
+        item: tungsten_shovel
+        amount: 1
+    platinum_shovel:
+      permission: terraria.platinum_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: platinum_bar
+        B: STICK
+      result: 
+        item: platinum_shovel
+        amount: 1
+    #---FACE 2
+    demonite_shovel:
+      permission: terraria.demonite_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: demonite_bar
+        B: STICK
+      result: 
+        item: demonite_shovel
+        amount: 1
+    meteorite_shovel:
+      permission: terraria.meteorite_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: meteorite_bar
+        B: STICK
+      result: 
+        item: meteorite_shovel
+        amount: 1
+    hellstone_shovel:
+      permission: terraria.hellstone_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: hellstone_bar
+        B: STICK
+      result: 
+        item: hellstone_shovel
+        amount: 1
+    cobalt_shovel:
+      permission: terraria.cobalt_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: cobalt_bar
+        B: STICK
+      result: 
+        item: cobalt_shovel
+        amount: 1
+    palladium_shovel:
+      permission: terraria.palladium_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: palladium_bar
+        B: STICK
+      result: 
+        item: palladium_shovel
+        amount: 1
+    orichalcum_shovel:
+      permission: terraria.orichalcum_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: orichalcum_bar
+        B: STICK
+      result: 
+        item: orichalcum_shovel
+        amount: 1
+    mythril_shovel:
+      permission: terraria.mythril_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: mythril_bar
+        B: STICK
+      result: 
+        item: mythril_shovel
+        amount: 1
+    adamantite_shovel:
+      permission: terraria.adamantite_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: adamantite_bar
+        B: STICK
+      result: 
+        item: adamantite_shovel
+        amount: 1
+    titanium_shovel:
+      permission: terraria.titanium_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: titanium_bar
+        B: STICK
+      result: 
+        item: titanium_shovel
+        amount: 1
+    chlorophyte_shovel:
+      permission: terraria.chlorophyte_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: chlorophyte_bar
+        B: STICK
+      result: 
+        item: chlorophyte_shovel
+        amount: 1
+    luminite_shovel:
+      permission: terraria.luminite_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: luminite_bar
+        B: STICK
+      result: 
+        item: luminite_shovel
+        amount: 1

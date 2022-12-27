@@ -1,0 +1,1215 @@
+info:
+  namespace: terraria
+items:
+#STONE VERSIONS
+  #copper_ore:
+  tin_ore:
+    display_name: display-name-tin_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/tin_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  lead_ore:
+    display_name: display-name-lead_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/lead_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  #iron_ore
+  silver_ore:
+    display_name: display-name-silver_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/silver_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  tungsten_ore:
+    display_name: display-name-tungsten_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/tungsten_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  #gold_ore
+  platinum_ore:
+    display_name: display-name-platinum_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/platinum_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  #---FACE 2
+  demonite_ore:
+    display_name: display-name-demonite_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/demonite_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  meteorite_ore:
+    display_name: display-name-meteorite_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/meteorite_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  hellstone_ore:
+    display_name: display-name-hellstone_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/hellstone_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  #---FACE 3
+  cobalt_ore:
+    display_name: display-name-cobalt_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/cobalt_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  palladium_ore:
+    display_name: display-name-palladium_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/palladium_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  orichalcum_ore:
+    display_name: display-name-orichalcum_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/orichalcum_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mythril_ore:
+    display_name: display-name-mythril_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/mythril_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  adamantite_ore:
+    display_name: display-name-adamantite_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/adamantite_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  titanium_ore:
+    display_name: display-name-titanium_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/titanium_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  #---FACE 4
+  chlorophyte_ore:
+    display_name: display-name-chlorophyte_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/chlorophyte_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  #shroomite_ore
+  luminite_ore:
+    display_name: display-name-luminite_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/luminite_ore"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+#DEEPSLATE VERSIONS
+  cobalt_ore_deepslate:
+    display_name: display-name-cobalt_ore_deepslate
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/cobalt_ore_deepslate"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  palladium_ore_deepslate:
+    display_name: display-name-palladium_ore_deepslate
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/palladium_ore_deepslate"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  orichalcum_ore_deepslate:
+    display_name: display-name-orichalcum_ore_deepslate
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/orichalcum_ore_deepslate"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  mythril_ore_deepslate:
+    display_name: display-name-mythril_ore_deepslate
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/mythril_ore_deepslate"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  adamantite_ore_deepslate:
+    display_name: display-name-adamantite_ore_deepslate
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/adamantite_ore_deepslate"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  titanium_ore_deepslate:
+    display_name: display-name-titanium_ore_deepslate
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/titanium_ore_deepslate"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+  #---FACE 5
+  chlorophyte_ore_deepslate:
+    display_name: display-name-chlorophyte_ore_deepslate
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/chlorophyte_ore_deepslate"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+        break_tools_whitelist:
+          - PICKAXE
+          - pickaxe
+          - _hammer
+loots:
+  blocks:
+    tin_ore:
+      type: tin_ore
+      items:
+        raw_tin:
+          item: raw_tin
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    lead_ore:
+      type: lead_ore
+      items:
+        raw_lead:
+          item: raw_lead
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    silver_ore:
+      type: silver_ore
+      items:
+        raw_silver:
+          item: raw_silver
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    tungsten_ore:
+      type: tungsten_ore
+      items:
+        raw_tungsten:
+          item: raw_tungsten
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    platinum_ore:
+      type: platinum_ore
+      items:
+        raw_platinum:
+          item: raw_platinum
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    #---FACE 2
+    demonite_ore:
+      type: demonite_ore
+      items:
+        raw_demonite:
+          item: raw_demonite
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    meteorite_ore:
+      type: meteorite_ore
+      items:
+        raw_meteorite:
+          item: raw_meteorite
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    hellstone_ore:
+      type: hellstone_ore
+      items:
+        raw_hellstone:
+          item: raw_hellstone
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    #---FACE 3
+    cobalt_ore:
+      type: cobalt_ore
+      items:
+        raw_cobalt:
+          item: raw_cobalt
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    palladium_ore:
+      type: palladium_ore
+      items:
+        raw_palladium:
+          item: raw_palladium
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    orichalcum_ore:
+      type: orichalcum_ore
+      items:
+        raw_orichalcum:
+          item: raw_orichalcum
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    mythril_ore:
+      type: mythril_ore
+      items:
+        raw_mythril:
+          item: raw_mythril
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    adamantite_ore:
+      type: adamantite_ore
+      items:
+        raw_adamantite:
+          item: raw_adamantite
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    titanium_ore:
+      type: titanium_ore
+      items:
+        raw_titanium:
+          item: raw_titanium
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    #---FACE 4
+    chlorophyte_ore:
+      type: chlorophyte_ore
+      items:
+        raw_chlorophyte:
+          item: raw_chlorophyte
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    #shroomite_ore
+    luminite_ore:
+      type: luminite_ore
+      items:
+        raw_luminite:
+          item: raw_luminite
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    cobalt_ore_deepslate:
+      type: cobalt_ore_deepslate
+      items:
+        raw_cobalt:
+          item: raw_cobalt
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    palladium_ore_deepslate:
+      type: palladium_ore_deepslate
+      items:
+        raw_palladium:
+          item: raw_palladium
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    orichalcum_ore_deepslate:
+      type: orichalcum_ore_deepslate
+      items:
+        raw_orichalcum:
+          item: raw_orichalcum
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    mythril_ore_deepslate:
+      type: mythril_ore_deepslate
+      items:
+        raw_mythril:
+          item: raw_mythril
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    adamantite_ore_deepslate:
+      type: adamantite_ore_deepslate
+      items:
+        raw_adamantite:
+          item: raw_adamantite
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    titanium_ore_deepslate:
+      type: titanium_ore_deepslate
+      items:
+        raw_titanium:
+          item: raw_titanium
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+    chlorophyte_ore_deepslate:
+      type: chlorophyte_ore_deepslate
+      items:
+        raw_chlorophyte:
+          item: raw_chlorophyte
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
+worlds_populators:
+  tin_ore:
+    block: tin_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+    chunk_chance: 80.0
+    max_height: 45
+    min_height: 5
+    vein_blocks: 4
+    chunk_veins: 2
+  lead_ore:
+    block: lead_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+    chunk_chance: 80.0
+    max_height: 45
+    min_height: 5
+    vein_blocks: 4
+    chunk_veins: 2
+  silver_ore:
+    block: silver_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+    chunk_chance: 75.0
+    max_height: 50
+    min_height: 10
+    vein_blocks: 4
+    chunk_veins: 2
+  tungsten_ore:
+    block: tungsten_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+    chunk_chance: 75.0
+    max_height: 50
+    min_height: 10
+    vein_blocks: 4
+    chunk_veins: 2
+  platinum_ore:
+    block: platinum_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+    chunk_chance: 60.0
+    max_height: 40
+    min_height: 0
+    vein_blocks: 3
+    chunk_veins: 2
+  demonite_ore:
+    block: demonite_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+#    biomes:
+#    - MUSHROOM_FIELDS
+    chunk_chance: 50.0
+    max_height: 100
+    min_height: 0
+    vein_blocks: 3
+    chunk_veins: 1
+  meteorite_ore:
+    block: meteorite_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - PACKED_ICE
+    - SNOW_BLOCK
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+#    biomes:
+#    - STONY_PEAKS
+#    - JAGGED_PEALS
+#    - FROZEN_PEAKS
+    chunk_chance: 80.0
+    max_height: 319
+    min_height: 62
+    vein_blocks: 1
+    chunk_veins: 1
+  hellstone_ore:
+    block: hellstone_ore
+    worlds:
+    - world_nether
+    replaceable_blocks:
+    - NETHERRACK
+    chunk_chance: 50.0
+    max_height: 100
+    min_height: 0
+    vein_blocks: 1
+    chunk_veins: 1
+  cobalt_ore:
+    block: cobalt_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+#    biomes:
+#    - DRIPSTONE_CAVES
+    chunk_chance: 50.0
+    max_height: 100
+    min_height: 1
+    vein_blocks: 3
+    chunk_veins: 1
+  cobalt_ore_deepslate:
+    block: cobalt_ore_deepslate
+    worlds:
+    - world
+    replaceable_blocks:
+    - DEEPSLATE
+    - TUFF
+#    biomes:
+#    - DRIPSTONE_CAVES
+    chunk_chance: 50.0
+    max_height: 0
+    min_height: -64
+    vein_blocks: 3
+    chunk_veins: 1
+  palladium_ore:
+    block: palladium_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+#    biomes:
+#    - DRIPSTONE_CAVES
+    chunk_chance: 50.0
+    max_height: 100
+    min_height: 1
+    vein_blocks: 3
+    chunk_veins: 1
+  palladium_ore_deepslate:
+    block: palladium_ore_deepslate
+    worlds:
+    - world
+    replaceable_blocks:
+    - DEEPSLATE
+    - TUFF
+#    biomes:
+#    - DRIPSTONE_CAVES
+    chunk_chance: 50.0
+    max_height: 0
+    min_height: -64
+    vein_blocks: 3
+    chunk_veins: 1
+  orichalcum_ore:
+    block: orichalcum_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+#    biomes:
+#    - LUSH_CAVES
+    chunk_chance: 50.0
+    max_height: 100
+    min_height: 1
+    vein_blocks: 3
+    chunk_veins: 1
+  orichalcum_ore_deepslate:
+    block: orichalcum_ore_deepslate
+    worlds:
+    - world
+    replaceable_blocks:
+    - DEEPSLATE
+    - TUFF
+#    biomes:
+#    - LUSH_CAVES
+    chunk_chance: 50.0
+    max_height: 0
+    min_height: -64
+    vein_blocks: 3
+    chunk_veins: 1
+  mythril_ore:
+    block: mythril_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+#    biomes:
+#    - LUSH_CAVES
+    chunk_chance: 50.0
+    max_height: 100
+    min_height: 1
+    vein_blocks: 3
+    chunk_veins: 1
+  mythril_ore_deepslate:
+    block: mythril_ore_deepslate
+    worlds:
+    - world
+    replaceable_blocks:
+    - DEEPSLATE
+    - TUFF
+#    biomes:
+#    - LUSH_CAVES
+    chunk_chance: 50.0
+    max_height: 0
+    min_height: -64
+    vein_blocks: 3
+    chunk_veins: 1
+  adamantite_ore:
+    block: adamantite_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+    chunk_chance: 50.0
+    max_height: 60
+    min_height: 1
+    vein_blocks: 1
+    chunk_veins: 1
+  adamantite_ore_deepslate:
+    block: adamantite_ore_deepslate
+    worlds:
+    - world
+    replaceable_blocks:
+    - DEEPSLATE
+    - TUFF
+    chunk_chance: 50.0
+    max_height: 0
+    min_height: -64
+    vein_blocks: 1
+    chunk_veins: 1
+  titanium_ore:
+    block: titanium_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+    chunk_chance: 50.0
+    max_height: 60
+    min_height: 1
+    vein_blocks: 1
+    chunk_veins: 1
+  titanium_ore_deepslate:
+    block: titanium_ore_deepslate
+    worlds:
+    - world
+    replaceable_blocks:
+    - DEEPSLATE
+    - TUFF
+    chunk_chance: 50.0
+    max_height: 0
+    min_height: -64
+    vein_blocks: 1
+    chunk_veins: 1
+  chlorophyte_ore:
+    block: chlorophyte_ore
+    worlds:
+    - world
+    replaceable_blocks:
+    - STONE
+    - DIRT
+    - ANDESITE
+    - GRANITE
+    - COBBLESTONE
+    - GRAVEL
+    - CALCITE
+    - TUFF
+#    biomes:
+#    - JUNGLE
+#    - SPARSE_JUNGLE
+#    - BAMBOO_JUNGLE
+    chunk_chance: 50.0
+    max_height: 60
+    min_height: 1
+    vein_blocks: 3
+    chunk_veins: 2
+  chlorophyte_ore_deepslate:
+    block: chlorophyte_ore_deepslate
+    worlds:
+    - world
+    replaceable_blocks:
+    - DEEPSLATE
+    - TUFF
+#    biomes:
+#    - JUNGLE
+#    - SPARSE_JUNGLE
+#    - BAMBOO_JUNGLE
+    chunk_chance: 50.0
+    max_height: 0
+    min_height: -64
+    vein_blocks: 3
+    chunk_veins: 2
+  luminite_ore:
+    block: luminite_ore
+    worlds:
+    - world_the_end
+    replaceable_blocks:
+    - END_STONE
+    chunk_chance: 50.0
+    max_height: 100
+    min_height: 0
+    vein_blocks: 1
+    chunk_veins: 1
