@@ -1,0 +1,160 @@
+info:
+  namespace: terraria
+items:
+  copper_hoe:
+    display_name: display-name-copper_hoe
+    resource:
+      material: STONE_HOE
+      generate: true
+      textures:
+      - item/copper_hoe
+    durability:
+      max_custom_durability: 150
+  tin_hoe:
+    display_name: display-name-tin_hoe
+    resource:
+      material: STONE_HOE
+      generate: true
+      textures:
+      - item/tin_hoe
+    durability:
+      max_custom_durability: 175
+  lead_hoe:
+    display_name: display-name-lead_hoe
+    resource:
+      material: IRON_HOE
+      generate: true
+      textures:
+      - item/lead_hoe
+    durability:
+      max_custom_durability: 200
+  #iron_hoe
+  silver_hoe:
+    display_name: display-name-silver_hoe
+    resource:
+      material: IRON_HOE
+      generate: true
+      textures:
+      - item/silver_hoe
+    durability:
+      max_custom_durability: 300
+  #gold_hoe
+  tungsten_hoe:
+    display_name: display-name-tungsten_hoe
+    resource:
+      material: IRON_HOE
+      generate: true
+      textures:
+      - item/tungsten_hoe
+    durability:
+      max_custom_durability: 500
+  platinum_hoe:
+    display_name: display-name-platinum_hoe
+    resource:
+      material: IRON_HOE
+      generate: true
+      textures:
+      - item/platinum_hoe
+    durability:
+      max_custom_durability: 1000
+  #---FACE 2
+  demonite_hoe:
+    display_name: display-name-demonite_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/demonite_hoe
+    durability:
+      max_custom_durability: 2100
+  meteorite_hoe:
+    display_name: display-name-meteorite_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/meteorite_hoe
+    durability:
+      max_custom_durability: 2100
+  hellstone_hoe:
+    display_name: display-name-hellstone_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/hellstone_hoe
+    durability:
+      max_custom_durability: 2100
+  #---FACE 3
+  cobalt_hoe:
+    display_name: display-name-cobalt_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/cobalt_hoe
+    durability:
+      max_custom_durability: 2250
+  palladium_hoe:
+    display_name: display-name-palladium_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/palladium_hoe
+    durability:
+      max_custom_durability: 2250
+  orichalcum_hoe:
+    display_name: display-name-orichalcum_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/orichalcum_hoe
+    durability:
+      max_custom_durability: 2500
+  mythril_hoe:
+    display_name: display-name-mythril_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/mythril_hoe
+    durability:
+      max_custom_durability: 2500
+  adamantite_hoe:
+    display_name: display-name-adamantite_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/adamantite_hoe
+    durability:
+      max_custom_durability: 2750
+  titanium_hoe:
+    display_name: display-name-titanium_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/titanium_hoe
+  #---FACE 4
+  chlorophyte_hoe:
+    display_name: display-name-chlorophyte_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/chlorophyte_hoe
+    durability:
+      max_custom_durability: 2900
+  #shroomite_hoe
+  luminite_hoe:
+    display_name: display-name-luminite_hoe
+    resource:
+      material: NETHERITE_HOE
+      generate: true
+      textures:
+      - item/luminite_hoe
+    durability:
+      max_custom_durability: 3000

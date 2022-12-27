@@ -121,6 +121,25 @@ dictionary:
   display-name-titanium_shovel: "&aPala de Titanio"
   display-name-chlorophyte_shovel: "&6Pala de Clorofita"
   display-name-luminite_shovel: "&6Pala de Lumen"
+  # Hoes
+  display-category-hoes:  "&eAzadas"
+  display-name-copper_hoe: "&7Copper Azada"
+  display-name-tin_hoe: "&7Tin Azada"
+  display-name-lead_hoe: "&7Lead Azada"
+  display-name-silver_hoe: "&7Silver Azada"
+  display-name-tungsten_hoe: "&9Tungsten Azada"
+  display-name-platinum_hoe: "&9Platinum Azada"
+  display-name-demonite_hoe: "&5Demonite Azada"
+  display-name-meteorite_hoe: "&5Meteorite Azada"
+  display-name-hellstone_hoe: "&cHellstone Azada"
+  display-name-cobalt_hoe: "&aCobalt Azada"
+  display-name-palladium_hoe: "&aPalladium Azada"
+  display-name-orichalcum_hoe: "&aOrichalcum Azada"
+  display-name-mythril_hoe: "&aMythril Azada"
+  display-name-adamantite_hoe: "&aAdamantite Azada"
+  display-name-titanium_hoe: "&aTitanium Azada"
+  display-name-chlorophyte_hoe: "&6Chlorophyte Azada"
+  display-name-luminite_hoe: "&6Luminite Azada"
   # Armors
   display-category-armors: "&eArmaduras"
   display-name-copper_helmet: "&7Casco de Cobre"
@@ -212,4 +231,5 @@ dictionary:
 # Discos de Musica
   display-category-others: "&eOtros"
   display-name-music_disc_frost_moon: "&bDisco de Musica"
-  
+
+
