@@ -23,7 +23,7 @@ recipes:
       - BAB
       - BBB
       ingredients:
-        A: FISHING_ROD
+        A: terraria:reinforced_fishing_rod
         B: terraria:demonite_bar
       result: 
         item: fisher_of_souls
