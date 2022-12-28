@@ -2,7 +2,7 @@ info:
   namespace: terraria
   dictionary-lang: "es"
 dictionary:
-  # Blocks
+# Bloques
   display-category-blocks: "&eBloques"
   display-name-tin_ore: "&7Mineral de Estaño"
   display-name-lead_ore: "&7Mineral de Plomo"
@@ -27,7 +27,7 @@ dictionary:
   display-name-chlorophyte_ore: "&6Mineral de Clorofita"
   display-name-chlorophyte_ore_deepslate: "&6Mineral de Clorofita (DeepSlate)"
   display-name-luminite_ore: "&6Mineral de Lumen"
-  # Ingots
+# Lingotes
   display-category-ingots: "&eLingotes"
   display-name-tin_bar: "&7Lingote de Estaño"
   display-name-lead_bar: "&7Lingote de Plomo"
@@ -45,7 +45,7 @@ dictionary:
   display-name-titanium_bar: "&aLingote de Titanio"
   display-name-chlorophyte_bar: "&6Lingote de Clorofita"
   display-name-luminite_bar: "&6Lingote de Lumen"
-  # Swords
+# Espadas
   display-category-swords: "&eEspadas"
   display-name-copper_sword: "&7Espada de Cobre"
   display-name-tin_sword: "&7Espada de Estaño"
@@ -64,7 +64,7 @@ dictionary:
   display-name-titanium_sword: "&aEspada de Titanio"
   display-name-chlorophyte_sword: "&6Espada de Clorofita"
   display-name-luminite_sword: "&6Espada de Lumen"
-  # PickAxes
+# Picos
   display-category-pickaxes: "&ePicos"
   display-name-copper_pickaxe: "&7Pico de Cobre"
   display-name-tin_pickaxe: "&7Pico de Estaño"
@@ -83,7 +83,7 @@ dictionary:
   display-name-titanium_pickaxe: "&aPico de Titanio"
   display-name-chlorophyte_pickaxe: "&6Pico de Clorofita"
   display-name-luminite_pickaxe: "&6Pico de Lumen"
-  # Axes
+# Hachas
   display-category-axes: "&eHachas"
   display-name-copper_axe: "&7Hacha de Cobre"
   display-name-tin_axe: "&7Hacha de Estaño"
@@ -102,7 +102,7 @@ dictionary:
   display-name-titanium_axe: "&aHacha de Titanio"
   display-name-chlorophyte_axe: "&6Hacha de Clorofita"
   display-name-luminite_axe: "&6Hacha de Lumen"
-  # Shovels
+# Palas
   display-category-shovels: "&ePalas"
   display-name-copper_shovel: "&7Pala de Cobre"
   display-name-tin_shovel: "&7Pala de Estaño"
@@ -121,7 +121,7 @@ dictionary:
   display-name-titanium_shovel: "&aPala de Titanio"
   display-name-chlorophyte_shovel: "&6Pala de Clorofita"
   display-name-luminite_shovel: "&6Pala de Lumen"
-  # Hoes
+# Azadas
   display-category-hoes:  "&eAzadas"
   display-name-copper_hoe: "&7Copper Azada"
   display-name-tin_hoe: "&7Tin Azada"
@@ -140,7 +140,7 @@ dictionary:
   display-name-titanium_hoe: "&aTitanium Azada"
   display-name-chlorophyte_hoe: "&6Chlorophyte Azada"
   display-name-luminite_hoe: "&6Luminite Azada"
-  # Armors
+# Armaduras
   display-category-armors: "&eArmaduras"
   display-name-copper_helmet: "&7Casco de Cobre"
   display-name-copper_chest: "&7Coraza de Cobre"
@@ -228,7 +228,45 @@ dictionary:
   display-name-raw_titanium: "&aTitanio Crudo"
   display-name-raw_chlorophyte: "&6Clorofita Cruda"
   display-name-raw_luminite: "&6Lumen Crudo"
-# Discos de Musica
+# Peces
+  display-category-fish: "&ePeces"
+  display-name-atlantic_cod: "&eBacalao Atlantico"
+  display-name-bass: "&eBass"
+  display-name-flounder: "&eFlounder"
+  display-name-neon_tetra: "&eNeon Tetra"
+  display-name-red_snapper: "&eRed Snapper"
+  display-name-rock_lobster: "&eRock Lobster"
+  display-name-shrimp: "&eShrimp"
+  display-name-trout: "&eTrout"
+  display-name-tuna: "&eTuna"
+  display-name-armored_cavefish: "&eArmored Cavefish"
+  display-name-blue_jellyfish: "&eBlue Jellyfish"
+  display-name-crimson_tigerfish: "&eCrimson Tigerfish"
+  display-name-damselfish: "&eDamselfish"
+  display-name-double_cod: "&eDouble Cod"
+  display-name-ebonkoi: "&eEbonkoi"
+  display-name-frost_minnow: "&eFrost Minnow"
+  display-name-green_jellyfish: "&eGreen Jellyfish"
+  display-name-hemopiranha: "&eHemopiranha"
+  display-name-honeyfin: "&eHoneyfin"
+  display-name-pink_jellyfish: "&ePink Jellyfish"
+  display-name-specular_fish: "&eSpecular Fish"
+  display-name-stinkfish: "&eStinkfish"
+  display-name-variegated_lardfish: "&eVariegated Lardfish"
+  display-name-flarefin_koi: "&eFlarefin Koi"
+  display-name-obsidifish: "&eObsidifish"
+  display-name-princess_fish: "&ePrincess Fish"
+  display-name-prismite: "&ePrismite"
+  display-name-chaos_fish: "&eChaos Fish"
+  display-name-golden_carp: "&eGolden Carp"
+# Comida
+  display-category-food: "&eComida"
+  display-name-cooked_fish: "&ePescado Cocinado"
+  display-name-cooked_shrimp: "&eCamarones Cocinados"
+  display-name-seafood_dinner: "&eCena de Mariscos"
+  display-name-lobster_tail: "&eCola de Langosta"
+  display-name-sashimi: "&eSashimi"
+# Other
   display-category-others: "&eOtros"
   display-name-music_disc_frost_moon: "&bDisco de Musica"
 

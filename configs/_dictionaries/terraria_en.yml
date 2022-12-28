@@ -2,7 +2,7 @@ info:
   namespace: terraria
   dictionary-lang: "en"
 dictionary:
-  # Blocks
+# Blocks
   display-category-blocks: "&eBlocks"
   display-name-tin_ore: "&7Tin Ore"
   display-name-lead_ore: "&7Lead Ore"
@@ -27,7 +27,7 @@ dictionary:
   display-name-chlorophyte_ore: "&6Chlorophyte Ore"
   display-name-chlorophyte_ore_deepslate: "&6Deepslate Chlorophyte Ore"
   display-name-luminite_ore: "&6Luminite Ore"
-  # Ingots
+# Ingots
   display-category-ingots: "&eIngots"
   display-name-tin_bar: "&7Tin Bar"
   display-name-lead_bar: "&7Lead Bar"
@@ -45,7 +45,7 @@ dictionary:
   display-name-titanium_bar: "&aTitanium Bar"
   display-name-chlorophyte_bar: "&6Chlorophyte Bar"
   display-name-luminite_bar: "&6Luminite Bar"
-  # Swords
+# Swords
   display-category-swords: "&eSwords"
   display-name-copper_sword: "&7Copper Sword"
   display-name-tin_sword: "&7Tin Sword"
@@ -64,7 +64,7 @@ dictionary:
   display-name-titanium_sword: "&aTitanium Sword"
   display-name-chlorophyte_sword: "&6Chlorophyte Sword"
   display-name-luminite_sword: "&6Luminite Sword"
-  # PickAxes
+# PickAxes
   display-category-pickaxes: "&ePickaxes"
   display-name-copper_pickaxe: "&7Copper Pickaxe"
   display-name-tin_pickaxe: "&7Tin Pickaxe"
@@ -83,7 +83,7 @@ dictionary:
   display-name-titanium_pickaxe: "&aTitanium Pickaxe"
   display-name-chlorophyte_pickaxe: "&6Chlorophyte Pickaxe"
   display-name-luminite_pickaxe: "&6Luminite Pickaxe"
-  # Axes
+# Axes
   display-category-axes: "&eAxes"
   display-name-copper_axe: "&7Copper Axe"
   display-name-tin_axe: "&7Tin Axe"
@@ -102,7 +102,7 @@ dictionary:
   display-name-titanium_axe: "&aTitanium Axe"
   display-name-chlorophyte_axe: "&6Chlorophyte Axe"
   display-name-luminite_axe: "&6Luminite Axe"
-  # Shovel
+# Shovel
   display-category-shovels: "&eShovels"
   display-name-copper_shovel: "&7Copper Shovel"
   display-name-tin_shovel: "&7Tin Shovel"
@@ -121,7 +121,7 @@ dictionary:
   display-name-titanium_shovel: "&aTitanium Shovel"
   display-name-chlorophyte_shovel: "&6Chlorophyte Shovel"
   display-name-luminite_shovel: "&6Luminite Shovel"
-  # Hoe
+# Hoe
   display-category-hoes:  "&eHoes"
   display-name-copper_hoe: "&7Copper Hoe"
   display-name-tin_hoe: "&7Tin Hoe"
@@ -140,7 +140,7 @@ dictionary:
   display-name-titanium_hoe: "&aTitanium Hoe"
   display-name-chlorophyte_hoe: "&6Chlorophyte Hoe"
   display-name-luminite_hoe: "&6Luminite Hoe"
-  # Armor
+# Armor
   display-category-armor: "&eArmor"
   display-name-copper_helmet: "&7Copper Helmet"
   display-name-copper_chest: "&7Copper Chestplate"
@@ -228,6 +228,44 @@ dictionary:
   display-name-raw_titanium: "&aRaw Titanium"
   display-name-raw_chlorophyte: "&6Raw Chlorophyte"
   display-name-raw_luminite: "&6Raw Luminite"
-# Disks
+# Fish
+  display-category-fish: "&eFish"
+  display-name-atlantic_cod: "&eAtlantic Cod"
+  display-name-bass: "&eBass"
+  display-name-flounder: "&eFlounder"
+  display-name-neon_tetra: "&eNeon Tetra"
+  display-name-red_snapper: "&eRed Snapper"
+  display-name-rock_lobster: "&eRock Lobster"
+  display-name-shrimp: "&eShrimp"
+  display-name-trout: "&eTrout"
+  display-name-tuna: "&eTuna"
+  display-name-armored_cavefish: "&eArmored Cavefish"
+  display-name-blue_jellyfish: "&eBlue Jellyfish"
+  display-name-crimson_tigerfish: "&eCrimson Tigerfish"
+  display-name-damselfish: "&eDamselfish"
+  display-name-double_cod: "&eDouble Cod"
+  display-name-ebonkoi: "&eEbonkoi"
+  display-name-frost_minnow: "&eFrost Minnow"
+  display-name-green_jellyfish: "&eGreen Jellyfish"
+  display-name-hemopiranha: "&eHemopiranha"
+  display-name-honeyfin: "&eHoneyfin"
+  display-name-pink_jellyfish: "&ePink Jellyfish"
+  display-name-specular_fish: "&eSpecular Fish"
+  display-name-stinkfish: "&eStinkfish"
+  display-name-variegated_lardfish: "&eVariegated Lardfish"
+  display-name-flarefin_koi: "&eFlarefin Koi"
+  display-name-obsidifish: "&eObsidifish"
+  display-name-princess_fish: "&ePrincess Fish"
+  display-name-prismite: "&ePrismite"
+  display-name-chaos_fish: "&eChaos Fish"
+  display-name-golden_carp: "&eGolden Carp"
+# Food
+  display-category-food: "&eFood"
+  display-name-cooked_fish: "&eCooked Fish"
+  display-name-cooked_shrimp: "&eCooked Shrimp"
+  display-name-seafood_dinner: "&eSeafood Dinner"
+  display-name-lobster_tail: "&eLobster Tail"
+  display-name-sashimi: "&eSashimi"
+# Other
   display-category-others: "&eOthers"
   display-name-music_disc_frost_moon: "&bMusic Disk"
