@@ -1,0 +1,48 @@
+info:
+  namespace: terraria
+items:
+  cooked_fish:
+    display_name: display-name-cooked_fish
+    lore:
+    - '&9Wheres the chips!?'
+    resource:
+      material: COOCKED_COD
+      generate: true
+      textures:
+      - item/cooked_fish
+  cooked_shrimp:
+    display_name: display-name-cooked_shrimp
+    lore:
+    - '&ABarbecue it, boil it, broil it, bake it...'
+    resource:
+      material: COOCKED_COD
+      generate: true
+      textures:
+      - item/cooked_shrimp
+  sashimi:
+    display_name: display-name-sashimi
+    lore:
+    - '&aIts raw! Its exotic!'
+    resource:
+      material: COOCKED_COD
+      generate: true
+      textures:
+      - item/sashimi
+  lobster_tail:
+    display_name: display-name-lobster_tail
+    lore:
+    - '&aDelicious with a bit of butter'
+    resource:
+      material: COOCKED_COD
+      generate: true
+      textures:
+      - item/lobster_tail
+  seafood_dinner:
+    display_name: display-name-seafood_dinner
+    lore:
+    - '&aI sea food, I eat it.'
+    resource:
+      material: COOCKED_COD
+      generate: true
+      textures:
+      - item/seafood_dinner
