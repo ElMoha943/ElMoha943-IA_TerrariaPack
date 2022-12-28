@@ -6,7 +6,7 @@ items:
     lore:
     - '&9Wheres the chips!?'
     resource:
-      material: COOCKED_COD
+      material: COOKED_COD
       generate: true
       textures:
       - item/cooked_fish
@@ -15,7 +15,7 @@ items:
     lore:
     - '&ABarbecue it, boil it, broil it, bake it...'
     resource:
-      material: COOCKED_COD
+      material: COOKED_COD
       generate: true
       textures:
       - item/cooked_shrimp
@@ -24,7 +24,7 @@ items:
     lore:
     - '&aIts raw! Its exotic!'
     resource:
-      material: COOCKED_COD
+      material: COOKED_COD
       generate: true
       textures:
       - item/sashimi
@@ -33,7 +33,7 @@ items:
     lore:
     - '&aDelicious with a bit of butter'
     resource:
-      material: COOCKED_COD
+      material: COOKED_COD
       generate: true
       textures:
       - item/lobster_tail
@@ -42,7 +42,7 @@ items:
     lore:
     - '&aI sea food, I eat it.'
     resource:
-      material: COOCKED_COD
+      material: COOKED_COD
       generate: true
       textures:
       - item/seafood_dinner
