@@ -1,0 +1,219 @@
+info:
+  namespace: terraria
+loots:
+  fishing:
+    forest_biome:
+      biomes:
+        - PLAINS
+        - SUNFLOWER_PLAINS
+        - FORES
+        - FLOWER_FOREST
+        - BIRCH_FOREST
+        - OLD_BROWTH_BIRCH_FOREST
+        - DARK_FOREST
+        - SWAMP
+        - MANGROVE_SWAMP
+        - JUNGLE
+        - SPARSE_JUNGLE
+        - BAMBOO_JUNGLE
+        - BEACH
+        - MUSHROOM_FIELDS
+        - MEADOW
+        - STONY_PEAKS
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:bass
+          min_amount: 1
+          max_amount: 1
+          chance: 75
+    underground_biome:
+      biomes:
+        - DEEP_DARK
+        - DRIPSTONE_CAVES
+        - LUSH_CAVES
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:golden_carp
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+        item_2:
+          item: terraria:blue_jellyfish
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+        item_3:
+          item: terraria:green_jellyfish
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+        item_4:
+          item: terraria:stinkfish
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+        item_5:
+          item: terraria:specular_fish
+          min_amount: 1
+          max_amount: 1
+          chance: 45
+    dripstone_caves:
+      biomes:
+        - DRIPSTONE_CAVES
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:armored_cavefish
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+    snow_biome:
+      biomes:
+        - SNOWY_PLAINS
+        - SNOWY_BEACH
+        - SNOWY_TAIGA
+        - SNOWY_SLOPES
+        - JAGGED_PEAKS
+        - FROZEN_PEAKS
+        - ICE_SPIKES
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:atlantic_cod
+          min_amount: 1
+          max_amount: 1
+          chance: 55
+        item_2:
+          item: terraria:frost_minnow
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+    ocean_biome:
+      biomes:
+        - WARM_OCEAN
+        - LUKEWARM_OCEAN
+        - DEEP_LUKEWARM_OCEAN
+        - OCEAN
+        - DEEP_OCEAN
+        - COLD_OCEAN
+        - DEEP_COLD_OCEAN
+        - FOZEN_OCEAN
+        - DEEP_FROZEN_OCEAN
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:red_snapper
+          min_amount: 1
+          max_amount: 1
+          chance: 55
+        item_2:
+          item: terraria:shrimp
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+        item_3:
+          item: terraria:trout
+          min_amount: 1
+          max_amount: 1
+          chance: 75
+        item_4:
+          item: terraria:tuna
+          min_amount: 1
+          max_amount: 1
+          chance: 55
+        item_5:
+          item: terraria:pink_jellyfish
+          min_amount: 1
+          max_amount: 1
+          chance: 20
+    jungle_biome:
+      biomes:
+        - JUNGLE
+        - SPARSE_JUNGLE
+        - BAMBOO_JUNGLE
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:neon_tetra
+          min_amount: 1
+          max_amount: 1
+          chance: 55
+        item_2:
+          item: terraria:double_cod
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+        item_3:
+          item: terraria:variegated_lardfish
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+    hallow_biome:
+      biomes:
+        - FLOWER_FOREST
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:princess_fish
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+        item_2:
+          item: terraria:prismite
+          min_amount: 1
+          max_amount: 1
+          chance: 20
+    hallow_underground:
+      biomes:
+        - LUSH_CAVES
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:chaos_fish
+          min_amount: 1
+          max_amount: 1
+          chance: 10
+    desert_biome:
+      biomes:
+        - DESERT
+        - SAVANNA
+        - SAVANNA_PLATEAU
+        - WINDSWEPT_SAVANNA
+        - BADLANDS
+        - WOODED_BADLANDS
+        - ERODED_BADLANDS
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:flounder
+          min_amount: 1
+          max_amount: 1
+          chance: 75
+        item_2:
+          item: terraria:rock_lobster
+          min_amount: 1
+          max_amount: 1
+          chance: 75
+    corruption:
+      biomes:
+        - MUSHROOM_FIELDS
+      drop_only_first: true
+      items:
+        item_1:
+          item: terraria:ebonkoi
+          min_amount: 1
+          max_amount: 1
+          chance: 40
+# MISSING:
+# - Sky
+#   - Damselfish
+# - Crimson
+#   - crimson_tigerfish
+#   - crimson_hemopiranha
+# - Nether
+#   - Flamefin_Koi
+#   - Obsidifish
+# - Other
+#   - Honeyfin
