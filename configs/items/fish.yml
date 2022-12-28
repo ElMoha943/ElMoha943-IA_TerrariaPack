@@ -1,0 +1,267 @@
+info:
+  namespace: terraria
+items:
+  atlantic_cod:
+    display_name: display-name-atlantic_cod
+    lore:
+    - '&7Common fish found in cold biomes.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/atlantic_cod
+  bass:
+    display_name: display-name-bass
+    lore:
+    - '&7Most common fish found near anywhere.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/bass
+  flounder:
+    display_name: display-name-flounder
+    lore:
+    - 'Common fish found in warm biomes.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/flounder
+  neon_tetra:
+    display_name: display-name-neon_tetra
+    lore:
+    - '&7Common fish found in humid biomes.'
+    - '&3&oIts colorful scales could sell well.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/neon_tetra
+  red_snapper:
+    display_name: display-name-red_snapper
+    lore:
+    - '&7Common fish found in the ocean.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/red_snapper
+  rock_lobster:
+    display_name: display-name-rock_lobster
+    lore:
+    - '&7Common fish found in the ocean.'
+    - '&3&oBut it wasnt a rock!'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/rock_lobster
+  shrimp:
+    display_name: display-name-shrimp
+    lore:
+    - '&7Common fish found in the ocean.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/shrimp
+  trout:
+    display_name: display-name-trout
+    lore:
+    - '&7Common fish found in the ocean.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/trout
+  tuna:
+    display_name: display-name-tuna
+    lore:
+    - '&7Common fish found in the ocean.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/tuna
+  armored_cavefish:
+    display_name: display-name-armored_cavefish
+    lore:
+    - '&9Uncommon fish found underground.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/armored_cavefish
+  blue_jellyfish:
+    display_name: display-name-blue_jellyfish
+    lore:
+    - '&9Uncommon fish found in caverns.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/blue_jellyfish
+  crimson_tigerfish:
+    display_name: display-name-crimson_tigerfish
+    lore:
+    - '&9Uncommon fish found in crimson biomes.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/crimson_tigerfish
+  damselfish:
+    display_name: display-name-damselfish
+    lore:
+    - '&9Uncommon fish found at high altitudes.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/damselfish
+  double_cod:
+    display_name: display-name-double_cod
+    lore:
+    - '&9Uncommon fish found in humid biomes.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/double_cod
+  ebonkoi:
+    display_name: display-name-ebonkoi
+    lore:
+    - '&9Uncommon fish found in corrupted biomes.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/ebonkoi
+  frost_minnow:
+    display_name: display-name-frost_minnow
+    lore:
+    - '&9Uncommon fish found in cold biomes.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/frost_minnow
+  green_jellyfish:
+    display_name: display-name-green_jellyfish
+    lore:
+    - '&9Uncommon fish found in caverns.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/green_jellyfish
+  hemopiranha:
+    display_name: display-name-hemopiranha
+    lore:
+    - '&9Uncommon fish found in crimson biomes.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/hemopiranha
+  honeyfin:
+    display_name: display-name-honeyfin
+    lore:
+    - '&9Uncommon fish found while fishing in honey.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/honeyfin
+  pink_jellyfish:
+    display_name: display-name-pink_jellyfish
+    lore:
+    - '&9Uncommon fish found in the ocean.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/pink_jellyfish
+  specular_fish:
+    display_name: display-name-specular_fish
+    lore:
+    - '&9Uncommon fish found underground.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/specular_fish
+  stinkfish:
+    display_name: display-name-stinkfish
+    lore:
+    - '&9Uncommon fish found underground.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/stinkfish
+  variegated_lardfish:
+    display_name: display-name-variegated_lardfish
+    lore:
+    - '&9Uncommon fish found uderground at humid biomes.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/variegated_lardfish
+  flarefin_koi:
+    display_name: display-name-flarefin_koi
+    lore:
+    - '&aRare fish found in the nether.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/flarefin_koi
+  obsidifish:
+    display_name: display-name-obsidifish
+    lore:
+    - '&aRare fish found in the nether.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/obsidifish
+  princess_fish:
+    display_name: display-name-princess_fish
+    lore:
+    - '&aRare fish found in the hallow.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/princess_fish
+  prismite:
+    display_name: display-name-prismite
+    lore:
+    - '&6Very Rare fish found in the hallow.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/prismite
+  chaos_fish:
+    display_name: display-name-chaos_fish
+    lore:
+    - '&cLegendary fish found underground in the hallow.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/chaos_fish
+  golden_carp:
+    display_name: display-name-golden_carp
+    lore:
+    - '&cLegendary fish found underground.'
+    - '&3Quite shiny. This will probably sell well.'
+    resource:
+      material: COD
+      generate: true
+      textures:
+      - item/golden_carp
