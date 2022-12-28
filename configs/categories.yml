@@ -263,6 +263,52 @@ categories:
       - terraria:luminite_chest
       - terraria:luminite_legs
       - terraria:luminite_boots
+  fish:
+    enabled: true 
+    skip_if_already: false
+    icon: terraria:bass
+    name: display-category-fish
+    items:
+      - terraria:atlantic_cod
+      - terraria:bass
+      - terraria:flounder
+      - terraria:neon_tetra
+      - terraria:red_snapper
+      - terraria:rock_lobster
+      - terraria:shrimp
+      - terraria:trout
+      - terraria:tuna
+      - terraria:armored_cavefish
+      - terraria:blue_jellyfish
+      - terraria:crimson_tigerfish
+      - terraria:damselfish
+      - terraria:double_cod
+      - terraria:ebonkoi
+      - terraria:frost_minnow
+      - terraria:green_jellyfish
+      - terraria:hemopiranha
+      - terraria:honeyfin
+      - terraria:pink_jellyfish
+      - terraria:specular_fish
+      - terraria:stinkfish
+      - terraria:variegated_lardfish
+      - terraria:flarefin_koi
+      - terraria:obsidifish
+      - terraria:princess_fish
+      - terraria:prismite
+      - terraria:chaos_fish
+      - terraria:golden_carp
+  food:
+    enabled: true 
+    skip_if_already: false
+    icon: terraria:seafood_dinner
+    name: display-category-food
+    items:
+      - terraria:cooked_fish
+      - terraria:cooked_shrimp
+      - terraria:seafood_dinner
+      - terraria:lobster_tail
+      - terraria:sashimi
   other:
     enabled: true 
     skip_if_already: false
