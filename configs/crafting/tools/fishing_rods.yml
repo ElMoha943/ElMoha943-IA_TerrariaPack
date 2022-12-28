@@ -1,0 +1,30 @@
+info:
+  namespace: terraria
+recipes:
+  crafting_table:
+    reinforced_fishing_pole:
+      permission: terraria.reinforced_fishing_pole
+      enabled: true
+      pattern:
+      - BBB
+      - BAB
+      - BBB
+      ingredients:
+        A: FISHING_ROD
+        B: IRON_INGOT
+      result: 
+        item: terraria:reinforced_fishing_pole
+        amount: 1
+    fisher_of_souls:
+      permission: terraria.fisher_of_souls
+      enabled: true
+      pattern:
+      - BBB
+      - BAB
+      - BBB
+      ingredients:
+        A: terraria:reinforced_fishing_pole
+        B: terraria:demonite_bar
+      result: 
+        item: terraria:fisher_of_souls
+        amount: 1
