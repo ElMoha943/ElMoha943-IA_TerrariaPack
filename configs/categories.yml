@@ -266,7 +266,7 @@ categories:
   fishing:
     enabled: true 
     skip_if_already: false
-    icon: terraria:bass
+    icon: terraria:golden_fishing_rod
     name: display-category-fishing
     items:
       - terraria:reinforced_fishing_pole
@@ -282,7 +282,7 @@ categories:
   fish:
     enabled: true 
     skip_if_already: false
-    icon: terraria:golden_fishing_rod
+    icon: terraria:bass
     name: display-category-fish
     items:
       - terraria:atlantic_cod
