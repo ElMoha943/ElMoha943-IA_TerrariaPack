@@ -263,6 +263,22 @@ categories:
       - terraria:luminite_chest
       - terraria:luminite_legs
       - terraria:luminite_boots
+  fishing:
+    enabled: true 
+    skip_if_already: false
+    icon: terraria:bass
+    name: display-category-fishing
+    items:
+      - terraria:reinforced_fishing_pole
+      - terraria:fisher_of_souls
+      - terraria:fleshcatcher
+      - terraria:scarab_fishing_rod
+      - terraria:chum_caster
+      - terraria:fiberglass_fishing_pole
+      - terraria:mechanical_s_fishing_rod
+      - terraria:sitting_ducks_fishing_pole
+      - terraria:hotline_fishing_hook
+      - terraria:golden_fishing_rod
   fish:
     enabled: true 
     skip_if_already: false
