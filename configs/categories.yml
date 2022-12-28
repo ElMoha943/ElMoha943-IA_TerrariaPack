@@ -282,7 +282,7 @@ categories:
   fish:
     enabled: true 
     skip_if_already: false
-    icon: terraria:bass
+    icon: terraria:golden_fishing_rod
     name: display-category-fish
     items:
       - terraria:atlantic_cod
