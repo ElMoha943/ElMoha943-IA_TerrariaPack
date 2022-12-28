@@ -1,0 +1,329 @@
+info:
+  namespace: terraria
+recipes:
+  cooking:
+  #COOKED FISH
+    cooked_fish0:
+      permission: terraria.cooked_fish
+      ingredient:
+        item: terraria:atlantic_cod
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:cooked_fish
+        amount: 1
+    cooked_fish1:
+      permission: terraria.cooked_fish
+      ingredient:
+        item: terraria:bass
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:cooked_fish
+        amount: 1
+    cooked_fish2:
+      permission: terraria.cooked_fish
+      ingredient:
+        item: terraria:trout
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:cooked_fish
+        amount: 1
+  #COOKED SHRIMP
+    cooked_shrimp:
+      permission: terraria.cooked_shrimp
+      ingredient:
+        item: terraria:shrimp
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:cooked_shrimp
+        amount: 1
+  #LOBSTER TAIL
+    lobster_tail:
+      permission: terraria.lobster_tail
+      ingredient:
+        item: terraria:rock_lobster
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:lobster_tail
+        amount: 1
+  #SEAFOOD DINNER
+    seafood_dinner0:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:armored_cavefish
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner1:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:chaos_fish
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner2:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:crimson_tigerfish
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner3:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:damselfish
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner4:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:double_cod
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner5:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:ebonkoi
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner6:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:flarefin_koi
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner7:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:frost_minnow
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner8:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:hemopiranha
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner9:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:honeyfin
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner10:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:neon_tetra
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner11:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:obsidifish
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner12:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:princess_fish
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner13:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:prismite
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner14:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:specular_fish
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner15:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:stinkfish
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+    seafood_dinner16:
+      permission: terraria.seafood_dinner
+      ingredient:
+        item: terraria:variegated_lardfish
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:seafood_dinner
+        amount: 1
+  # SASHIMI
+    sashimi0:
+      permission: terraria.sashimi
+      ingredient:
+        item: terraria:flounder
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:sashimi
+        amount: 1
+    sashimi1:
+      permission: terraria.sashimi
+      ingredient:
+        item: terraria:red_snapper
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:sashimi
+        amount: 1
+    sashimi2:
+      permission: terraria.sashimi
+      ingredient:
+        item: terraria:tuna
+        amount: 1
+      machines:
+      - FURNACE
+      - SMOKER
+      exp: 1
+      cook_time: 200
+      result:
+        item: terraria:sashimi
+        amount: 1
