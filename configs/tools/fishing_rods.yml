@@ -1,0 +1,95 @@
+info:
+  namespace: terraria
+items:
+  reinforced_fishing_pole:
+    display_name: display-name-reinforced_fishing_pole
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/reinforced_fishing_pole
+    durability:
+      max_custom_durability: 128
+  fisher_of_souls:
+    display_name: display-name-fisher_of_souls
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/fisher_of_souls
+    durability:
+      max_custom_durability: 256
+  fleshcatcher:
+    display_name: display-name-fleshcatcher
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/fleshcatcher
+    durability:
+      max_custom_durability: 256
+  scarab_fishing_rod:
+    display_name: display-name-scarab_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/scarab_fishing_rod
+    durability:
+      max_custom_durability: 360
+  chum_caster:
+    display_name: display-name-chum_caster
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/chum_caster
+    durability:
+      max_custom_durability: 400
+  fiberglass_fishing_pole:
+    display_name: display-name-fiberglass_fishing_pole
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/fiberglass_fishing_pole
+    durability:
+      max_custom_durability: 512
+  mechanical_fishing_rod:
+    display_name: display-name-mechanical_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/mechanical_fishing_rod
+    durability:
+      max_custom_durability: 580
+  sitting_ducks_fishing_pole:
+    display_name: display-name-sitting_ducks_fishing_pole
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/sitting_ducks_fishing_pole
+    durability:
+      max_custom_durability: 600
+  hotline_fishing_hook:
+    display_name: display-name-hotline_fishing_hook
+    lore:
+    - '&cCan fish in Lava'
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/hotline_fishing_hook
+    durability:
+      max_custom_durability: 700
+  golden_fishing_rod:
+    display_name: display-name-golden_fishing_rod
+    resource:
+      material: FISHING_ROD
+      generate: true
+      textures:
+      - item/golden_fishing_rod
+    durability:
+      max_custom_durability: 800

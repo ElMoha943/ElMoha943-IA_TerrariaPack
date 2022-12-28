@@ -269,3 +269,15 @@ dictionary:
 # Other
   display-category-others: "&eOthers"
   display-name-music_disc_frost_moon: "&bMusic Disk"
+# Fishing
+  display-category-fishing: "&eFishing"
+  display-name-reinforced_fishing_rod: "&eReinforced Fishing Rod"
+  display-name-fisher_of_souls: "&eFisher of Souls"
+  display-name-fleshcatcher: "&eFleshcatcher"
+  display-name-scarab_fishing_rod: "&eScarab Fishing Rod"
+  display-name-chum_caster: "&eChum Caster"
+  display-name-fiberglass_fishing_pole: "&eFiberglass Fishing Pole"
+  display-name-mechanical_fishing_rod: "&eMechanicals Fishing Rod"
+  display-name-sitting_ducks_fishing_pole: "&eSitting Duck's Fishing Pole"
+  display-name-hotline_fishing_hook: "&eHotline Fishing Hook"
+  display-name-golden_fishing_rod: "&eGolden Fishing Rod"

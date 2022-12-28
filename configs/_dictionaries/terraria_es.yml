@@ -269,5 +269,16 @@ dictionary:
 # Other
   display-category-others: "&eOtros"
   display-name-music_disc_frost_moon: "&bDisco de Musica"
-
+# Pesca
+  display-category-fishing: "&ePesca"
+  display-name-reinforced_fishing_rod: "&eCaña de Pescar Reforzada"
+  display-name-fisher_of_souls: "&ePescador de Almas"
+  display-name-fleshcatcher: "&eCazador de Carne"
+  display-name-scarab_fishing_rod: "&eCaña de Pescar Scarab"
+  display-name-chum_caster: "&eChum Caster"
+  display-name-fiberglass_fishing_pole: "&eCaña de Pescar de Fibra de Vidrio"
+  display-name-mechanical_fishing_rod: "&eCaña de Pescar Mecanica"
+  display-name-sitting_ducks_fishing_pole: "&eCaña de Pescar de Pato Sentado"
+  display-name-hotline_fishing_hook: "&eGancho de Pesca de Linea Caliente"
+  display-name-golden_fishing_rod: "&eCaña de Pescar de Oro"
 
