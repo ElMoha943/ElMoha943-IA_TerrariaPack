@@ -2,7 +2,7 @@ info:
   namespace: terraria
   dictionary-lang: "fr"
 dictionary:
-  # Blocks
+# Blocks
   display-category-blocks: "Blocs"
   display-name-tin_ore: "&7Minerai d'étain"
   display-name-lead_ore: "&7Minerai de plomb"
@@ -27,7 +27,7 @@ dictionary:
   display-name-chlorophyte_ore: "&6Minerai de chlorophyte"
   display-name-chlorophyte_ore_deepslate: "&6Minerai de chlorophyte des abîmes"
   display-name-luminite_ore: "&6Minerai de luminite"
-  # Ingots
+# Ingots
   display-category-ingots: "Lingots"
   display-name-tin_bar: "&7Lingot d'étain"
   display-name-lead_bar: "&7Lingot de plomb"
@@ -45,7 +45,7 @@ dictionary:
   display-name-titanium_bar: "&aLingot de titane"
   display-name-chlorophyte_bar: "&6Lingot de chlorophyte"
   display-name-luminite_bar: "&6Lingot de Luminite"
-  # Swords
+# Swords
   display-category-swords: "Épées"
   display-name-copper_sword: "&7Épée en cuivre"
   display-name-tin_sword: "&7Épée en étain"
@@ -64,7 +64,7 @@ dictionary:
   display-name-titanium_sword: "&aÉpée en titane"
   display-name-chlorophyte_sword: "&6Épée en chlorophyte"
   display-name-luminite_sword: "&6Épée en luminite"
-  # PickAxes
+# PickAxes
   display-category-pickaxes: "Pioches"
   display-name-copper_pickaxe: "&7Pioche en cuivre"
   display-name-tin_pickaxe: "&7Pioche en étain"
@@ -83,7 +83,7 @@ dictionary:
   display-name-titanium_pickaxe: "&aPioche en titane"
   display-name-chlorophyte_pickaxe: "&6Pioche en chlorophyte"
   display-name-luminite_pickaxe: "&6Pioche en luminite"
-  # Axes
+# Axes
   display-category-axes: "Haches"
   display-name-copper_axe: "&7Hache en Cuivre"
   display-name-tin_axe: "&7Hache en étain"
@@ -102,7 +102,7 @@ dictionary:
   display-name-titanium_axe: "&aHache en titane"
   display-name-chlorophyte_axe: "&6Hache en chlorophyte"
   display-name-luminite_axe: "&6Hache en luminite"
-  # Shovel
+# Shovel
   display-category-shovels: "Pelles"
   display-name-copper_shovel: "&7Pelle en cuivre"
   display-name-tin_shovel: "&7Pelle en étain"
@@ -121,7 +121,26 @@ dictionary:
   display-name-titanium_shovel: "&aPelle en titane"
   display-name-chlorophyte_shovel: "&6Pelle en chlorophyte"
   display-name-luminite_shovel: "&6Pelle en luminite"
-  # Armor
+# Hoe
+  display-category-hoes:  "&eHoes"
+  display-name-copper_hoe: "&7Copper Hoe"
+  display-name-tin_hoe: "&7Tin Hoe"
+  display-name-lead_hoe: "&7Lead Hoe"
+  display-name-silver_hoe: "&7Silver Hoe"
+  display-name-tungsten_hoe: "&9Tungsten Hoe"
+  display-name-platinum_hoe: "&9Platinum Hoe"
+  display-name-demonite_hoe: "&5Demonite Hoe"
+  display-name-meteorite_hoe: "&5Meteorite Hoe"
+  display-name-hellstone_hoe: "&cHellstone Hoe"
+  display-name-cobalt_hoe: "&aCobalt Hoe"
+  display-name-palladium_hoe: "&aPalladium Hoe"
+  display-name-orichalcum_hoe: "&aOrichalcum Hoe"
+  display-name-mythril_hoe: "&aMythril Hoe"
+  display-name-adamantite_hoe: "&aAdamantite Hoe"
+  display-name-titanium_hoe: "&aTitanium Hoe"
+  display-name-chlorophyte_hoe: "&6Chlorophyte Hoe"
+  display-name-luminite_hoe: "&6Luminite Hoe"
+# Armor
   display-category-armor: "Armures"
   display-name-copper_helmet: "&7Casque en cuivre"
   display-name-copper_chest: "&7Plastron en cuivre"
@@ -191,7 +210,7 @@ dictionary:
   display-name-luminite_chest: "&6Plastron en luminite"
   display-name-luminite_legs: "&6Jambières en luminite"
   display-name-luminite_boots: "&6Bottes en luminite"
-  #Raw Materials
+# Raw Materials
   display-category-raws: "Matières Brutes"
   display-name-raw_tin: "&7Étain brut"
   display-name-raw_lead: "&7Plomb brut"
@@ -209,3 +228,43 @@ dictionary:
   display-name-raw_titanium: "&aTitane brut"
   display-name-raw_chlorophyte: "&6Chlorophyte brut"
   display-name-raw_luminite: "&6Luminite brute"
+# Fish
+  display-category-fish: "&eFish"
+  display-name-atlantic_cod: "&eAtlantic Cod"
+  display-name-bass: "&eBass"
+  display-name-flounder: "&eFlounder"
+  display-name-neon_tetrac: "&eNeon Tetra"
+  display-name-red_snapper: "&eRed Snapper"
+  display-name-rock_lobster: "&eRock Lobster"
+  display-name-shrimp: "&eShrimp"
+  display-name-trout: "&eTrout"
+  display-name-tuna: "&eTuna"
+  display-name-armored_cavefish: "&eArmored Cavefish"
+  display-name-blue_jellyfish: "&eBlue Jellyfish"
+  display-name-crimson_tigerfish: "&eCrimson Tigerfish"
+  display-name-damselfish: "&eDamselfish"
+  display-name-double_cod: "&eDouble Cod"
+  display-name-frost_minnow: "&eFrost Minnow"
+  display-name-green_jellyfish: "&eGreen Jellyfish"
+  display-name-hemopiranha: "&eHemopiranha"
+  display-name-honeyfin: "&eHoneyfin"
+  display-name-pink_jellyfish: "&ePink Jellyfish"
+  display-name-specular_fish: "&eSpecular Fish"
+  display-name-stinkfish: "&eStinkfish"
+  display-name-variegated_lardfish: "&eVariegated Lardfish"
+  display-name-flarefin_koi: "&eFlarefin Koi"
+  display-name-obsidifish: "&eObsidifish"
+  display-name-princess_fish: "&ePrincess Fish"
+  display-name-prismite: "&ePrismite"
+  display-name-chaos_fish: "&eChaos Fish"
+  display-name-golden_carp: "&eGolden Carp"
+# Food
+  display-category-food: "&eFood"
+  display-name-cooked_fish: "&eCooked Fish"
+  display-name-cooked_shrimp: "&eCooked Shrimp"
+  display-name-seafood_dinner: "&eSeafood Dinner"
+  display-name-lobster_tail: "&eLobster Tail"
+  display-name-sashimi: "&eSashimi"
+# Other
+  display-category-others: "&eOthers"
+  display-name-music_disc_frost_moon: "&bMusic Disk"

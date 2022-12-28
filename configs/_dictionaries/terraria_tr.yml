@@ -2,7 +2,7 @@ info:
   namespace: terraria
   dictionary-lang: "tr"
 dictionary:
-  # Blocks
+# Blocks
   display-category-blocks: "&eBloklar"
   display-name-tin_ore: "&7Kalay Cevheri"
   display-name-lead_ore: "&7Kurşun Cevheri"
@@ -27,7 +27,7 @@ dictionary:
   display-name-chlorophyte_ore: "&6Klorofit Cevheri"
   display-name-chlorophyte_ore_deepslate: "&6Derin Kayrak Klorofit Cevheri"
   display-name-luminite_ore: "&6Luminit Cevheri"
-  # Ingots
+# Ingots
   display-category-ingots: "&eKülçeler"
   display-name-tin_bar: "&7Kalay Külçesi"
   display-name-lead_bar: "&7Kurşun Külçesi"
@@ -45,7 +45,7 @@ dictionary:
   display-name-titanium_bar: "&aTitanyum Külçesi"
   display-name-chlorophyte_bar: "&6Klorofit Külçesi"
   display-name-luminite_bar: "&6Luminit Külçesi"
-  # Swords
+# Swords
   display-category-swords: "&eKılıçlar"
   display-name-copper_sword: "&7Bakır Kılıç"
   display-name-tin_sword: "&7Kalay Kılıç"
@@ -64,7 +64,7 @@ dictionary:
   display-name-titanium_sword: "&aMitril Kılıç"
   display-name-chlorophyte_sword: "&6Klorofit Kılıç"
   display-name-luminite_sword: "&6Luminit Kılıç"
-  # PickAxes
+# PickAxes
   display-category-pickaxes: "&eKazmalar"
   display-name-copper_pickaxe: "&7Bakır Kazma"
   display-name-tin_pickaxe: "&7Kalay Kazma"
@@ -83,7 +83,7 @@ dictionary:
   display-name-titanium_pickaxe: "&aTitanyum Kazma"
   display-name-chlorophyte_pickaxe: "&6Klorofit Kazma"
   display-name-luminite_pickaxe: "&6Luminit Kazma"
-  # Axes
+# Axes
   display-category-axes: "&eBaltalar"
   display-name-copper_axe: "&7Bakır Balta"
   display-name-tin_axe: "&7Kalay Balta"
@@ -102,7 +102,7 @@ dictionary:
   display-name-titanium_axe: "&aTitanyum Balta"
   display-name-chlorophyte_axe: "&6Klorofit Balta"
   display-name-luminite_axe: "&6Luminit Balta"
-  # Shovel
+# Shovel
   display-category-shovels: "&eKürekler"
   display-name-copper_shovel: "&7Bakır Kürek"
   display-name-tin_shovel: "&7Kalay Kürek"
@@ -121,7 +121,26 @@ dictionary:
   display-name-titanium_shovel: "&aTitanyum Kürek"
   display-name-chlorophyte_shovel: "&6Klorofit Kürek"
   display-name-luminite_shovel: "&6Luminit Kürek"
-  # Armor
+# Hoe
+  display-category-hoes:  "&eHoes"
+  display-name-copper_hoe: "&7Copper Hoe"
+  display-name-tin_hoe: "&7Tin Hoe"
+  display-name-lead_hoe: "&7Lead Hoe"
+  display-name-silver_hoe: "&7Silver Hoe"
+  display-name-tungsten_hoe: "&9Tungsten Hoe"
+  display-name-platinum_hoe: "&9Platinum Hoe"
+  display-name-demonite_hoe: "&5Demonite Hoe"
+  display-name-meteorite_hoe: "&5Meteorite Hoe"
+  display-name-hellstone_hoe: "&cHellstone Hoe"
+  display-name-cobalt_hoe: "&aCobalt Hoe"
+  display-name-palladium_hoe: "&aPalladium Hoe"
+  display-name-orichalcum_hoe: "&aOrichalcum Hoe"
+  display-name-mythril_hoe: "&aMythril Hoe"
+  display-name-adamantite_hoe: "&aAdamantite Hoe"
+  display-name-titanium_hoe: "&aTitanium Hoe"
+  display-name-chlorophyte_hoe: "&6Chlorophyte Hoe"
+  display-name-luminite_hoe: "&6Luminite Hoe"
+# Armor
   display-category-armor: "&eZırhlar"
   display-name-copper_helmet: "&7Bakır Kask"
   display-name-copper_chest: "&7Bakır Göğüslük"
@@ -191,7 +210,7 @@ dictionary:
   display-name-luminite_chest: "&6Luminit Göğüslük"
   display-name-luminite_legs: "&6Luminit Pantolon"
   display-name-luminite_boots: "&6Luminit Ayakkabı"
-#Raw Materials
+# Raw Materials
   display-category-raws: "&eHammaddeler"
   display-name-raw_tin: "&7Ham Kalay"
   display-name-raw_lead: "&7Ham Kurşun"
@@ -209,3 +228,43 @@ dictionary:
   display-name-raw_titanium: "&aHam Titanyum"
   display-name-raw_chlorophyte: "&6Ham Klorofit"
   display-name-raw_luminite: "&6Ham Luminit"
+# Fish
+  display-category-fish: "&eFish"
+  display-name-atlantic_cod: "&eAtlantic Cod"
+  display-name-bass: "&eBass"
+  display-name-flounder: "&eFlounder"
+  display-name-neon_tetrac: "&eNeon Tetra"
+  display-name-red_snapper: "&eRed Snapper"
+  display-name-rock_lobster: "&eRock Lobster"
+  display-name-shrimp: "&eShrimp"
+  display-name-trout: "&eTrout"
+  display-name-tuna: "&eTuna"
+  display-name-armored_cavefish: "&eArmored Cavefish"
+  display-name-blue_jellyfish: "&eBlue Jellyfish"
+  display-name-crimson_tigerfish: "&eCrimson Tigerfish"
+  display-name-damselfish: "&eDamselfish"
+  display-name-double_cod: "&eDouble Cod"
+  display-name-frost_minnow: "&eFrost Minnow"
+  display-name-green_jellyfish: "&eGreen Jellyfish"
+  display-name-hemopiranha: "&eHemopiranha"
+  display-name-honeyfin: "&eHoneyfin"
+  display-name-pink_jellyfish: "&ePink Jellyfish"
+  display-name-specular_fish: "&eSpecular Fish"
+  display-name-stinkfish: "&eStinkfish"
+  display-name-variegated_lardfish: "&eVariegated Lardfish"
+  display-name-flarefin_koi: "&eFlarefin Koi"
+  display-name-obsidifish: "&eObsidifish"
+  display-name-princess_fish: "&ePrincess Fish"
+  display-name-prismite: "&ePrismite"
+  display-name-chaos_fish: "&eChaos Fish"
+  display-name-golden_carp: "&eGolden Carp"
+# Food
+  display-category-food: "&eFood"
+  display-name-cooked_fish: "&eCooked Fish"
+  display-name-cooked_shrimp: "&eCooked Shrimp"
+  display-name-seafood_dinner: "&eSeafood Dinner"
+  display-name-lobster_tail: "&eLobster Tail"
+  display-name-sashimi: "&eSashimi"
+# Other
+  display-category-others: "&eOthers"
+  display-name-music_disc_frost_moon: "&bMusic Disk"

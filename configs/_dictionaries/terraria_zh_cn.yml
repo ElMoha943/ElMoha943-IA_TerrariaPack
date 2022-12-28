@@ -2,7 +2,7 @@ info:
   namespace: terraria
   dictionary-lang: "zh_cn"
 dictionary:
-  # Blocks
+# Blocks
   display-category-blocks: "&e矿石原矿"
   display-name-tin_ore: "&7锡矿石"
   display-name-lead_ore: "&7铅矿石"
@@ -27,7 +27,7 @@ dictionary:
   display-name-chlorophyte_ore: "&6叶绿矿石"
   display-name-chlorophyte_ore_deepslate: "&6深层叶绿矿石"
   display-name-luminite_ore: "&6夜明矿石"
-  # Ingots
+# Ingots
   display-category-ingots: "&e矿物"
   display-name-tin_bar: "&7锡锭"
   display-name-lead_bar: "&7铅锭"
@@ -45,7 +45,7 @@ dictionary:
   display-name-titanium_bar: "&a钛锭"
   display-name-chlorophyte_bar: "&6叶绿锭"
   display-name-luminite_bar: "&6夜明锭"
-  # Swords
+# Swords
   display-category-swords: "&e武器"
   display-name-copper_sword: "&7铜剑"
   display-name-tin_sword: "&7锡剑"
@@ -64,7 +64,7 @@ dictionary:
   display-name-titanium_sword: "&a钛剑"
   display-name-chlorophyte_sword: "&6叶绿剑"
   display-name-luminite_sword: "&6夜明剑"
-  # PickAxes
+# PickAxes
   display-category-pickaxes: "&e稿子"
   display-name-copper_pickaxe: "&7铜稿"
   display-name-tin_pickaxe: "&7锡稿"
@@ -83,7 +83,7 @@ dictionary:
   display-name-titanium_pickaxe: "&a钛稿"
   display-name-chlorophyte_pickaxe: "&6叶绿稿"
   display-name-luminite_pickaxe: "&6夜明稿"
-  # Axes
+# Axes
   display-category-axes: "&e斧头"
   display-name-copper_axe: "&7铜斧"
   display-name-tin_axe: "&7锡斧"
@@ -121,7 +121,26 @@ dictionary:
   display-name-titanium_shovel: "&a钛铲"
   display-name-chlorophyte_shovel: "&6叶绿铲"
   display-name-luminite_shovel: "&6夜明铲"
-  # Armor
+# Hoe
+  display-category-hoes:  "&eHoes"
+  display-name-copper_hoe: "&7Copper Hoe"
+  display-name-tin_hoe: "&7Tin Hoe"
+  display-name-lead_hoe: "&7Lead Hoe"
+  display-name-silver_hoe: "&7Silver Hoe"
+  display-name-tungsten_hoe: "&9Tungsten Hoe"
+  display-name-platinum_hoe: "&9Platinum Hoe"
+  display-name-demonite_hoe: "&5Demonite Hoe"
+  display-name-meteorite_hoe: "&5Meteorite Hoe"
+  display-name-hellstone_hoe: "&cHellstone Hoe"
+  display-name-cobalt_hoe: "&aCobalt Hoe"
+  display-name-palladium_hoe: "&aPalladium Hoe"
+  display-name-orichalcum_hoe: "&aOrichalcum Hoe"
+  display-name-mythril_hoe: "&aMythril Hoe"
+  display-name-adamantite_hoe: "&aAdamantite Hoe"
+  display-name-titanium_hoe: "&aTitanium Hoe"
+  display-name-chlorophyte_hoe: "&6Chlorophyte Hoe"
+  display-name-luminite_hoe: "&6Luminite Hoe"
+# Armor
   display-category-armor: "&e盔甲"
   display-name-copper_helmet: "&7铜头盔"
   display-name-copper_chest: "&7铜胸甲"
@@ -209,3 +228,43 @@ dictionary:
   display-name-raw_titanium: "&aRaw 粗钛矿"
   display-name-raw_chlorophyte: "&6粗叶绿矿"
   display-name-raw_luminite: "&6粗夜明矿"
+# Fish
+  display-category-fish: "&eFish"
+  display-name-atlantic_cod: "&eAtlantic Cod"
+  display-name-bass: "&eBass"
+  display-name-flounder: "&eFlounder"
+  display-name-neon_tetrac: "&eNeon Tetra"
+  display-name-red_snapper: "&eRed Snapper"
+  display-name-rock_lobster: "&eRock Lobster"
+  display-name-shrimp: "&eShrimp"
+  display-name-trout: "&eTrout"
+  display-name-tuna: "&eTuna"
+  display-name-armored_cavefish: "&eArmored Cavefish"
+  display-name-blue_jellyfish: "&eBlue Jellyfish"
+  display-name-crimson_tigerfish: "&eCrimson Tigerfish"
+  display-name-damselfish: "&eDamselfish"
+  display-name-double_cod: "&eDouble Cod"
+  display-name-frost_minnow: "&eFrost Minnow"
+  display-name-green_jellyfish: "&eGreen Jellyfish"
+  display-name-hemopiranha: "&eHemopiranha"
+  display-name-honeyfin: "&eHoneyfin"
+  display-name-pink_jellyfish: "&ePink Jellyfish"
+  display-name-specular_fish: "&eSpecular Fish"
+  display-name-stinkfish: "&eStinkfish"
+  display-name-variegated_lardfish: "&eVariegated Lardfish"
+  display-name-flarefin_koi: "&eFlarefin Koi"
+  display-name-obsidifish: "&eObsidifish"
+  display-name-princess_fish: "&ePrincess Fish"
+  display-name-prismite: "&ePrismite"
+  display-name-chaos_fish: "&eChaos Fish"
+  display-name-golden_carp: "&eGolden Carp"
+# Food
+  display-category-food: "&eFood"
+  display-name-cooked_fish: "&eCooked Fish"
+  display-name-cooked_shrimp: "&eCooked Shrimp"
+  display-name-seafood_dinner: "&eSeafood Dinner"
+  display-name-lobster_tail: "&eLobster Tail"
+  display-name-sashimi: "&eSashimi"
+# Other
+  display-category-others: "&eOthers"
+  display-name-music_disc_frost_moon: "&bMusic Disk"
