@@ -52,6 +52,13 @@ armors_rendering:
     emissive_1: armor/meteorite_armor_layer1_e
     emissive_2: armor/meteorite_armor_layer2_e
     use_color: false
+  crimson_armor:
+    color: "#d51010"
+    layer_1: armor/crimson_armor_layer1
+    layer_2: armor/crimson_armor_layer2
+    emissive_1: armor/crimson_armor_layer1_e
+    emissive_2: armor/crimson_armor_layer2_e
+    use_color: false
   cobalt_armor:
     color: "#d61001"
     layer_1: armor/cobalt_armor_layer1
@@ -483,6 +490,71 @@ items:
       armor:
         slot: FEET
         custom_armor: platinum_armor
+#crimson
+  crimson_helmet:
+    display_name: display-name-crimson_helmet
+    permission: crimson_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/crimson_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: crimson_armor
+    attribute_modifiers:
+      head:
+        armor: 3
+        armorToughness: 2
+  crimson_chest:
+    display_name: display-name-crimson_chest
+    permission: crimson_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/crimson_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: crimson_armor
+    attribute_modifiers:
+      chest:
+        armor: 8
+        armorToughness: 2
+  crimson_legs:
+    display_name: display-name-crimson_legs
+    permission: crimson_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/crimson_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: crimson_armor
+    attribute_modifiers:
+      legs:
+        armor: 6
+        armorToughness: 2
+  crimson_boots:
+    display_name: display-name-crimson_boots
+    permission: crimson_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/crimson_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: crimson_armor
 #demonite
   demonite_helmet:
     display_name: display-name-demonite_helmet
