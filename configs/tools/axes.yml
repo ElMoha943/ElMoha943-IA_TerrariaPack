@@ -77,6 +77,18 @@ items:
       mainhand:
         attackDamage: 9.75
   #---FACE 2
+  crimson_axe:
+    display_name: display-name-crimson_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/crimson_axe
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 10
   demonite_axe:
     display_name: display-name-demonite_axe
     resource:

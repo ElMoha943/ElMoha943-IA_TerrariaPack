@@ -40,6 +40,13 @@ items:
       textures:
       - item/platinum_bar
 #---FACE 2
+  crimson_bar:
+    display_name: display-name-crimson_bar
+    resource:
+      material: IRON_INGOT
+      generate: true
+      textures:
+      - item/crimson_bar
   demonite_bar:
     display_name: display-name-demonite_bar
     resource:
@@ -160,6 +167,13 @@ items:
       textures:
       - item/raw_platinum
   #---FACE 2
+  raw_crimson:
+    display_name: display-name-raw_crimson
+    resource:
+      material: PAPER
+      generate: true
+      textures:
+      - item/raw_crimson
   raw_demonite:
     display_name: display-name-raw_demonite
     resource:
@@ -240,191 +254,3 @@ items:
       generate: true
       textures:
       - item/raw_luminite
-recipes:
-  cooking:
-    tin_bar:
-      permission: terraria.tin_bar
-      ingredient:
-        item: raw_tin
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: tin_bar
-        amount: 1
-    lead_bar:
-      permission: terraria.lead_bar
-      ingredient:
-        item: raw_lead
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: lead_bar
-        amount: 1
-    silver_bar:
-      permission: terraria.silver_bar
-      ingredient:
-        item: raw_silver
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: silver_bar
-        amount: 1
-    tungsten_bar:
-      permission: terraria.tungsten_bar
-      ingredient:
-        item: raw_tungsten
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: tungsten_bar
-        amount: 1
-    platinum_bar:
-      permission: terraria.platinum_bar
-      ingredient:
-        item: raw_platinum
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 1
-      cook_time: 200
-      result:
-        item: platinum_bar
-        amount: 1
-    #---FACE 2
-    demonite_bar:
-      permission: terraria.demonite_bar
-      ingredient:
-        item: raw_demonite
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 3
-      cook_time: 200
-      result:
-        item: demonite_bar
-        amount: 1
-    meteorite_bar:
-      permission: terraria.meteorite_bar
-      ingredient:
-        item: raw_meteorite
-      machines:
-      - FURNACE
-      - BLAST_FURNACE
-      exp: 3
-      cook_time: 200
-      result:
-        item: meteorite_bar
-        amount: 1
-    hellstone_bar:
-      permission: terraria.hellstone_bar
-      ingredient:
-        item: raw_hellstone
-      machines:
-      - BLAST_FURNACE
-      exp: 3
-      cook_time: 200
-      result:
-        item: hellstone_bar
-        amount: 1
-    #---FACE 3
-    cobalt_bar:
-      permission: terraria.cobalt_bar
-      ingredient:
-        item: raw_cobalt
-      machines:
-      - BLAST_FURNACE
-      exp: 5
-      cook_time: 250
-      result:
-        item: cobalt_bar
-        amount: 1
-    palladium_bar:
-      permission: terraria.palladium_bar
-      ingredient:
-        item: raw_palladium
-      machines:
-      - BLAST_FURNACE
-      exp: 5
-      cook_time: 250
-      result:
-        item: palladium_bar
-        amount: 1
-    orichalcum_bar:
-      permission: terraria.orichalcum_bar
-      ingredient:
-        item: raw_orichalcum
-      machines:
-      - BLAST_FURNACE
-      exp: 5
-      cook_time: 250
-      result:
-        item: orichalcum_bar
-        amount: 1
-    mythril_bar:
-      permission: terraria.mythril_bar
-      ingredient:
-        item: raw_mythril
-      machines:
-      - BLAST_FURNACE
-      exp: 5
-      cook_time: 250
-      result:
-        item: mythril_bar
-        amount: 1
-    adamantite_bar:
-      permission: terraria.adamantite_bar
-      ingredient:
-        item: raw_adamantite
-      machines:
-      - BLAST_FURNACE
-      exp: 5
-      cook_time: 250
-      result:
-        item: adamantite_bar
-        amount: 1
-    titanium_bar:
-      permission: terraria.titanium_bar
-      ingredient:
-        item: raw_titanium
-      machines:
-      - BLAST_FURNACE
-      exp: 5
-      cook_time: 250
-      result:
-        item: titanium_bar
-        amount: 1
-    #---FACE 4
-    chlorophyte_bar:
-      permission: terraria.chlorophyte_bar
-      ingredient:
-        item: raw_chlorophyte
-      machines:
-      - BLAST_FURNACE
-      exp: 10
-      cook_time: 300
-      result:
-        item: chlorophyte_bar
-        amount: 1
-    luminite_bar:
-      permission: terraria.luminite_bar
-      ingredient:
-        item: raw_luminite
-      machines:
-      - BLAST_FURNACE
-      exp: 10
-      cook_time: 400
-      result:
-        item: luminite_bar
-        amount: 1

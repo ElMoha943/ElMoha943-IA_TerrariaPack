@@ -58,6 +58,15 @@ items:
     durability:
       max_custom_durability: 1000
   #---FACE 2
+  crimson_hoe:
+    display_name: display-name-crimson_hoe
+    resource:
+      material: DIAMOND_HOE
+      generate: true
+      textures:
+      - item/crimson_hoe
+    durability:
+      max_custom_durability: 2100
   demonite_hoe:
     display_name: display-name-demonite_hoe
     resource:

@@ -77,6 +77,18 @@ items:
         attackDamage: 6.75
   # diamond sword
   #---FACE 2
+  crimson_sword:
+    display_name: display-name-crimson_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/crimson_sword
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.5
   demonite_sword:
     display_name: display-name-demonite_sword
     resource:
