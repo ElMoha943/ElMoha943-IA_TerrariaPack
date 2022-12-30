@@ -28,3 +28,16 @@ recipes:
       result: 
         item: terraria:fisher_of_souls
         amount: 1
+    fleshcatcher:
+      permission: terraria.fleshcatcher
+      enabled: true
+      pattern:
+      - BBB
+      - BAB
+      - BBB
+      ingredients:
+        A: terraria:reinforced_fishing_pole
+        B: terraria:crimson_bar
+      result: 
+        item: terraria:fleshcatcher
+        amount: 1

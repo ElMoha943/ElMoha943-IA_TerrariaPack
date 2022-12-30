@@ -80,6 +80,19 @@ recipes:
       result: 
         item: platinum_sword
         amount: 1
+    crimson_sword:
+      permission: terraria.crimson_sword
+      enabled: true
+      pattern:
+      - XAX
+      - XAX
+      - XBX
+      ingredients:
+        A: crimson_bar
+        B: STICK
+      result: 
+        item: crimson_sword
+        amount: 1
     demonite_sword:
       permission: terraria.demonite_sword
       enabled: true
