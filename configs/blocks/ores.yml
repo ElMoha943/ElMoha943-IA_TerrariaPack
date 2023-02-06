@@ -646,6 +646,19 @@ loots:
           min_amount: 0
           max_amount: 3
           chance: 100
+    crimson_ore:
+      type: crimson_ore
+      items:
+        raw_demonite:
+          item: raw_crimson
+          min_amount: 1
+          max_amount: 2
+          chance: 100
+      exp:
+        exp_1:
+          min_amount: 0
+          max_amount: 3
+          chance: 100
     #---FACE 3
     cobalt_ore:
       type: cobalt_ore

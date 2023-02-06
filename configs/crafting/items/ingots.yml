@@ -63,6 +63,18 @@ recipes:
         item: platinum_bar
         amount: 1
     #---FACE 2
+    crimson_bar:
+      permission: terraria.crimson_bar
+      ingredient:
+        item: raw_crimson
+      machines:
+      - FURNACE
+      - BLAST_FURNACE
+      exp: 3
+      cook_time: 200
+      result:
+        item: crimson_bar
+        amount: 1
     demonite_bar:
       permission: terraria.demonite_bar
       ingredient:
