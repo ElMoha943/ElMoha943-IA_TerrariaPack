@@ -82,6 +82,19 @@ recipes:
         item: platinum_axe
         amount: 1
     #---FACE 2
+    crimson_axe:
+      permission: terraria.crimson_axe
+      enabled: true
+      pattern:
+      - XAA
+      - XBA
+      - XBX
+      ingredients:
+        A: crimson_bar
+        B: STICK
+      result: 
+        item: crimson_axe
+        amount: 1
     demonite_axe:
       permission: terraria.demonite_axe
       enabled: true

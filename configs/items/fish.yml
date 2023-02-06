@@ -4,7 +4,7 @@ items:
   atlantic_cod:
     display_name: display-name-atlantic_cod
     lore:
-    - '&7Common fish found in cold biomes.'
+    - lore-fish-common-ice
     resource:
       material: COD
       generate: true
@@ -13,7 +13,7 @@ items:
   bass:
     display_name: display-name-bass
     lore:
-    - '&7Most common fish found near anywhere.'
+    - lore-fish-common
     resource:
       material: COD
       generate: true
@@ -22,7 +22,7 @@ items:
   flounder:
     display_name: display-name-flounder
     lore:
-    - 'Common fish found in warm biomes.'
+    - lore-fish-common-desert
     resource:
       material: COD
       generate: true
@@ -31,8 +31,8 @@ items:
   neon_tetra:
     display_name: display-name-neon_tetra
     lore:
-    - '&7Common fish found in humid biomes.'
-    - '&3&oIts colorful scales could sell well.'
+    - lore-fish-common-jungle
+    - lore-fish-neon_tetra
     resource:
       material: COD
       generate: true
@@ -41,7 +41,7 @@ items:
   red_snapper:
     display_name: display-name-red_snapper
     lore:
-    - '&7Common fish found in the ocean.'
+    - lore-fish-common-ocean
     resource:
       material: COD
       generate: true
@@ -50,8 +50,8 @@ items:
   rock_lobster:
     display_name: display-name-rock_lobster
     lore:
-    - '&7Common fish found in the ocean.'
-    - '&3&oBut it wasnt a rock!'
+    - lore-fish-common-ocean
+    - lore-fish-rock_lobster
     resource:
       material: COD
       generate: true
@@ -60,7 +60,7 @@ items:
   shrimp:
     display_name: display-name-shrimp
     lore:
-    - '&7Common fish found in the ocean.'
+    - lore-fish-common-ocean
     resource:
       material: COD
       generate: true
@@ -69,7 +69,7 @@ items:
   trout:
     display_name: display-name-trout
     lore:
-    - '&7Common fish found in the ocean.'
+    - lore-fish-common-ocean
     resource:
       material: COD
       generate: true
@@ -78,7 +78,7 @@ items:
   tuna:
     display_name: display-name-tuna
     lore:
-    - '&7Common fish found in the ocean.'
+    - lore-fish-common-ocean
     resource:
       material: COD
       generate: true
@@ -87,7 +87,7 @@ items:
   armored_cavefish:
     display_name: display-name-armored_cavefish
     lore:
-    - '&9Uncommon fish found underground.'
+    - lore-fish-uncommon-underground
     resource:
       material: COD
       generate: true
@@ -96,7 +96,7 @@ items:
   blue_jellyfish:
     display_name: display-name-blue_jellyfish
     lore:
-    - '&9Uncommon fish found in caverns.'
+    - lore-fish-uncommon-cavern
     resource:
       material: COD
       generate: true
@@ -105,7 +105,7 @@ items:
   crimson_tigerfish:
     display_name: display-name-crimson_tigerfish
     lore:
-    - '&9Uncommon fish found in crimson biomes.'
+    - lore-fish-uncommon-crimson
     resource:
       material: COD
       generate: true
@@ -114,7 +114,7 @@ items:
   damselfish:
     display_name: display-name-damselfish
     lore:
-    - '&9Uncommon fish found at high altitudes.'
+    - lore-fish-uncommon-sky
     resource:
       material: COD
       generate: true
@@ -123,7 +123,7 @@ items:
   double_cod:
     display_name: display-name-double_cod
     lore:
-    - '&9Uncommon fish found in humid biomes.'
+    - lore-fish-uncommon-jungle
     resource:
       material: COD
       generate: true
@@ -132,7 +132,7 @@ items:
   ebonkoi:
     display_name: display-name-ebonkoi
     lore:
-    - '&9Uncommon fish found in corrupted biomes.'
+    - lore-fish-uncommon-corruption
     resource:
       material: COD
       generate: true
@@ -141,7 +141,7 @@ items:
   frost_minnow:
     display_name: display-name-frost_minnow
     lore:
-    - '&9Uncommon fish found in cold biomes.'
+    - lore-fish-uncommon-ice
     resource:
       material: COD
       generate: true
@@ -150,7 +150,7 @@ items:
   green_jellyfish:
     display_name: display-name-green_jellyfish
     lore:
-    - '&9Uncommon fish found in caverns.'
+    - lore-fish-uncommon-cavern
     resource:
       material: COD
       generate: true
@@ -159,7 +159,7 @@ items:
   hemopiranha:
     display_name: display-name-hemopiranha
     lore:
-    - '&9Uncommon fish found in crimson biomes.'
+    - lore-fish-uncommon-crimson
     resource:
       material: COD
       generate: true
@@ -168,7 +168,7 @@ items:
   honeyfin:
     display_name: display-name-honeyfin
     lore:
-    - '&9Uncommon fish found while fishing in honey.'
+    - lore-fish-uncommon-honey
     resource:
       material: COD
       generate: true
@@ -177,7 +177,7 @@ items:
   pink_jellyfish:
     display_name: display-name-pink_jellyfish
     lore:
-    - '&9Uncommon fish found in the ocean.'
+    - lore-fish-uncommon-ocean
     resource:
       material: COD
       generate: true
@@ -186,7 +186,7 @@ items:
   specular_fish:
     display_name: display-name-specular_fish
     lore:
-    - '&9Uncommon fish found underground.'
+    - lore-fish-uncommon-underground
     resource:
       material: COD
       generate: true
@@ -195,7 +195,7 @@ items:
   stinkfish:
     display_name: display-name-stinkfish
     lore:
-    - '&9Uncommon fish found underground.'
+    - lore-fish-uncommon-underground
     resource:
       material: COD
       generate: true
@@ -204,7 +204,7 @@ items:
   variegated_lardfish:
     display_name: display-name-variegated_lardfish
     lore:
-    - '&9Uncommon fish found uderground at humid biomes.'
+    - lore-fish-uncommon-jungle_underground
     resource:
       material: COD
       generate: true
@@ -213,7 +213,7 @@ items:
   flarefin_koi:
     display_name: display-name-flarefin_koi
     lore:
-    - '&aRare fish found in the nether.'
+    - lore-fish-rare-hell
     resource:
       material: COD
       generate: true
@@ -222,7 +222,7 @@ items:
   obsidifish:
     display_name: display-name-obsidifish
     lore:
-    - '&aRare fish found in the nether.'
+    - lore-fish-rare-hell
     resource:
       material: COD
       generate: true
@@ -231,7 +231,7 @@ items:
   princess_fish:
     display_name: display-name-princess_fish
     lore:
-    - '&aRare fish found in the hallow.'
+    - lore-fish-rare-hallow
     resource:
       material: COD
       generate: true
@@ -240,7 +240,7 @@ items:
   prismite:
     display_name: display-name-prismite
     lore:
-    - '&6Very Rare fish found in the hallow.'
+    - lore-fish-very_rare-hallow
     resource:
       material: COD
       generate: true
@@ -249,7 +249,7 @@ items:
   chaos_fish:
     display_name: display-name-chaos_fish
     lore:
-    - '&cLegendary fish found underground in the hallow.'
+    - lore-fish-legendary-hallow_underground
     resource:
       material: COD
       generate: true
@@ -258,8 +258,8 @@ items:
   golden_carp:
     display_name: display-name-golden_carp
     lore:
-    - '&cLegendary fish found underground.'
-    - '&3Quite shiny. This will probably sell well.'
+    - lore-fish-legendary_underground
+    - lore-fish-golden_carp
     resource:
       material: COD
       generate: true

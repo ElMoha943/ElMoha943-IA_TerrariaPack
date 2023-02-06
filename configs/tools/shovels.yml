@@ -58,6 +58,15 @@ items:
     durability:
       max_custom_durability: 1000
   #---FACE 2
+  crimson_shovel:
+    display_name: display-name-crimson_shovel
+    resource:
+      material: DIAMOND_SHOVEL
+      generate: true
+      textures:
+      - item/crimson_shovel
+    durability:
+      max_custom_durability: 2100
   demonite_shovel:
     display_name: display-name-demonite_shovel
     resource:

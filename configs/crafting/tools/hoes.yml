@@ -82,6 +82,19 @@ recipes:
         item: platinum_hoe
         amount: 1
     #---FACE 2
+    crimson_hoe:
+      permission: terraria.crimson_hoe
+      enabled: true
+      pattern:
+      - XAA
+      - XBX
+      - XBX
+      ingredients:
+        A: crimson_bar
+        B: STICK
+      result: 
+        item: crimson_hoe
+        amount: 1
     demonite_hoe:
       permission: terraria.demonite_hoe
       enabled: true

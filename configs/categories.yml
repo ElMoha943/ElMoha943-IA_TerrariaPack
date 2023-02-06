@@ -12,6 +12,7 @@ categories:
       - terraria:silver_ore
       - terraria:platinum_ore
       - terraria:tungsten_ore
+      - terraria:crimson_ore
       - terraria:demonite_ore
       - terraria:hellstone_ore
       - terraria:meteorite_ore
@@ -42,6 +43,7 @@ categories:
       - terraria:silver_sword
       - terraria:platinum_sword
       - terraria:tungsten_sword
+      - terraria:crimson_sword
       - terraria:demonite_sword
       - terraria:hellstone_sword
       - terraria:meteorite_sword
@@ -65,6 +67,7 @@ categories:
       - terraria:silver_pickaxe
       - terraria:platinum_pickaxe
       - terraria:tungsten_pickaxe
+      - terraria:crimson_pickaxe
       - terraria:demonite_pickaxe
       - terraria:hellstone_pickaxe
       - terraria:meteorite_pickaxe
@@ -88,6 +91,7 @@ categories:
       - terraria:silver_axe
       - terraria:platinum_axe
       - terraria:tungsten_axe
+      - terraria:crimson_axe
       - terraria:demonite_axe
       - terraria:hellstone_axe
       - terraria:meteorite_axe
@@ -111,6 +115,7 @@ categories:
       - terraria:silver_shovel
       - terraria:platinum_shovel
       - terraria:tungsten_shovel
+      - terraria:crimson_shovel
       - terraria:demonite_shovel
       - terraria:hellstone_shovel
       - terraria:meteorite_shovel
@@ -134,6 +139,7 @@ categories:
       - terraria:silver_hoe
       - terraria:platinum_hoe
       - terraria:tungsten_hoe
+      - terraria:crimson_hoe
       - terraria:demonite_hoe
       - terraria:hellstone_hoe
       - terraria:meteorite_hoe
@@ -156,6 +162,7 @@ categories:
       - terraria:silver_bar
       - terraria:platinum_bar
       - terraria:tungsten_bar
+      - terraria:crimson_bar
       - terraria:demonite_bar
       - terraria:hellstone_bar
       - terraria:meteorite_bar
@@ -178,6 +185,7 @@ categories:
       - terraria:raw_silver
       - terraria:raw_tungsten
       - terraria:raw_platinum
+      - terraria:raw_crimson
       - terraria:raw_demonite
       - terraria:raw_hellstone
       - terraria:raw_meteorite
@@ -219,6 +227,10 @@ categories:
       - terraria:tungsten_chest
       - terraria:tungsten_legs
       - terraria:tungsten_boots
+      - terraria:crimson_helmet
+      - terraria:crimson_chest
+      - terraria:crimson_legs
+      - terraria:crimson_boots
       - terraria:demonite_helmet
       - terraria:demonite_chest
       - terraria:demonite_legs

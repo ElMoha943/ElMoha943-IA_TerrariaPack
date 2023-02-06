@@ -82,6 +82,19 @@ recipes:
         item: platinum_shovel
         amount: 1
     #---FACE 2
+    crimson_shovel:
+      permission: terraria.crimson_shovel
+      enabled: true
+      pattern:
+      - XAX
+      - XBX
+      - XBX
+      ingredients:
+        A: crimson_bar
+        B: STICK
+      result: 
+        item: crimson_shovel
+        amount: 1
     demonite_shovel:
       permission: terraria.demonite_shovel
       enabled: true

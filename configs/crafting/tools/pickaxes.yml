@@ -83,6 +83,19 @@ recipes:
         item: platinum_pickaxe
         amount: 1
     #---FACE 2
+    crimson_pickaxe:
+      permission: terraria.crimson_pickaxe
+      enabled: true
+      pattern:
+      - AAA
+      - XBX
+      - XBX
+      ingredients:
+        A: crimson_bar
+        B: STICK
+      result: 
+        item: crimson_pickaxe
+        amount: 1
     demonite_pickaxe:
       permission: terraria.demonite_pickaxe
       enabled: true

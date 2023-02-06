@@ -76,7 +76,7 @@ items:
   hotline_fishing_hook:
     display_name: display-name-hotline_fishing_hook
     lore:
-    - '&cCan fish in Lava'
+    - lore-can_fish_in_lava
     resource:
       material: FISHING_ROD
       generate: true
