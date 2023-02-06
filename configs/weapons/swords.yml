@@ -13,6 +13,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 5.25
+        attackSpeed: 1.6
   tin_sword:
     display_name: display-name-tin_sword
     resource:
@@ -25,6 +26,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 5.5
+        attackSpeed: 1.6
   lead_sword:
     display_name: display-name-lead_sword
     resource:
@@ -37,6 +39,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 5.75
+        attackSpeed: 1.6
   #iron_sword
   silver_sword:
     display_name: display-name-silver_sword
@@ -50,6 +53,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 6.25
+        attackSpeed: 1.6
   tungsten_sword:
     display_name: display-name-tungsten_sword
     resource:
@@ -62,6 +66,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 6.5
+        attackSpeed: 1.6
   #gold_sword
   platinum_sword:
     display_name: display-name-platinum_sword
@@ -75,6 +80,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 6.75
+        attackSpeed: 1.6
   # diamond sword
   #---FACE 2
   crimson_sword:
@@ -89,6 +95,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 7.5
+        attackSpeed: 1.6
   demonite_sword:
     display_name: display-name-demonite_sword
     resource:
@@ -101,6 +108,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 7.5
+        attackSpeed: 1.6
   meteorite_sword:
     display_name: display-name-meteorite_sword
     resource:
@@ -113,6 +121,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 8
+        attackSpeed: 1.6
   hellstone_sword:
     display_name: display-name-hellstone_sword
     resource:
@@ -125,6 +134,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 8.5
+        attackSpeed: 1.6
   #---FACE 3
   cobalt_sword:
     display_name: display-name-cobalt_sword
@@ -138,6 +148,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 10
+        attackSpeed: 1.7
   palladium_sword:
     display_name: display-name-palladium_sword
     resource:
@@ -150,6 +161,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 10.5
+        attackSpeed: 1.7
   orichalcum_sword:
     display_name: display-name-orichalcum_sword
     resource:
@@ -162,6 +174,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 11
+        attackSpeed: 1.7
   mythril_sword:
     display_name: display-name-mythril_sword
     resource:
@@ -174,6 +187,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 11.5
+        attackSpeed: 1.7
   adamantite_sword:
     display_name: display-name-adamantite_sword
     resource:
@@ -186,6 +200,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 12
+        attackSpeed: 1.7
   titanium_sword:
     display_name: display-name-titanium_sword
     resource:
@@ -198,6 +213,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 12.5
+        attackSpeed: 1.7
   #---FACE 4
   chlorophyte_sword:
     display_name: display-name-chlorophyte_sword
@@ -211,6 +227,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 13
+        attackSpeed: 1.7
   #shroomite_sword
   luminite_sword:
     display_name: display-name-luminite_sword
@@ -224,3 +241,4 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 15
+        attackSpeed: 1.7

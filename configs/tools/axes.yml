@@ -14,6 +14,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 8
+        attackSpeed: 0.8
   tin_axe:
     display_name: display-name-tin_axe
     resource:
@@ -26,6 +27,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 8.5
+        attackSpeed: 0.8
   lead_axe:
     display_name: display-name-lead_axe
     resource:
@@ -38,6 +40,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 8.75
+        attackSpeed: 0.8
   #iron_axe
   silver_axe:
     display_name: display-name-silver_axe
@@ -51,6 +54,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 9.25
+        attackSpeed: 0.9
   #gold_axe
   tungsten_axe:
     display_name: display-name-tungsten_axe
@@ -64,6 +68,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 9.5
+        attackSpeed: 0.9
   platinum_axe:
     display_name: display-name-platinum_axe
     resource:
@@ -76,6 +81,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 9.75
+        attackSpeed: 0.9
   #---FACE 2
   crimson_axe:
     display_name: display-name-crimson_axe
@@ -89,6 +95,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 10
+        attackSpeed: 1
   demonite_axe:
     display_name: display-name-demonite_axe
     resource:
@@ -101,6 +108,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 10
+        attackSpeed: 1
   meteorite_axe:
     display_name: display-name-meteorite_axe
     resource:
@@ -113,6 +121,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 10.5
+        attackSpeed: 1
   hellstone_axe:
     display_name: display-name-hellstone_axe
     resource:
@@ -125,6 +134,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 11
+        attackSpeed: 1
   #---FACE 3
   cobalt_axe:
     display_name: display-name-cobalt_axe
@@ -138,6 +148,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 13
+        attackSpeed: 1
   palladium_axe:
     display_name: display-name-palladium_axe
     resource:
@@ -150,6 +161,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 13.5
+        attackSpeed: 1
   orichalcum_axe:
     display_name: display-name-orichalcum_axe
     resource:
@@ -162,6 +174,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 14
+        attackSpeed: 1
   mythril_axe:
     display_name: display-name-mythril_axe
     resource:
@@ -174,6 +187,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 14.5
+        attackSpeed: 1
   adamantite_axe:
     display_name: display-name-adamantite_axe
     resource:
@@ -186,6 +200,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 15
+        attackSpeed: 1
   titanium_axe:
     display_name: display-name-titanium_axe
     resource:
@@ -196,6 +211,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 15.5
+        attackSpeed: 1
   #---FACE 4
   chlorophyte_axe:
     display_name: display-name-chlorophyte_axe
@@ -209,6 +225,7 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 16
+        attackSpeed: 1
   #shroomite_axe
   luminite_axe:
     display_name: display-name-luminite_axe
@@ -222,3 +239,4 @@ items:
     attribute_modifiers:
       mainhand:
         attackDamage: 18
+        attackSpeed: 1
