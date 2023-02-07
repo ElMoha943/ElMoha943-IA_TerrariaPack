@@ -26,6 +26,8 @@ If applicable, add screenshots to help explain your problem.
 **Software Versions (dont say "lastest"):**
 - Spigot/Paper Version:
 - ItemsAdder Version:
+- Lonelibs Version:
+- ProtocolLibs Version:
 
 **Additional context**
 Add any other context about the problem here.

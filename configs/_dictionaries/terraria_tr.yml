@@ -2,7 +2,7 @@ info:
   namespace: terraria
   dictionary-lang: "tr"
 dictionary:
-# Blocks
+# Bloklar
   display-category-blocks: "&eBloklar"
   display-name-tin_ore: "&7Kalay Cevheri"
   display-name-lead_ore: "&7Kurşun Cevheri"
@@ -27,7 +27,7 @@ dictionary:
   display-name-chlorophyte_ore: "&6Klorofit Cevheri"
   display-name-chlorophyte_ore_deepslate: "&6Derin Kayrak Klorofit Cevheri"
   display-name-luminite_ore: "&6Luminit Cevheri"
-# Ingots
+# Külçeler
   display-category-ingots: "&eKülçeler"
   display-name-tin_bar: "&7Kalay Külçesi"
   display-name-lead_bar: "&7Kurşun Külçesi"
@@ -45,7 +45,7 @@ dictionary:
   display-name-titanium_bar: "&aTitanyum Külçesi"
   display-name-chlorophyte_bar: "&6Klorofit Külçesi"
   display-name-luminite_bar: "&6Luminit Külçesi"
-# Swords
+# Kılıçlar
   display-category-swords: "&eKılıçlar"
   display-name-copper_sword: "&7Bakır Kılıç"
   display-name-tin_sword: "&7Kalay Kılıç"
@@ -64,7 +64,7 @@ dictionary:
   display-name-titanium_sword: "&aMitril Kılıç"
   display-name-chlorophyte_sword: "&6Klorofit Kılıç"
   display-name-luminite_sword: "&6Luminit Kılıç"
-# PickAxes
+# Kazmalar
   display-category-pickaxes: "&eKazmalar"
   display-name-copper_pickaxe: "&7Bakır Kazma"
   display-name-tin_pickaxe: "&7Kalay Kazma"
@@ -83,7 +83,7 @@ dictionary:
   display-name-titanium_pickaxe: "&aTitanyum Kazma"
   display-name-chlorophyte_pickaxe: "&6Klorofit Kazma"
   display-name-luminite_pickaxe: "&6Luminit Kazma"
-# Axes
+# Baltalar
   display-category-axes: "&eBaltalar"
   display-name-copper_axe: "&7Bakır Balta"
   display-name-tin_axe: "&7Kalay Balta"
@@ -102,7 +102,7 @@ dictionary:
   display-name-titanium_axe: "&aTitanyum Balta"
   display-name-chlorophyte_axe: "&6Klorofit Balta"
   display-name-luminite_axe: "&6Luminit Balta"
-# Shovel
+# Kürekler
   display-category-shovels: "&eKürekler"
   display-name-copper_shovel: "&7Bakır Kürek"
   display-name-tin_shovel: "&7Kalay Kürek"
@@ -121,7 +121,7 @@ dictionary:
   display-name-titanium_shovel: "&aTitanyum Kürek"
   display-name-chlorophyte_shovel: "&6Klorofit Kürek"
   display-name-luminite_shovel: "&6Luminit Kürek"
-# Hoe
+# Çapalar
   display-category-hoes:  "&eÇapalar"
   display-name-copper_hoe: "&7Bakır Çapa"
   display-name-tin_hoe: "&7Kalay Çapa"
@@ -140,7 +140,7 @@ dictionary:
   display-name-titanium_hoe: "&aTitanyum Çapa"
   display-name-chlorophyte_hoe: "&6Klorofit Çapa"
   display-name-luminite_hoe: "&6Luminit Çapa"
-# Armor
+# Zırhlar
   display-category-armor: "&eZırhlar"
   display-name-copper_helmet: "&7Bakır Kask"
   display-name-copper_chest: "&7Bakır Göğüslük"
@@ -210,7 +210,7 @@ dictionary:
   display-name-luminite_chest: "&6Luminit Göğüslük"
   display-name-luminite_legs: "&6Luminit Pantolon"
   display-name-luminite_boots: "&6Luminit Ayakkabı"
-# Raw Materials
+# Hammaddeler
   display-category-raws: "&eHammaddeler"
   display-name-raw_tin: "&7Ham Kalay"
   display-name-raw_lead: "&7Ham Kurşun"
@@ -228,7 +228,7 @@ dictionary:
   display-name-raw_titanium: "&aHam Titanyum"
   display-name-raw_chlorophyte: "&6Ham Klorofit"
   display-name-raw_luminite: "&6Ham Luminit"
-# Fish
+# Balıklar
   display-category-fish: "&eBalık"
   display-name-atlantic_cod: "&eAtlantik Balığı"
   display-name-bass: "&eLevrek"
@@ -259,17 +259,17 @@ dictionary:
   display-name-prismite: "&ePrizmit"
   display-name-chaos_fish: "&eKaos Balığı"
   display-name-golden_carp: "&eAltın Sazan"
-# Food
+# Yemekler
   display-category-food: "&eYemek"
   display-name-cooked_fish: "&ePişmiş Balık"
   display-name-cooked_shrimp: "&ePişmiş Karides"
   display-name-seafood_dinner: "&eDeniz Ürünleri Akşam Yemeği"
   display-name-lobster_tail: "&eIstakoz Kuyruğu"
   display-name-sashimi: "&eSashimi"
-# Other
+# Diğer
   display-category-others: "&eDiğerleri"
   display-name-music_disc_frost_moon: "&bMüzik Diski"
-# Fishing
+# Oltalar
   display-category-fishing: "&eOltalar"
   display-name-reinforced_fishing_pole: "&eTakviyeli Olta"
   display-name-fisher_of_souls: "&eRuhların Balıkçısı"
@@ -281,3 +281,28 @@ dictionary:
   display-name-sitting_ducks_fishing_pole: "&eOturan Ördek Oltası"
   display-name-hotline_fishing_hook: "&eYardım Hattı Olta Kancası"
   display-name-golden_fishing_rod: "&eAltın Olta"
+# Açıklama
+  lore-can_fish_in_lava: "&cLavda balık tutabilir"
+  lore-fish-common: "&7Her yerde bulunan en yaygın balık."
+  lore-fish-common-ocean: "&7Okyanusta bulunan yaygın balık."
+  lore-fish-common-jungle: "&7Nemli biyomlarda bulunan yaygın balık."
+  lore-fish-common-desert: "&7Sıcak biyomlarda bulunan yaygın balık."
+  lore-fish-common-ice: "&7Soğuk biyomlarda bulunan yaygın balık."
+  lore-fish-uncommon-ocean: "&9Okyanusta bulunan nadir balık"
+  lore-fish-uncommon-jungle: "&9Nemli biyomlarda bulunan nadir balık."
+  lore-fish-uncommon-ice: "&9Soğuk biyomlarda bulunan nadir balık."
+  lore-fish-uncommon-underground: "&9Yeraltında bulunan nadir balık."
+  lore-fish-uncommon-jungle_underground: "&9Nemli biyomlarda yeraltında bulunan nadir balık."
+  lore-fish-uncommon-cavern: "&9Mağaralarda bulunan nadir balık."
+  lore-fish-uncommon-crimson: "&9Kızıl biyomlarda bulunan nadir balık."
+  lore-fish-uncommon-corruption: "&9Corruption biyomlarında bulunan nadir balık."
+  lore-fish-uncommon-sky: "&9Yüksek rakımlarda bulunan nadir balık."
+  lore-fish-uncommon-honey: "&9Balda balık tutarken bulunan nadir balık."
+  lore-fish-rare-hell: "&aNetherda bulunan nadir balık."
+  lore-fish-rare-hallow: "&aGölette bulunan nadir balık."
+  lore-fish-very_rare-hallow: "&bÇukurda bulunan çok nadir balık."
+  lore-fish-legendary_underground: "&6Efsanevi balık yeraltında bulundu."
+  lore-fish-legendary-hallow_underground: "&6Efsanevi balık çukurda yeraltında bulundu."
+  lore-fish-neon_tetra: "&3&oRenkli pullarıyla iyi fiyata satılabilir."
+  lore-fish-rock_lobster: "&3&oAma o bir kaya değildi!"
+  lore-fish-golden_carp: "&3Oldukça parlak. Bu muhtemelen iyi fiyat eder."

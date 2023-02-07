@@ -19,10 +19,13 @@ This pack is not intended to be used as it is in production servers, most stats 
 
 * 16 NEW ORES
 * SWORDS AND ARMORS
-* PICKAXES, AXES AND SHOVELS
+* PICKAXES, AXES, SHOVELS AND HOES
 * TRANSLATION FILES
 * CRAFTING RECIPES
 * WORLD POPULATORS
+* 29 NEW FISHES
+* 10 FISHING RODS
+* 5 FOODS
 
 ## Planned Features
 
