@@ -2,8 +2,8 @@ info:
   namespace: terraria
   dictionary-lang: "es"
 dictionary:
-# Bloques
-  display-category-blocks: "&eBloques"
+# Ores
+  display-category-ores: "&eMinerales"
   display-name-tin_ore: "&7Mineral de Estaño"
   display-name-lead_ore: "&7Mineral de Plomo"
   display-name-silver_ore: "&7Mineral de Plata"
@@ -318,4 +318,22 @@ dictionary:
   lore-fish-neon_tetra: "&3&oSus escapas coloridas se venderan bien."
   lore-fish-rock_lobster: "&3&oPero no era una roca!"
   lore-fish-golden_carp: "&3Bastante brillante. Probablemente se venda bien."
-
+# Bloques
+  display-category-blocks: "&eBloques"
+  display-name-tin_block: "&7Bloque de Estaño"
+  display-name-lead_block: "&7Bloque de Plomo"
+  display-name-silver_block: "&7Bloque de Plata"
+  display-name-tungsten_block: "&7Bloque de Wolframio"
+  display-name-platinum_block: "&7Bloque de Platino"
+  display-name-meteorite_block: "&7Bloque de Meteorito"
+  display-name-crimson_block: "&7Bloque de Crimson"
+  display-name-demonite_block: "&7Bloque de Demonita"
+  display-name-hellstone_block: "&7Bloque de Piedra Infernal"
+  display-name-cobalt_block: "&7Bloque de Cobalto"
+  display-name-palladium_block: "&7Bloque de Paladio"
+  display-name-mythril_block: "&7Bloque de Mitril"
+  display-name-orichalcum_block: "&7Bloque de Oricalco"
+  display-name-adamantite_block: "&7Bloque de Adamantita"
+  display-name-titanium_block: "&7Bloque de Titanio"
+  display-name-chlorophyte_block: "&7Bloque de Clorofita"
+  display-name-luminite_block: "&7Bloque de Luminita"

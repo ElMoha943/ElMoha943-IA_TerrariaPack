@@ -2,8 +2,8 @@ info:
   namespace: terraria
   dictionary-lang: "en"
 dictionary:
-# Blocks
-  display-category-blocks: "&eBlocks"
+# Ores
+  display-category-ores: "&eOres"
   display-name-tin_ore: "&7Tin Ore"
   display-name-lead_ore: "&7Lead Ore"
   display-name-silver_ore: "&7Silver Ore"
@@ -318,3 +318,21 @@ dictionary:
   lore-fish-neon_tetra: "&3&oIts colorful scales could sell well."
   lore-fish-rock_lobster: "&3&oBut it wasnt a rock!"
   lore-fish-golden_carp: "&3Quite shiny. This will probably sell well."
+# Blocks
+  display-name-tin_block: "&7Tin Block"
+  display-name-lead_block: "&7Lead Block"
+  display-name-silver_block: "&7Silver Block"
+  display-name-tungsten_block: "&7Tungsten Block"
+  display-name-platinum_block: "&7Platinum Block"
+  display-name-meteorite_block: "&7Meteorite Block"
+  display-name-crimson_block: "&7Crimson Block"
+  display-name-demonite_block: "&7Demonite Block"
+  display-name-hellstone_block: "&7Hellstone Block"
+  display-name-cobalt_block: "&7Cobalt Block"
+  display-name-palladium_block: "&7Palladium Block"
+  display-name-mythril_block: "&7Mythril Block"
+  display-name-orichalcum_block: "&7Orichalcum Block"
+  display-name-adamantite_block: "&7Adamantite Block"
+  display-name-titanium_block: "&7Titanium Block"
+  display-name-chlorophyte_block: "&7Chlorophyte Block"
+  display-name-luminite_block: "&7Luminite Block"
