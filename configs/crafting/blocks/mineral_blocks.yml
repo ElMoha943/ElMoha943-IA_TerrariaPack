@@ -1,0 +1,208 @@
+info:
+  namespace: terraria
+recipes:
+  crafting_table:
+    tin_block:
+      permission: terraria.tin_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: tin_bar
+      result: 
+        item: tin_block
+        amount: 1
+    lead_block:
+      permission: terraria.lead_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: lead_bar
+      result: 
+        item: lead_block
+        amount: 1
+    silver_block:
+      permission: terraria.silver_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: silver_bar
+      result: 
+        item: silver_block
+        amount: 1
+    tungsten_block:
+      permission: terraria.tungsten_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: tungsten_bar
+      result: 
+        item: tungsten_block
+        amount: 1
+    platinum_block:
+      permission: terraria.platinum_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: platinum_bar
+      result: 
+        item: platinum_block
+        amount: 1
+    meteorite_block:
+      permission: terraria.meteorite_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: meteorite_bar
+      result: 
+        item: meteorite_block
+        amount: 1
+    crimson_block:
+      permission: terraria.crimson_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: crimson_bar
+      result: 
+        item: crimson_block
+        amount: 1
+    demonite_block:
+      permission: terraria.demonite_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: demonite_bar
+      result: 
+        item: demonite_block
+        amount: 1 
+    hellstone_block:
+      permission: terraria.hellstone_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: hellstone_bar
+      result: 
+        item: hellstone_block
+        amount: 1
+    cobalt_block:
+      permission: terraria.cobalt_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: cobalt_bar
+      result: 
+        item: cobalt_block
+        amount: 1
+    palladium_block:
+      permission: terraria.palladium_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: palladium_bar
+      result: 
+        item: palladium_block
+        amount: 1
+    orichalcum_block:
+      permission: terraria.orichalcum_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: orichalcum_bar
+      result: 
+        item: orichalcum_block
+        amount: 1
+    mythril_block:
+      permission: terraria.mythril_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: mythril_bar
+      result: 
+        item: mythril_block
+        amount: 1
+    adamantite_block:
+      permission: terraria.adamantite_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: adamantite_bar
+      result: 
+        item: adamantite_block
+        amount: 1
+    titanium_block:
+      permission: terraria.titanium_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: titanium_bar
+      result: 
+        item: titanium_block
+        amount: 1
+    chlorophyte_block:
+      permission: terraria.chlorophyte_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: chlorophyte_bar
+      result: 
+        item: chlorophyte_block
+        amount: 1
+    luminite_block:
+      permission: terraria.luminite_block
+      enabled: true
+      pattern:
+      - AAA
+      - AAA
+      - AAA
+      ingredients:
+        A: luminite_bar
+      result: 
+        item: luminite_block
+        amount: 1
