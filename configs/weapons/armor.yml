@@ -1164,3 +1164,149 @@ items:
       feet:
         armor: 3
         armorToughness: 2
+#chlorophyte
+  chlorophyte_helmet:
+    display_name: display-name-chlorophyte_helmet
+    permission: chlorophyte_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/chlorophyte_helmet
+    durability:
+      max_custom_durability: 700
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: chlorophyte_armor
+    attribute_modifiers:
+      head:
+        armor: 9
+        armorToughness: 8
+        knockback_resistance: 0.6
+  chlorophyte_chest:
+    display_name: display-name-chlorophyte_chest
+    permission: chlorophyte_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/chlorophyte_chest
+    durability:
+      max_custom_durability: 900
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: chlorophyte_armor
+    attribute_modifiers:
+      chest:
+        armor: 14
+        armorToughness: 8
+        knockback_resistance: 0.6
+  chlorophyte_legs:
+    display_name: display-name-chlorophyte_legs
+    permission: chlorophyte_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/chlorophyte_legs
+    durability:
+      max_custom_durability: 850
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: chlorophyte_armor
+    attribute_modifiers:
+      legs:
+        armor: 12
+        armorToughness: 8
+        knockback_resistance: 0.6
+  chlorophyte_boots:
+    display_name: display-name-chlorophyte_boots
+    permission: chlorophyte_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/chlorophyte_boots
+    durability:
+      max_custom_durability: 800
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: chlorophyte_armor
+    attribute_modifiers:
+      feet:
+        armor: 9
+        armorToughness: 9  
+        knockback_resistance: 0.6
+#luminite
+  luminite_helmet:
+    display_name: display-name-luminite_helmet
+    permission: luminite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/luminite_helmet
+    durability:
+      max_custom_durability: 800
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: luminite_armor
+    attribute_modifiers:
+      head:
+        armor: 10
+        armorToughness: 9
+        knockback_resistance: 0.7
+  luminite_chest:
+    display_name: display-name-luminite_chest
+    permission: luminite_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/luminite_chest
+    durability:
+      max_custom_durability: 1000
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: luminite_armor
+    attribute_modifiers:
+      chest:
+        armor: 15
+        armorToughness: 9
+        knockback_resistance: 0.7
+  luminite_legs:
+    display_name: display-name-luminite_legs
+    permission: luminite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/luminite_legs
+    durability:
+      max_custom_durability: 950
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: luminite_armor
+    attribute_modifiers:
+      legs:
+        armor: 13
+        armorToughness: 9
+        knockback_resistance: 0.7
+  luminite_boots:
+    display_name: display-name-luminite_boots
+    permission: luminite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/luminite_boots
+    durability:
+      max_custom_durability: 900
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: luminite_armor
+    attribute_modifiers:
+      feet:
+        armor: 10
+        armorToughness: 10 
+        knockback_resistance: 0.7
