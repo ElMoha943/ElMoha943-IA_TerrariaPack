@@ -722,3 +722,99 @@ recipes:
       result: 
         item: titanium_boots
         amount: 1
+    chlorophyte_helmet:
+      permission: terraria.chlorophyte_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: chlorophyte_bar
+      result: 
+        item: chlorophyte_helmet
+        amount: 1
+    chlorophyte_chest:
+      permission: terraria.chlorophyte_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: chlorophyte_bar
+      result: 
+        item: chlorophyte_chest
+        amount: 1
+    chlorophyte_legs:
+      permission: terraria.chlorophyte_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: chlorophyte_bar
+      result: 
+        item: chlorophyte_legs
+        amount: 1
+    chlorophyte_boots:
+      permission: terraria.chlorophyte_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: chlorophyte_bar
+      result: 
+        item: chlorophyte_boots
+        amount: 1
+    luminite_helmet:
+      permission: terraria.luminite_helmet
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - XXX
+      ingredients:
+        A: luminite_bar
+      result: 
+        item: luminite_helmet
+        amount: 1
+    luminite_chest:
+      permission: terraria.luminite_chest
+      enabled: true
+      pattern:
+      - AXA
+      - AAA
+      - AAA
+      ingredients:
+        A: luminite_bar
+      result: 
+        item: luminite_chest
+        amount: 1
+    luminite_legs:
+      permission: terraria.luminite_legs
+      enabled: true
+      pattern:
+      - AAA
+      - AXA
+      - AXA
+      ingredients:
+        A: luminite_bar
+      result: 
+        item: luminite_legs
+        amount: 1
+    luminite_boots:
+      permission: terraria.luminite_boots
+      enabled: true
+      pattern:
+      - XXX
+      - AXA
+      - AXA
+      ingredients:
+        A: luminite_bar
+      result: 
+        item: luminite_boots
+        amount: 1
