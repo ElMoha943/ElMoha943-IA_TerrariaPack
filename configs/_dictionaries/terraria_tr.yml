@@ -3,7 +3,7 @@ info:
   dictionary-lang: "tr"
 dictionary:
 # Bloklar
-  display-category-blocks: "&eBloklar"
+  display-category-ores: "&eCevherler"
   display-name-tin_ore: "&7Kalay Cevheri"
   display-name-lead_ore: "&7Kurşun Cevheri"
   display-name-silver_ore: "&7Gümüş Cevheri"
@@ -307,6 +307,7 @@ dictionary:
   lore-fish-rock_lobster: "&3&oAma o bir kaya değildi!"
   lore-fish-golden_carp: "&3Oldukça parlak. Bu muhtemelen iyi fiyat eder."
 # Bloklar
+  display-category-blocks: "&eBloklar"
   display-name-tin_block: "&7Kalay Blok"
   display-name-lead_block: "&7Kurşun Blok"
   display-name-silver_block: "&7Gümüş Blok"
