@@ -1,11 +1,11 @@
 info:
   namespace: terraria
 categories:
-  blocks:
+  ores:
     enabled: true 
     skip_if_already: false
     icon: terraria:cobalt_ore
-    name: display-category-blocks
+    name: display-category-ores
     items:
       - terraria:tin_ore
       - terraria:lead_ore
@@ -31,6 +31,29 @@ categories:
       - terraria:chlorophyte_ore
       - terraria:chlorophyte_ore_deepslate
       - terraria:luminite_ore
+  blocks:
+    enabled: true 
+    skip_if_already: false
+    icon: terraria:cobalt_block
+    name: display-category-blocks
+    items:
+      - terraria:tin_block
+      - terraria:lead_block
+      - terraria:silver_block
+      - terraria:platinum_block
+      - terraria:tungsten_block
+      - terraria:crimson_block
+      - terraria:demonite_block
+      - terraria:hellstone_block
+      - terraria:meteorite_block
+      - terraria:cobalt_block
+      - terraria:palladium_block
+      - terraria:orichalcum_block
+      - terraria:mythril_block
+      - terraria:adamantite_block
+      - terraria:titanium_block
+      - terraria:chlorophyte_block
+      - terraria:luminite_block
   swords:
     enabled: true 
     skip_if_already: false

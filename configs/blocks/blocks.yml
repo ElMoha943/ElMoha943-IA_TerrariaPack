@@ -1,0 +1,241 @@
+info:
+  namespace: terraria
+items:
+  tin_block:
+    display_name: display-name-tin_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/tin_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  lead_block:
+    display_name: display-name-lead_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/lead_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false        
+  silver_block:
+    display_name: display-name-silver_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/silver_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  tungsten_block:
+    display_name: display-name-tungsten_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/tungsten_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  platinum_block:
+    display_name: display-name-platinum_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/platinum_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  meteorite_block:
+    display_name: display-name-meteorite_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/meteorite_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  crimson_block:
+    display_name: display-name-crimson_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/crimson_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  demonite_block:
+    display_name: display-name-demonite_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/demonite_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  hellstone_block:
+    display_name: display-name-hellstone_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/hellstone_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false 
+  cobalt_block:
+    display_name: display-name-cobalt_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/cobalt_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  palladium_block:
+    display_name: display-name-palladium_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/palladium_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  orichalcum_block:
+    display_name: display-name-orichalcum_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/orichalcum_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  mythril_block:
+    display_name: display-name-mythril_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/mythril_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  adamantite_block:
+    display_name: display-name-adamantite_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/adamantite_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  titanium_block:
+    display_name: display-name-titanium_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/titanium_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
+  chlorophyte_block:
+    display_name: display-name-chlorophyte_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/chlorophyte_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false    
+  luminite_block:
+    display_name: display-name-luminite_block
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/luminite_block"
+    specific_properties:
+      block:
+        hardness: 3
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: false
