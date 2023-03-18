@@ -5,7 +5,7 @@ Spigot Link: https://www.spigotmc.org/resources/terraria-pack-itemsadder-addon.1
 
 ## Description
 
-This is an item pack created for [IgnisGaming](https://discord.gg/VBcutsQZh3). I`ve decided to upload it here since we no longer use it, im also updating it with new content and bugfixes every now and then.
+This is an item pack created for [IgnisGaming](https://discord.gg/VBcutsQZh3) (dont ask for support there!). I`ve decided to upload it here since we no longer use it, im also updating it with new content and bugfixes every now and then.
 
 This pack is not intended to be used as it is in production servers, most stats are just placeholders and would need you to balance them acordingly to what better suits your server.
 

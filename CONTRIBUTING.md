@@ -5,7 +5,7 @@ Things that i will 100% merge:
 - BugFixes.
 - Typo errors.
 
-Things that i will 100$ NOT merge:
+Things that i will 100% NOT merge:
 - Stolen content.
 - NSFW content.
 - offtopic content (not terraria related)
