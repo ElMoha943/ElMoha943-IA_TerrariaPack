@@ -98,8 +98,8 @@ items:
       mainhand:
         attackDamage: 7
         attackSpeed: 1.2
-    enchants:
-      - DIG_SPEED:5     
+    #enchants:
+      #- DIG_SPEED:5     
   #---FACE 3
   cobalt_pickaxe:
     display_name: display-name-cobalt_pickaxe
@@ -114,9 +114,8 @@ items:
       mainhand:
         attackDamage: 7.5
         attackSpeed: 1.2
-    enchants:
-      - DIG_SPEED:6
-
+    #enchants:
+      #- DIG_SPEED:6
   palladium_pickaxe:
     display_name: display-name-palladium_pickaxe
     resource:
@@ -130,8 +129,8 @@ items:
       mainhand:
         attackDamage: 7.5
         attackSpeed: 1.2
-    enchants:
-      - DIG_SPEED:6  
+    #enchants:
+      #- DIG_SPEED:6  
   orichalcum_pickaxe:
     display_name: display-name-orichalcum_pickaxe
     resource:
@@ -145,8 +144,8 @@ items:
       mainhand:
         attackDamage: 8
         attackSpeed: 1.2
-    enchants:
-      - DIG_SPEED:7  
+    #enchants:
+      #- DIG_SPEED:7  
   mythril_pickaxe:
     display_name: display-name-mythril_pickaxe
     resource:
@@ -160,8 +159,8 @@ items:
       mainhand:
         attackDamage: 8
         attackSpeed: 1.2
-    enchants:
-      - DIG_SPEED:7      
+    #enchants:
+      #- DIG_SPEED:7      
   adamantite_pickaxe:
     display_name: display-name-adamantite_pickaxe
     resource:
@@ -175,8 +174,8 @@ items:
       mainhand:
         attackDamage: 8.5
         attackSpeed: 1.2
-    enchants:
-      - DIG_SPEED:8      
+    #enchants:
+      #- DIG_SPEED:8      
   titanium_pickaxe:
     display_name: display-name-titanium_pickaxe
     resource:
@@ -190,8 +189,8 @@ items:
       mainhand:
         attackDamage: 8.5
         attackSpeed: 1.2
-    enchants:
-      - DIG_SPEED:8        
+    #enchants:
+      #- DIG_SPEED:8        
   #---FACE 4
   chlorophyte_pickaxe:
     display_name: display-name-chlorophyte_pickaxe
@@ -206,8 +205,8 @@ items:
       mainhand:
         attackDamage: 9
         attackSpeed: 1.2
-    enchants:
-      - DIG_SPEED:9     
+    #enchants:
+      #- DIG_SPEED:9     
   #shroomite_pickaxe
   luminite_pickaxe:
     display_name: display-name-luminite_pickaxe
@@ -222,5 +221,5 @@ items:
       mainhand:
         attackDamage: 9.5
         attackSpeed: 1.2
-    enchants:
-      - DIG_SPEED:10
+    #enchants:
+      #- DIG_SPEED:10
