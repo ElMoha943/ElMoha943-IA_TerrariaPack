@@ -1,15 +1,6 @@
 info:
   namespace: terraria
 items:
-  copper_shovel:
-    display_name: display-name-copper_shovel
-    resource:
-      material: STONE_SHOVEL
-      generate: true
-      textures:
-      - item/copper_shovel
-    durability:
-      max_custom_durability: 150
   tin_shovel:
     display_name: display-name-tin_shovel
     resource:
@@ -17,6 +8,15 @@ items:
       generate: true
       textures:
       - item/tin_shovel
+    durability:
+      max_custom_durability: 150
+  copper_shovel:
+    display_name: display-name-copper_shovel
+    resource:
+      material: STONE_SHOVEL
+      generate: true
+      textures:
+      - item/copper_shovel
     durability:
       max_custom_durability: 175
   lead_shovel:

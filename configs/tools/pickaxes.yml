@@ -2,15 +2,6 @@ info:
   namespace: terraria
 items:
 #PICKAXES
-  copper_pickaxe:
-    display_name: display-name-copper_pickaxe
-    resource:
-      material: STONE_PICKAXE
-      generate: true
-      textures:
-      - item/copper_pickaxe
-    durability:
-      max_custom_durability: 150
   tin_pickaxe:
     display_name: display-name-tin_pickaxe
     resource:
@@ -18,6 +9,15 @@ items:
       generate: true
       textures:
       - item/tin_pickaxe
+    durability:
+      max_custom_durability: 150
+  copper_pickaxe:
+    display_name: display-name-copper_pickaxe
+    resource:
+      material: STONE_PICKAXE
+      generate: true
+      textures:
+      - item/copper_pickaxe
     durability:
       max_custom_durability: 175
   lead_pickaxe:

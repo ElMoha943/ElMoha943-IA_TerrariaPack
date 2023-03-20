@@ -2,19 +2,6 @@ info:
   namespace: terraria
 items:
 #AXES
-  copper_axe:
-    display_name: display-name-copper_axe
-    resource:
-      material: STONE_AXE
-      generate: true
-      textures:
-      - item/copper_axe
-    durability:
-      max_custom_durability: 150
-    attribute_modifiers:
-      mainhand:
-        attackDamage: 7.5
-        attackSpeed: 0.8
   tin_axe:
     display_name: display-name-tin_axe
     resource:
@@ -22,6 +9,19 @@ items:
       generate: true
       textures:
       - item/tin_axe
+    durability:
+      max_custom_durability: 150
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7.5
+        attackSpeed: 0.8
+  copper_axe:
+    display_name: display-name-copper_axe
+    resource:
+      material: STONE_AXE
+      generate: true
+      textures:
+      - item/copper_axe
     durability:
       max_custom_durability: 175
     attribute_modifiers:
@@ -45,6 +45,9 @@ items:
     display_name: display-name-iron_axe
     resource:
       material: IRON_AXE
+      generate: true
+      textures:
+      - item/iron_axe
     durability:
       max_custom_durability: 250
     attribute_modifiers:
@@ -68,6 +71,9 @@ items:
     display_name: display-name-gold_axe
     resource:
       material: GOLDEN_AXE
+      generate: true
+      textures:
+      - item/gold_axe
     durability:
       max_custom_durability: 350
     attribute_modifiers:

@@ -1,6 +1,7 @@
 info:
   namespace: terraria
 items:
+# Mineral Blocks
   tin_block:
     display_name: display-name-tin_block
     resource:
