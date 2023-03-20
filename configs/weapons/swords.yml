@@ -1,19 +1,6 @@
 info:
   namespace: terraria
 items:
-  copper_sword:
-    display_name: display-name-copper_sword
-    resource:
-      material: STONE_SWORD
-      generate: true
-      textures:
-      - item/copper_sword
-    durability:
-      max_custom_durability: 150
-    attribute_modifiers:
-      mainhand:
-        attackDamage: 4.5
-        attackSpeed: 1.6
   tin_sword:
     display_name: display-name-tin_sword
     resource:
@@ -21,6 +8,19 @@ items:
       generate: true
       textures:
       - item/tin_sword
+    durability:
+      max_custom_durability: 150
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 4.5
+        attackSpeed: 1.6
+  copper_sword:
+    display_name: display-name-copper_sword
+    resource:
+      material: STONE_SWORD
+      generate: true
+      textures:
+      - item/copper_sword
     durability:
       max_custom_durability: 175
     attribute_modifiers:
@@ -44,6 +44,9 @@ items:
     display_name: display-name-iron_sword
     resource:
       material: IRON_SWORD
+      generate: true
+      textures:
+      - item/iron_sword
     durability:
       max_custom_durability: 250
     attribute_modifiers:
@@ -67,6 +70,9 @@ items:
     display_name: display-name-gold_sword
     resource:
       material: GOLDEN_SWORD
+      generate: true
+      textures:
+      - item/gold_sword
     durability:
       max_custom_durability: 350
     attribute_modifiers:
