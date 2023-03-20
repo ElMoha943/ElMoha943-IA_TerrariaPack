@@ -17,47 +17,47 @@ armors_rendering:
     layer_2: armor/lead_armor_layer2
     use_color: false
   silver_armor:
-    color: "#d51004"
+    color: "#d51005"
     layer_1: armor/silver_armor_layer1
     layer_2: armor/silver_armor_layer2
     use_color: false
   platinum_armor:
-    color: "#d51005"
+    color: "#d51007"
     layer_1: armor/platinum_armor_layer1
     layer_2: armor/platinum_armor_layer2
     use_color: false
   tungsten_armor:
-    color: "#d51006"
+    color: "#d51008"
     layer_1: armor/tungsten_armor_layer1
     layer_2: armor/tungsten_armor_layer2
     use_color: false
-  hellstone_armor:
-    color: "#d51007"
-    layer_1: armor/hellstone_armor_layer1
-    layer_2: armor/hellstone_armor_layer2
-    emissive_1: armor/hellstone_armor_layer1_e
-    emissive_2: armor/hellstone_armor_layer2_e
-    use_color: false
-  demonite_armor:
-    color: "#d51008"
-    layer_1: armor/demonite_armor_layer1
-    layer_2: armor/demonite_armor_layer2
-    emissive_1: armor/demonite_armor_layer1_e
-    emissive_2: armor/demonite_armor_layer2_e
-    use_color: false
   meteorite_armor:
-    color: "#d51009"
+    color: "#d52001"
     layer_1: armor/meteorite_armor_layer1
     layer_2: armor/meteorite_armor_layer2
     emissive_1: armor/meteorite_armor_layer1_e
     emissive_2: armor/meteorite_armor_layer2_e
     use_color: false
+  hellstone_armor:
+    color: "#d52002"
+    layer_1: armor/hellstone_armor_layer1
+    layer_2: armor/hellstone_armor_layer2
+    emissive_1: armor/hellstone_armor_layer1_e
+    emissive_2: armor/hellstone_armor_layer2_e
+    use_color: false
   crimson_armor:
-    color: "#d51010"
+    color: "#d52003"
     layer_1: armor/crimson_armor_layer1
     layer_2: armor/crimson_armor_layer2
     emissive_1: armor/crimson_armor_layer1_e
     emissive_2: armor/crimson_armor_layer2_e
+    use_color: false
+  demonite_armor:
+    color: "#d52004"
+    layer_1: armor/demonite_armor_layer1
+    layer_2: armor/demonite_armor_layer2
+    emissive_1: armor/demonite_armor_layer1_e
+    emissive_2: armor/demonite_armor_layer2_e
     use_color: false
   cobalt_armor:
     color: "#d61001"
@@ -100,71 +100,6 @@ armors_rendering:
     layer_2: armor/luminite_armor_layer2
     use_color: false
 items:
-#copper
-  copper_helmet:
-    display_name: display-name-copper_helmet
-    permission: copper_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/copper_helmet
-    durability:
-      max_custom_durability: 275
-    specific_properties:
-      armor:
-        slot: head
-        custom_armor: copper_armor
-    attribute_modifiers:
-      head:
-        armor: 3
-        armorToughness: 2
-  copper_chest:
-    display_name: display-name-copper_chest
-    permission: copper_armor
-    resource:
-      generate: true
-      textures: 
-      - item/armor/copper_chest
-    durability:
-      max_custom_durability: 400
-    specific_properties:
-      armor:
-        slot: chest
-        custom_armor: copper_armor
-    attribute_modifiers:
-      chest:
-        armor: 8
-        armorToughness: 2
-  copper_legs:
-    display_name: display-name-copper_legs
-    permission: copper_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/copper_legs
-    durability:
-      max_custom_durability: 375
-    specific_properties:
-      armor:
-        slot: legs
-        custom_armor: copper_armor
-    attribute_modifiers:
-      legs:
-        armor: 6
-        armorToughness: 2
-  copper_boots:
-    display_name: display-name-copper_boots
-    permission: copper_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/copper_boots
-    durability:
-      max_custom_durability: 325
-    specific_properties:
-      armor:
-        slot: FEET
-        custom_armor: copper_armor
 #tin
   tin_helmet:
     display_name: display-name-tin_helmet
@@ -181,8 +116,7 @@ items:
         custom_armor: tin_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 0.5
   tin_chest:
     display_name: display-name-tin_chest
     permission: tin_armor
@@ -198,8 +132,7 @@ items:
         custom_armor: tin_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 1
   tin_legs:
     display_name: display-name-tin_legs
     permission: tin_armor
@@ -215,8 +148,7 @@ items:
         custom_armor: tin_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 1
   tin_boots:
     display_name: display-name-tin_boots
     permission: tin_armor
@@ -230,6 +162,74 @@ items:
       armor:
         slot: FEET
         custom_armor: tin_armor
+    attribute_modifiers:
+      feet:
+        armor: 0.5
+#copper
+  copper_helmet:
+    display_name: display-name-copper_helmet
+    permission: copper_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/copper_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: copper_armor
+    attribute_modifiers:
+      head:
+        armor: 1
+  copper_chest:
+    display_name: display-name-copper_chest
+    permission: copper_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/copper_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: copper_armor
+    attribute_modifiers:
+      chest:
+        armor: 1.5
+  copper_legs:
+    display_name: display-name-copper_legs
+    permission: copper_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/copper_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: copper_armor
+    attribute_modifiers:
+      legs:
+        armor: 1.5
+  copper_boots:
+    display_name: display-name-copper_boots
+    permission: copper_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/copper_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: copper_armor
+    attribute_modifiers:
+      feet:
+        armor: 1
 #lead
   lead_helmet:
     display_name: display-name-lead_helmet
@@ -246,8 +246,7 @@ items:
         custom_armor: lead_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 2
   lead_chest:
     display_name: display-name-lead_chest
     permission: lead_armor
@@ -263,8 +262,7 @@ items:
         custom_armor: lead_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 3
   lead_legs:
     display_name: display-name-lead_legs
     permission: lead_armor
@@ -280,8 +278,7 @@ items:
         custom_armor: lead_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 3
   lead_boots:
     display_name: display-name-lead_boots
     permission: lead_armor
@@ -295,6 +292,50 @@ items:
       armor:
         slot: FEET
         custom_armor: lead_armor
+    attribute_modifiers:
+      feet:
+        armor: 2
+#iron
+#  iron_helmet:
+#    display_name: display-name-iron_helmet
+#    permission: iron_armor
+#    resource:
+#      material: IRON_HELMET
+#    durability:
+#      max_custom_durability: 275
+#    attribute_modifiers:
+#      head:
+#        armor: 3
+#  iron_chest:
+#    display_name: display-name-iron_chest
+#    permission: iron_armor
+#    resource:
+#      material: IRON_CHESTPLATE
+#    durability:
+#      max_custom_durability: 400
+#    attribute_modifiers:
+#      chest:
+#        armor: 5
+#  iron_legs:
+#    display_name: display-name-iron_legs
+#    permission: iron_armor
+#    resource:
+#      material: IRON_LEGGINGS
+#    durability:
+#      max_custom_durability: 375
+#    attribute_modifiers:
+#      legs:
+#        armor: 4
+#  iron_boots:
+#    display_name: display-name-iron_boots
+#    permission: iron_armor
+#    resource:
+#      material: IRON_BOOTS
+#    durability:
+#      max_custom_durability: 325
+#    attribute_modifiers:
+#      feet:
+#        armor: 3
 #silver
   silver_helmet:
     display_name: display-name-silver_helmet
@@ -311,8 +352,7 @@ items:
         custom_armor: silver_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 4
   silver_chest:
     display_name: display-name-silver_chest
     permission: silver_armor
@@ -328,8 +368,7 @@ items:
         custom_armor: silver_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 6
   silver_legs:
     display_name: display-name-silver_legs
     permission: silver_armor
@@ -345,8 +384,7 @@ items:
         custom_armor: silver_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 5
   silver_boots:
     display_name: display-name-silver_boots
     permission: silver_armor
@@ -360,6 +398,50 @@ items:
       armor:
         slot: FEET
         custom_armor: silver_armor
+    attribute_modifiers:
+      feet:
+        armor: 4
+#gold
+#  gold_helmet:
+#    display_name: display-name-gold_helmet
+#    permission: gold_armor
+#    resource:
+#      material: GOLD_HELMET
+#    durability:
+#      max_custom_durability: 275
+#    attribute_modifiers:
+#      head:
+#        armor: 4.5
+#  gold_chest:
+#    display_name: display-name-gold_chest
+#    permission: gold_armor
+#    resource:
+#      material: GOLD_CHESTPLATE
+#    durability:
+#      max_custom_durability: 400
+#    attribute_modifiers:
+#      chest:
+#        armor: 6.5
+#  gold_legs:
+#    display_name: display-name-gold_legs
+#    permission: gold_armor
+#    resource:
+#      material: GOLD_LEGGINGS
+#    durability:
+#      max_custom_durability: 375
+#    attribute_modifiers:
+#      legs:
+#        armor: 6
+#  gold_boots:
+#    display_name: display-name-gold_boots
+#    permission: gold_armor
+#    resource:
+#      material: GOLD_BOOTS
+#    durability:
+#      max_custom_durability: 325
+#    attribute_modifiers:
+#      feet:
+#        armor: 4.5
 #tungsten
   tungsten_helmet:
     display_name: display-name-tungsten_helmet
@@ -376,8 +458,7 @@ items:
         custom_armor: tungsten_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 5
   tungsten_chest:
     display_name: display-name-tungsten_chest
     permission: tungsten_armor
@@ -394,7 +475,6 @@ items:
     attribute_modifiers:
       chest:
         armor: 8
-        armorToughness: 2
   tungsten_legs:
     display_name: display-name-tungsten_legs
     permission: tungsten_armor
@@ -410,8 +490,7 @@ items:
         custom_armor: tungsten_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 7
   tungsten_boots:
     display_name: display-name-tungsten_boots
     permission: tungsten_armor
@@ -425,6 +504,9 @@ items:
       armor:
         slot: FEET
         custom_armor: tungsten_armor
+    attribute_modifiers:
+      feet:
+        armor: 5
 #platinum
   platinum_helmet:
     display_name: display-name-platinum_helmet
@@ -441,8 +523,7 @@ items:
         custom_armor: platinum_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 6
   platinum_chest:
     display_name: display-name-platinum_chest
     permission: platinum_armor
@@ -458,8 +539,7 @@ items:
         custom_armor: platinum_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 9.5
   platinum_legs:
     display_name: display-name-platinum_legs
     permission: platinum_armor
@@ -475,8 +555,7 @@ items:
         custom_armor: platinum_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 8.5
   platinum_boots:
     display_name: display-name-platinum_boots
     permission: platinum_armor
@@ -490,201 +569,9 @@ items:
       armor:
         slot: FEET
         custom_armor: platinum_armor
-#crimson
-  crimson_helmet:
-    display_name: display-name-crimson_helmet
-    permission: crimson_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/crimson_helmet
-    durability:
-      max_custom_durability: 275
-    specific_properties:
-      armor:
-        slot: head
-        custom_armor: crimson_armor
     attribute_modifiers:
-      head:
-        armor: 3
-        armorToughness: 2
-  crimson_chest:
-    display_name: display-name-crimson_chest
-    permission: crimson_armor
-    resource:
-      generate: true
-      textures: 
-      - item/armor/crimson_chest
-    durability:
-      max_custom_durability: 400
-    specific_properties:
-      armor:
-        slot: chest
-        custom_armor: crimson_armor
-    attribute_modifiers:
-      chest:
-        armor: 8
-        armorToughness: 2
-  crimson_legs:
-    display_name: display-name-crimson_legs
-    permission: crimson_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/crimson_legs
-    durability:
-      max_custom_durability: 375
-    specific_properties:
-      armor:
-        slot: legs
-        custom_armor: crimson_armor
-    attribute_modifiers:
-      legs:
+      feet:
         armor: 6
-        armorToughness: 2
-  crimson_boots:
-    display_name: display-name-crimson_boots
-    permission: crimson_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/crimson_boots
-    durability:
-      max_custom_durability: 325
-    specific_properties:
-      armor:
-        slot: FEET
-        custom_armor: crimson_armor
-#demonite
-  demonite_helmet:
-    display_name: display-name-demonite_helmet
-    permission: demonite_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/demonite_helmet
-    durability:
-      max_custom_durability: 275
-    specific_properties:
-      armor:
-        slot: head
-        custom_armor: demonite_armor
-    attribute_modifiers:
-      head:
-        armor: 3
-        armorToughness: 2
-  demonite_chest:
-    display_name: display-name-demonite_chest
-    permission: demonite_armor
-    resource:
-      generate: true
-      textures: 
-      - item/armor/demonite_chest
-    durability:
-      max_custom_durability: 400
-    specific_properties:
-      armor:
-        slot: chest
-        custom_armor: demonite_armor
-    attribute_modifiers:
-      chest:
-        armor: 8
-        armorToughness: 2
-  demonite_legs:
-    display_name: display-name-demonite_legs
-    permission: demonite_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/demonite_legs
-    durability:
-      max_custom_durability: 375
-    specific_properties:
-      armor:
-        slot: legs
-        custom_armor: demonite_armor
-    attribute_modifiers:
-      legs:
-        armor: 6
-        armorToughness: 2
-  demonite_boots:
-    display_name: display-name-demonite_boots
-    permission: demonite_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/demonite_boots
-    durability:
-      max_custom_durability: 325
-    specific_properties:
-      armor:
-        slot: FEET
-        custom_armor: demonite_armor
-#hellstone
-  hellstone_helmet:
-    display_name: display-name-hellstone_helmet
-    permission: hellstone_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/hellstone_helmet
-    durability:
-      max_custom_durability: 275
-    specific_properties:
-      armor:
-        slot: head
-        custom_armor: hellstone_armor
-    attribute_modifiers:
-      head:
-        armor: 3
-        armorToughness: 2
-  hellstone_chest:
-    display_name: display-name-hellstone_chest
-    permission: hellstone_armor
-    resource:
-      generate: true
-      textures: 
-      - item/armor/hellstone_chest
-    durability:
-      max_custom_durability: 400
-    specific_properties:
-      armor:
-        slot: chest
-        custom_armor: hellstone_armor
-    attribute_modifiers:
-      chest:
-        armor: 8
-        armorToughness: 2
-  hellstone_legs:
-    display_name: display-name-hellstone_legs
-    permission: hellstone_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/hellstone_legs
-    durability:
-      max_custom_durability: 375
-    specific_properties:
-      armor:
-        slot: legs
-        custom_armor: hellstone_armor
-    attribute_modifiers:
-      legs:
-        armor: 6
-        armorToughness: 2
-  hellstone_boots:
-    display_name: display-name-hellstone_boots
-    permission: hellstone_armor
-    resource:
-      generate: true
-      textures:
-      - item/armor/hellstone_boots
-    durability:
-      max_custom_durability: 325
-    specific_properties:
-      armor:
-        slot: FEET
-        custom_armor: hellstone_armor
 #meteorite
   meteorite_helmet:
     display_name: display-name-meteorite_helmet
@@ -701,8 +588,8 @@ items:
         custom_armor: meteorite_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 7
+        max_health: 1
   meteorite_chest:
     display_name: display-name-meteorite_chest
     permission: meteorite_armor
@@ -718,8 +605,8 @@ items:
         custom_armor: meteorite_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 10
+        max_health: 1
   meteorite_legs:
     display_name: display-name-meteorite_legs
     permission: meteorite_armor
@@ -735,8 +622,8 @@ items:
         custom_armor: meteorite_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 9
+        max_health: 1
   meteorite_boots:
     display_name: display-name-meteorite_boots
     permission: meteorite_armor
@@ -750,6 +637,217 @@ items:
       armor:
         slot: FEET
         custom_armor: meteorite_armor
+    attribute_modifiers:
+      feet:
+        armor: 7
+        max_health: 1
+#hellstone
+  hellstone_helmet:
+    display_name: display-name-hellstone_helmet
+    permission: hellstone_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/hellstone_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: hellstone_armor
+    attribute_modifiers:
+      head:
+        armor: 7
+        max_health: 2
+  hellstone_chest:
+    display_name: display-name-hellstone_chest
+    permission: hellstone_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/hellstone_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: hellstone_armor
+    attribute_modifiers:
+      chest:
+        armor: 10
+        max_health: 2
+  hellstone_legs:
+    display_name: display-name-hellstone_legs
+    permission: hellstone_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/hellstone_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: hellstone_armor
+    attribute_modifiers:
+      legs:
+        armor: 9
+        max_health: 2
+  hellstone_boots:
+    display_name: display-name-hellstone_boots
+    permission: hellstone_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/hellstone_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: hellstone_armor
+    attribute_modifiers:
+      feet:
+        armor: 7
+        max_health: 2
+#crimson
+  crimson_helmet:
+    display_name: display-name-crimson_helmet
+    permission: crimson_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/crimson_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: crimson_armor
+    attribute_modifiers:
+      head:
+        armor: 7
+        max_health: 3
+  crimson_chest:
+    display_name: display-name-crimson_chest
+    permission: crimson_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/crimson_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: crimson_armor
+    attribute_modifiers:
+      chest:
+        armor: 10
+        max_health: 3
+  crimson_legs:
+    display_name: display-name-crimson_legs
+    permission: crimson_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/crimson_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: crimson_armor
+    attribute_modifiers:
+      legs:
+        armor: 9
+        max_health: 3
+  crimson_boots:
+    display_name: display-name-crimson_boots
+    permission: crimson_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/crimson_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: crimson_armor
+    attribute_modifiers:
+      feet:
+        armor: 7
+        max_health: 3
+#demonite
+  demonite_helmet:
+    display_name: display-name-demonite_helmet
+    permission: demonite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/demonite_helmet
+    durability:
+      max_custom_durability: 275
+    specific_properties:
+      armor:
+        slot: head
+        custom_armor: demonite_armor
+    attribute_modifiers:
+      head:
+        armor: 7
+        max_health: 4
+  demonite_chest:
+    display_name: display-name-demonite_chest
+    permission: demonite_armor
+    resource:
+      generate: true
+      textures: 
+      - item/armor/demonite_chest
+    durability:
+      max_custom_durability: 400
+    specific_properties:
+      armor:
+        slot: chest
+        custom_armor: demonite_armor
+    attribute_modifiers:
+      chest:
+        armor: 10
+        max_health: 4
+  demonite_legs:
+    display_name: display-name-demonite_legs
+    permission: demonite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/demonite_legs
+    durability:
+      max_custom_durability: 375
+    specific_properties:
+      armor:
+        slot: legs
+        custom_armor: demonite_armor
+    attribute_modifiers:
+      legs:
+        armor: 9
+        max_health: 4
+  demonite_boots:
+    display_name: display-name-demonite_boots
+    permission: demonite_armor
+    resource:
+      generate: true
+      textures:
+      - item/armor/demonite_boots
+    durability:
+      max_custom_durability: 325
+    specific_properties:
+      armor:
+        slot: FEET
+        custom_armor: demonite_armor
+    attribute_modifiers:
+      feet:
+        armor: 7
+        max_health: 4
 #cobalt
   cobalt_helmet:
     display_name: display-name-cobalt_helmet
@@ -766,8 +864,9 @@ items:
         custom_armor: cobalt_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 0.5
+        max_health: 5
   cobalt_chest:
     display_name: display-name-cobalt_chest
     permission: cobalt_armor
@@ -783,8 +882,9 @@ items:
         custom_armor: cobalt_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 11
+        armorToughness: 0.5
+        max_health: 5
   cobalt_legs:
     display_name: display-name-cobalt_legs
     permission: cobalt_armor
@@ -800,8 +900,9 @@ items:
         custom_armor: cobalt_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 10
+        armorToughness: 0.5
+        max_health: 5
   cobalt_boots:
     display_name: display-name-cobalt_boots
     permission: cobalt_armor
@@ -817,8 +918,9 @@ items:
         custom_armor: cobalt_armor
     attribute_modifiers:
       feet:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 0.5
+        max_health: 5
 #palladium
   palladium_helmet:
     display_name: display-name-palladium_helmet
@@ -835,8 +937,9 @@ items:
         custom_armor: palladium_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 1
+        max_health: 6
   palladium_chest:
     display_name: display-name-palladium_chest
     permission: palladium_armor
@@ -852,8 +955,9 @@ items:
         custom_armor: palladium_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 11
+        armorToughness: 1
+        max_health: 6
   palladium_legs:
     display_name: display-name-palladium_legs
     permission: palladium_armor
@@ -869,8 +973,9 @@ items:
         custom_armor: palladium_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 10
+        armorToughness: 1
+        max_health: 6
   palladium_boots:
     display_name: display-name-palladium_boots
     permission: palladium_armor
@@ -886,8 +991,9 @@ items:
         custom_armor: palladium_armor
     attribute_modifiers:
       feet:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 1
+        max_health: 6
 #mythril
   mythril_helmet:
     display_name: display-name-mythril_helmet
@@ -904,8 +1010,9 @@ items:
         custom_armor: mythril_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 1.5
+        max_health: 7
   mythril_chest:
     display_name: display-name-mythril_chest
     permission: mythril_armor
@@ -921,8 +1028,9 @@ items:
         custom_armor: mythril_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 11
+        armorToughness: 1.5
+        max_health: 7
   mythril_legs:
     display_name: display-name-mythril_legs
     permission: mythril_armor
@@ -938,8 +1046,9 @@ items:
         custom_armor: mythril_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 10
+        armorToughness: 1.5
+        max_health: 7
   mythril_boots:
     display_name: display-name-mythril_boots
     permission: mythril_armor
@@ -955,8 +1064,9 @@ items:
         custom_armor: mythril_armor
     attribute_modifiers:
       feet:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 1.5
+        max_health: 7
 #Orichalcum
   orichalcum_helmet:
     display_name: display-name-orichalcum_helmet
@@ -973,8 +1083,9 @@ items:
         custom_armor: orichalcum_armor
     attribute_modifiers:
       head:
-        armor: 3
+        armor: 7.5
         armorToughness: 2
+        max_health: 8
   orichalcum_chest:
     display_name: display-name-orichalcum_chest
     permission: orichalcum_armor
@@ -990,8 +1101,9 @@ items:
         custom_armor: orichalcum_armor
     attribute_modifiers:
       chest:
-        armor: 8
+        armor: 11
         armorToughness: 2
+        max_health: 8
   orichalcum_legs:
     display_name: display-name-orichalcum_legs
     permission: orichalcum_armor
@@ -1007,8 +1119,9 @@ items:
         custom_armor: orichalcum_armor
     attribute_modifiers:
       legs:
-        armor: 6
+        armor: 10
         armorToughness: 2
+        max_health: 8
   orichalcum_boots:
     display_name: display-name-orichalcum_boots
     permission: orichalcum_armor
@@ -1024,8 +1137,9 @@ items:
         custom_armor: orichalcum_armor
     attribute_modifiers:
       feet:
-        armor: 3
+        armor: 7.5
         armorToughness: 2
+        max_health: 8
 #Adamantite
   adamantite_helmet:
     display_name: display-name-adamantite_helmet
@@ -1042,8 +1156,10 @@ items:
         custom_armor: adamantite_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 2.5
+        max_health: 9
+        knockback_resistance: 0.025
   adamantite_chest:
     display_name: display-name-adamantite_chest
     permission: adamantite_armor
@@ -1059,8 +1175,10 @@ items:
         custom_armor: adamantite_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 11
+        armorToughness: 2.5
+        max_health: 9
+        knockback_resistance: 0.025
   adamantite_legs:
     display_name: display-name-adamantite_legs
     permission: adamantite_armor
@@ -1076,8 +1194,10 @@ items:
         custom_armor: adamantite_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 10
+        armorToughness: 2.5
+        max_health: 9
+        knockback_resistance: 0.025
   adamantite_boots:
     display_name: display-name-adamantite_boots
     permission: adamantite_armor
@@ -1093,8 +1213,10 @@ items:
         custom_armor: adamantite_armor
     attribute_modifiers:
       feet:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 2.5
+        max_health: 9
+        knockback_resistance: 0.025
 #titanium
   titanium_helmet:
     display_name: display-name-titanium_helmet
@@ -1111,8 +1233,10 @@ items:
         custom_armor: titanium_armor
     attribute_modifiers:
       head:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 3
+        max_health: 10
+        knockback_resistance: 0.025
   titanium_chest:
     display_name: display-name-titanium_chest
     permission: titanium_armor
@@ -1128,8 +1252,10 @@ items:
         custom_armor: titanium_armor
     attribute_modifiers:
       chest:
-        armor: 8
-        armorToughness: 2
+        armor: 11
+        armorToughness: 3
+        max_health: 10
+        knockback_resistance: 0.025
   titanium_legs:
     display_name: display-name-titanium_legs
     permission: titanium_armor
@@ -1145,8 +1271,10 @@ items:
         custom_armor: titanium_armor
     attribute_modifiers:
       legs:
-        armor: 6
-        armorToughness: 2
+        armor: 10
+        armorToughness: 3
+        max_health: 10
+        knockback_resistance: 0.025
   titanium_boots:
     display_name: display-name-titanium_boots
     permission: titanium_armor
@@ -1162,8 +1290,10 @@ items:
         custom_armor: titanium_armor
     attribute_modifiers:
       feet:
-        armor: 3
-        armorToughness: 2
+        armor: 7.5
+        armorToughness: 3
+        max_health: 10
+        knockback_resistance: 0.025
 #chlorophyte
   chlorophyte_helmet:
     display_name: display-name-chlorophyte_helmet
@@ -1180,9 +1310,10 @@ items:
         custom_armor: chlorophyte_armor
     attribute_modifiers:
       head:
-        armor: 9
-        armorToughness: 8
-        knockback_resistance: 0.6
+        armor: 8
+        armorToughness: 4
+        max_health: 11
+        knockback_resistance: 0.05
   chlorophyte_chest:
     display_name: display-name-chlorophyte_chest
     permission: chlorophyte_armor
@@ -1198,9 +1329,10 @@ items:
         custom_armor: chlorophyte_armor
     attribute_modifiers:
       chest:
-        armor: 14
-        armorToughness: 8
-        knockback_resistance: 0.6
+        armor: 13
+        armorToughness: 4
+        max_health: 11
+        knockback_resistance: 0.05
   chlorophyte_legs:
     display_name: display-name-chlorophyte_legs
     permission: chlorophyte_armor
@@ -1216,9 +1348,10 @@ items:
         custom_armor: chlorophyte_armor
     attribute_modifiers:
       legs:
-        armor: 12
-        armorToughness: 8
-        knockback_resistance: 0.6
+        armor: 11
+        armorToughness: 4
+        max_health: 11
+        knockback_resistance: 0.05
   chlorophyte_boots:
     display_name: display-name-chlorophyte_boots
     permission: chlorophyte_armor
@@ -1234,9 +1367,10 @@ items:
         custom_armor: chlorophyte_armor
     attribute_modifiers:
       feet:
-        armor: 9
-        armorToughness: 9  
-        knockback_resistance: 0.6
+        armor: 8
+        armorToughness: 4
+        max_health: 11
+        knockback_resistance: 0.05
 #luminite
   luminite_helmet:
     display_name: display-name-luminite_helmet
@@ -1253,9 +1387,10 @@ items:
         custom_armor: luminite_armor
     attribute_modifiers:
       head:
-        armor: 10
-        armorToughness: 9
-        knockback_resistance: 0.7
+        armor: 11
+        armorToughness: 5
+        max_health: 12
+        knockback_resistance: 0.1
   luminite_chest:
     display_name: display-name-luminite_chest
     permission: luminite_armor
@@ -1272,8 +1407,9 @@ items:
     attribute_modifiers:
       chest:
         armor: 15
-        armorToughness: 9
-        knockback_resistance: 0.7
+        armorToughness: 5
+        max_health: 12
+        knockback_resistance: 0.1
   luminite_legs:
     display_name: display-name-luminite_legs
     permission: luminite_armor
@@ -1290,8 +1426,9 @@ items:
     attribute_modifiers:
       legs:
         armor: 13
-        armorToughness: 9
-        knockback_resistance: 0.7
+        armorToughness: 5
+        max_health: 12
+        knockback_resistance: 0.1
   luminite_boots:
     display_name: display-name-luminite_boots
     permission: luminite_armor
@@ -1307,6 +1444,7 @@ items:
         custom_armor: luminite_armor
     attribute_modifiers:
       feet:
-        armor: 10
-        armorToughness: 10 
-        knockback_resistance: 0.7
+        armor: 11
+        armorToughness: 5
+        max_health: 12
+        knockback_resistance: 0.1
