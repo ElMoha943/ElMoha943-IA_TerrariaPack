@@ -60,8 +60,8 @@ categories:
     icon: terraria:palladium_sword
     name: display-category-swords
     items:
-      - terraria:copper_sword
       - terraria:tin_sword
+      - terraria:copper_sword
       - terraria:lead_sword
       - terraria:iron_sword
       - terraria:silver_sword
@@ -86,8 +86,8 @@ categories:
     icon: terraria:demonite_pickaxe
     name: display-category-pickaxes
     items:
-      - terraria:copper_pickaxe
       - terraria:tin_pickaxe
+      - terraria:copper_pickaxe
       - terraria:lead_pickaxe
       - terraria:silver_pickaxe
       - terraria:tungsten_pickaxe
@@ -110,8 +110,8 @@ categories:
     icon: terraria:mythril_axe
     name: display-category-axes
     items:
-      - terraria:copper_axe
       - terraria:tin_axe
+      - terraria:copper_axe
       - terraria:lead_axe
       - terraria:iron_axe
       - terraria:silver_axe
@@ -160,8 +160,8 @@ categories:
     icon: terraria:mythril_hoe
     name: display-category-hoes
     items:
-      - terraria:copper_hoe
       - terraria:tin_hoe
+      - terraria:copper_hoe
       - terraria:lead_hoe
       - terraria:silver_hoe
       - terraria:tungsten_hoe
@@ -230,14 +230,14 @@ categories:
     icon: terraria:mythril_helmet
     name: display-category-armors
     items:
-      - terraria:copper_helmet
-      - terraria:copper_chest
-      - terraria:copper_legs
-      - terraria:copper_boots
       - terraria:tin_helmet
       - terraria:tin_chest
       - terraria:tin_legs
       - terraria:tin_boots
+      - terraria:copper_helmet
+      - terraria:copper_chest
+      - terraria:copper_legs
+      - terraria:copper_boots
       - terraria:lead_helmet
       - terraria:lead_chest
       - terraria:lead_legs
