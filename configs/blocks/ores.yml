@@ -2,7 +2,6 @@ info:
   namespace: terraria
 items:
 #STONE VERSIONS
-  #copper_ore:
   tin_ore:
     display_name: display-name-tin_ore
     resource:
@@ -12,7 +11,7 @@ items:
       - "block/tin_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 0.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -20,11 +19,7 @@ items:
         break_tools_blacklist:
           - HAND
           - WOODEN_PICKAXE
-          - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+  #copper_ore:
   lead_ore:
     display_name: display-name-lead_ore
     resource:
@@ -34,7 +29,7 @@ items:
       - "block/lead_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 0.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -43,10 +38,6 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
   #iron_ore
   silver_ore:
     display_name: display-name-silver_ore
@@ -57,7 +48,7 @@ items:
       - "block/silver_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -66,10 +57,9 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+#gold_ore
   tungsten_ore:
     display_name: display-name-tungsten_ore
     resource:
@@ -79,7 +69,7 @@ items:
       - "block/tungsten_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -88,11 +78,10 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
-  #gold_ore
+          - IRON_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
   platinum_ore:
     display_name: display-name-platinum_ore
     resource:
@@ -102,7 +91,7 @@ items:
       - "block/platinum_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -111,55 +100,13 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
   #---FACE 2
-  crimson_ore:
-    display_name: display-name-crimson_ore
-    resource:
-      generate: true
-      material: PAPER
-      textures: 
-      - "block/crimson_ore"
-    specific_properties:
-      block:
-        hardness: 3
-        placed_model:
-          type: REAL_NOTE
-          break_particles: ITEM
-        cancel_drop: true
-        break_tools_blacklist:
-          - HAND
-          - WOODEN_PICKAXE
-          - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
-  demonite_ore:
-    display_name: display-name-demonite_ore
-    resource:
-      generate: true
-      material: PAPER
-      textures: 
-      - "block/demonite_ore"
-    specific_properties:
-      block:
-        hardness: 3
-        placed_model:
-          type: REAL_NOTE
-          break_particles: ITEM
-        cancel_drop: true
-        break_tools_blacklist:
-          - HAND
-          - WOODEN_PICKAXE
-          - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
   meteorite_ore:
     display_name: display-name-meteorite_ore
     resource:
@@ -169,7 +116,7 @@ items:
       - "block/meteorite_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -178,10 +125,13 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
   hellstone_ore:
     display_name: display-name-hellstone_ore
     resource:
@@ -191,7 +141,7 @@ items:
       - "block/hellstone_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -200,10 +150,68 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+  crimson_ore:
+    display_name: display-name-crimson_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/crimson_ore"
+    specific_properties:
+      block:
+        hardness: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+  demonite_ore:
+    display_name: display-name-demonite_ore
+    resource:
+      generate: true
+      material: PAPER
+      textures: 
+      - "block/demonite_ore"
+    specific_properties:
+      block:
+        hardness: 1
+        placed_model:
+          type: REAL_NOTE
+          break_particles: ITEM
+        cancel_drop: true
+        break_tools_blacklist:
+          - HAND
+          - WOODEN_PICKAXE
+          - STONE_PICKAXE
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
   #---FACE 3
   cobalt_ore:
     display_name: display-name-cobalt_ore
@@ -214,7 +222,7 @@ items:
       - "block/cobalt_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -223,10 +231,16 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
   palladium_ore:
     display_name: display-name-palladium_ore
     resource:
@@ -236,7 +250,7 @@ items:
       - "block/palladium_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -245,10 +259,16 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
   orichalcum_ore:
     display_name: display-name-orichalcum_ore
     resource:
@@ -258,7 +278,7 @@ items:
       - "block/orichalcum_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -267,10 +287,18 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
   mythril_ore:
     display_name: display-name-mythril_ore
     resource:
@@ -280,7 +308,7 @@ items:
       - "block/mythril_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -289,10 +317,18 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
   adamantite_ore:
     display_name: display-name-adamantite_ore
     resource:
@@ -302,7 +338,7 @@ items:
       - "block/adamantite_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -311,10 +347,20 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
+          - terraria:cobalt_pickaxe
+          - terraria:palladium_pickaxe
   titanium_ore:
     display_name: display-name-titanium_ore
     resource:
@@ -324,7 +370,7 @@ items:
       - "block/titanium_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -333,10 +379,20 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
+          - terraria:cobalt_pickaxe
+          - terraria:palladium_pickaxe
   #---FACE 4
   chlorophyte_ore:
     display_name: display-name-chlorophyte_ore
@@ -347,7 +403,7 @@ items:
       - "block/chlorophyte_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 2
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -356,10 +412,23 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
+          - terraria:cobalt_pickaxe
+          - terraria:palladium_pickaxe
+          - terraria:orichalcum_pickaxe
+          - terraria:mythril_pickaxe
+          - terraria:adamantite_pickaxe
   #shroomite_ore
   luminite_ore:
     display_name: display-name-luminite_ore
@@ -370,7 +439,7 @@ items:
       - "block/luminite_ore"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 2
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -379,10 +448,24 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
+          - terraria:cobalt_pickaxe
+          - terraria:palladium_pickaxe
+          - terraria:orichalcum_pickaxe
+          - terraria:mythril_pickaxe
+          - terraria:adamantite_pickaxe
+          - terraria:titanium_pickaxe
 #DEEPSLATE VERSIONS
   cobalt_ore_deepslate:
     display_name: display-name-cobalt_ore_deepslate
@@ -393,7 +476,7 @@ items:
       - "block/cobalt_ore_deepslate"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -402,10 +485,16 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
   palladium_ore_deepslate:
     display_name: display-name-palladium_ore_deepslate
     resource:
@@ -415,7 +504,7 @@ items:
       - "block/palladium_ore_deepslate"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -424,10 +513,16 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
   orichalcum_ore_deepslate:
     display_name: display-name-orichalcum_ore_deepslate
     resource:
@@ -437,7 +532,7 @@ items:
       - "block/orichalcum_ore_deepslate"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -446,10 +541,18 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
   mythril_ore_deepslate:
     display_name: display-name-mythril_ore_deepslate
     resource:
@@ -459,7 +562,7 @@ items:
       - "block/mythril_ore_deepslate"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -468,10 +571,18 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
   adamantite_ore_deepslate:
     display_name: display-name-adamantite_ore_deepslate
     resource:
@@ -481,7 +592,7 @@ items:
       - "block/adamantite_ore_deepslate"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -490,10 +601,20 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
+          - terraria:cobalt_pickaxe
+          - terraria:palladium_pickaxe
   titanium_ore_deepslate:
     display_name: display-name-titanium_ore_deepslate
     resource:
@@ -503,7 +624,7 @@ items:
       - "block/titanium_ore_deepslate"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 1.5
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -512,10 +633,20 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
+          - terraria:cobalt_pickaxe
+          - terraria:palladium_pickaxe
   #---FACE 5
   chlorophyte_ore_deepslate:
     display_name: display-name-chlorophyte_ore_deepslate
@@ -526,7 +657,7 @@ items:
       - "block/chlorophyte_ore_deepslate"
     specific_properties:
       block:
-        hardness: 3
+        hardness: 2
         placed_model:
           type: REAL_NOTE
           break_particles: ITEM
@@ -535,10 +666,22 @@ items:
           - HAND
           - WOODEN_PICKAXE
           - STONE_PICKAXE
-        break_tools_whitelist:
-          - PICKAXE
-          - pickaxe
-          - _hammer
+          - IRON_PICKAXE
+          - GOLDEN_PICKAXE
+          - terraria:tin_pickaxe
+          - terraria:copper_pickaxe
+          - terraria:lead_pickaxe
+          - terraria:silver_pickaxe
+          - terraria:tungsten_pickaxe
+          - terraria:platinum_pickaxe
+          - terraria:meteorite_pickaxe
+          - terraria:hellstone_pickaxe
+          - terraria:demonite_pickaxe
+          - terraria:crimson_pickaxe
+          - terraria:cobalt_pickaxe
+          - terraria:palladium_pickaxe
+          - terraria:orichalcum_pickaxe
+          - terraria:mythril_pickaxe
 loots:
   blocks:
     tin_ore:
