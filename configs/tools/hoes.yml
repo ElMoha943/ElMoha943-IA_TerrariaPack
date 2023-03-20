@@ -1,15 +1,6 @@
 info:
   namespace: terraria
 items:
-  copper_hoe:
-    display_name: display-name-copper_hoe
-    resource:
-      material: STONE_HOE
-      generate: true
-      textures:
-      - item/copper_hoe
-    durability:
-      max_custom_durability: 150
   tin_hoe:
     display_name: display-name-tin_hoe
     resource:
@@ -17,6 +8,15 @@ items:
       generate: true
       textures:
       - item/tin_hoe
+    durability:
+      max_custom_durability: 150
+  copper_hoe:
+    display_name: display-name-copper_hoe
+    resource:
+      material: STONE_HOE
+      generate: true
+      textures:
+      - item/copper_hoe
     durability:
       max_custom_durability: 175
   lead_hoe:
