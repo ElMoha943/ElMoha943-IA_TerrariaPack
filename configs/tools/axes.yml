@@ -13,7 +13,7 @@ items:
       max_custom_durability: 150
     attribute_modifiers:
       mainhand:
-        attackDamage: 8
+        attackDamage: 7.5
         attackSpeed: 0.8
   tin_axe:
     display_name: display-name-tin_axe
@@ -26,7 +26,7 @@ items:
       max_custom_durability: 175
     attribute_modifiers:
       mainhand:
-        attackDamage: 8.5
+        attackDamage: 8
         attackSpeed: 0.8
   lead_axe:
     display_name: display-name-lead_axe
@@ -39,9 +39,18 @@ items:
       max_custom_durability: 200
     attribute_modifiers:
       mainhand:
-        attackDamage: 8.75
+        attackDamage: 8.5
         attackSpeed: 0.8
-  #iron_axe
+  iron_axe:
+    display_name: display-name-iron_axe
+    resource:
+      material: IRON_AXE
+    durability:
+      max_custom_durability: 250
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 9
+        attackSpeed: 0.9
   silver_axe:
     display_name: display-name-silver_axe
     resource:
@@ -53,9 +62,18 @@ items:
       max_custom_durability: 300
     attribute_modifiers:
       mainhand:
-        attackDamage: 9.25
+        attackDamage: 9.5
         attackSpeed: 0.9
-  #gold_axe
+  gold_axe:
+    display_name: display-name-gold_axe
+    resource:
+      material: GOLDEN_AXE
+    durability:
+      max_custom_durability: 350
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 10
+        attackSpeed: 0.9
   tungsten_axe:
     display_name: display-name-tungsten_axe
     resource:
@@ -67,7 +85,7 @@ items:
       max_custom_durability: 500
     attribute_modifiers:
       mainhand:
-        attackDamage: 9.5
+        attackDamage: 11
         attackSpeed: 0.9
   platinum_axe:
     display_name: display-name-platinum_axe
@@ -80,35 +98,9 @@ items:
       max_custom_durability: 1000
     attribute_modifiers:
       mainhand:
-        attackDamage: 9.75
+        attackDamage: 12
         attackSpeed: 0.9
   #---FACE 2
-  crimson_axe:
-    display_name: display-name-crimson_axe
-    resource:
-      material: DIAMOND_AXE
-      generate: true
-      textures:
-      - item/crimson_axe
-    durability:
-      max_custom_durability: 2100
-    attribute_modifiers:
-      mainhand:
-        attackDamage: 10
-        attackSpeed: 1
-  demonite_axe:
-    display_name: display-name-demonite_axe
-    resource:
-      material: DIAMOND_AXE
-      generate: true
-      textures:
-      - item/demonite_axe
-    durability:
-      max_custom_durability: 2100
-    attribute_modifiers:
-      mainhand:
-        attackDamage: 10
-        attackSpeed: 1
   meteorite_axe:
     display_name: display-name-meteorite_axe
     resource:
@@ -120,7 +112,7 @@ items:
       max_custom_durability: 2100
     attribute_modifiers:
       mainhand:
-        attackDamage: 10.5
+        attackDamage: 15
         attackSpeed: 1
   hellstone_axe:
     display_name: display-name-hellstone_axe
@@ -133,7 +125,33 @@ items:
       max_custom_durability: 2100
     attribute_modifiers:
       mainhand:
-        attackDamage: 11
+        attackDamage: 16
+        attackSpeed: 1
+  crimson_axe:
+    display_name: display-name-crimson_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/crimson_axe
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 17
+        attackSpeed: 1
+  demonite_axe:
+    display_name: display-name-demonite_axe
+    resource:
+      material: DIAMOND_AXE
+      generate: true
+      textures:
+      - item/demonite_axe
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 18
         attackSpeed: 1
   #---FACE 3
   cobalt_axe:
@@ -147,7 +165,7 @@ items:
       max_custom_durability: 2250
     attribute_modifiers:
       mainhand:
-        attackDamage: 13
+        attackDamage: 20
         attackSpeed: 1
   palladium_axe:
     display_name: display-name-palladium_axe
@@ -160,7 +178,7 @@ items:
       max_custom_durability: 2250
     attribute_modifiers:
       mainhand:
-        attackDamage: 13.5
+        attackDamage: 21
         attackSpeed: 1
   orichalcum_axe:
     display_name: display-name-orichalcum_axe
@@ -173,7 +191,7 @@ items:
       max_custom_durability: 2500
     attribute_modifiers:
       mainhand:
-        attackDamage: 14
+        attackDamage: 23
         attackSpeed: 1
   mythril_axe:
     display_name: display-name-mythril_axe
@@ -186,7 +204,7 @@ items:
       max_custom_durability: 2500
     attribute_modifiers:
       mainhand:
-        attackDamage: 14.5
+        attackDamage: 24
         attackSpeed: 1
   adamantite_axe:
     display_name: display-name-adamantite_axe
@@ -199,7 +217,7 @@ items:
       max_custom_durability: 2750
     attribute_modifiers:
       mainhand:
-        attackDamage: 15
+        attackDamage: 26
         attackSpeed: 1
   titanium_axe:
     display_name: display-name-titanium_axe
@@ -210,7 +228,7 @@ items:
       - item/titanium_axe
     attribute_modifiers:
       mainhand:
-        attackDamage: 15.5
+        attackDamage: 28
         attackSpeed: 1
   #---FACE 4
   chlorophyte_axe:
@@ -224,7 +242,7 @@ items:
       max_custom_durability: 2900
     attribute_modifiers:
       mainhand:
-        attackDamage: 16
+        attackDamage: 33
         attackSpeed: 1
   #shroomite_axe
   luminite_axe:
@@ -238,5 +256,5 @@ items:
       max_custom_durability: 3000
     attribute_modifiers:
       mainhand:
-        attackDamage: 18
+        attackDamage: 38
         attackSpeed: 1
