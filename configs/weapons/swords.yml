@@ -12,7 +12,7 @@ items:
       max_custom_durability: 150
     attribute_modifiers:
       mainhand:
-        attackDamage: 5.25
+        attackDamage: 4.5
         attackSpeed: 1.6
   tin_sword:
     display_name: display-name-tin_sword
@@ -25,7 +25,7 @@ items:
       max_custom_durability: 175
     attribute_modifiers:
       mainhand:
-        attackDamage: 5.5
+        attackDamage: 5
         attackSpeed: 1.6
   lead_sword:
     display_name: display-name-lead_sword
@@ -38,9 +38,18 @@ items:
       max_custom_durability: 200
     attribute_modifiers:
       mainhand:
-        attackDamage: 5.75
+        attackDamage: 5.5
         attackSpeed: 1.6
-  #iron_sword
+  iron_sword:
+    display_name: display-name-iron_sword
+    resource:
+      material: IRON_SWORD
+    durability:
+      max_custom_durability: 250
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 6
+        attackSpeed: 1.6
   silver_sword:
     display_name: display-name-silver_sword
     resource:
@@ -52,7 +61,17 @@ items:
       max_custom_durability: 300
     attribute_modifiers:
       mainhand:
-        attackDamage: 6.25
+        attackDamage: 6.5
+        attackSpeed: 1.6
+  gold_sword:
+    display_name: display-name-gold_sword
+    resource:
+      material: GOLDEN_SWORD
+    durability:
+      max_custom_durability: 350
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 7
         attackSpeed: 1.6
   tungsten_sword:
     display_name: display-name-tungsten_sword
@@ -65,9 +84,8 @@ items:
       max_custom_durability: 500
     attribute_modifiers:
       mainhand:
-        attackDamage: 6.5
+        attackDamage: 8
         attackSpeed: 1.6
-  #gold_sword
   platinum_sword:
     display_name: display-name-platinum_sword
     resource:
@@ -79,36 +97,9 @@ items:
       max_custom_durability: 1000
     attribute_modifiers:
       mainhand:
-        attackDamage: 6.75
+        attackDamage: 10
         attackSpeed: 1.6
-  # diamond sword
   #---FACE 2
-  crimson_sword:
-    display_name: display-name-crimson_sword
-    resource:
-      material: DIAMOND_SWORD
-      generate: true
-      textures:
-      - item/crimson_sword
-    durability:
-      max_custom_durability: 2100
-    attribute_modifiers:
-      mainhand:
-        attackDamage: 7.5
-        attackSpeed: 1.6
-  demonite_sword:
-    display_name: display-name-demonite_sword
-    resource:
-      material: DIAMOND_SWORD
-      generate: true
-      textures:
-      - item/demonite_sword
-    durability:
-      max_custom_durability: 2100
-    attribute_modifiers:
-      mainhand:
-        attackDamage: 7.5
-        attackSpeed: 1.6
   meteorite_sword:
     display_name: display-name-meteorite_sword
     resource:
@@ -120,7 +111,7 @@ items:
       max_custom_durability: 2100
     attribute_modifiers:
       mainhand:
-        attackDamage: 8
+        attackDamage: 12
         attackSpeed: 1.6
   hellstone_sword:
     display_name: display-name-hellstone_sword
@@ -133,7 +124,33 @@ items:
       max_custom_durability: 2100
     attribute_modifiers:
       mainhand:
-        attackDamage: 8.5
+        attackDamage: 13
+        attackSpeed: 1.6
+  crimson_sword:
+    display_name: display-name-crimson_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/crimson_sword
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 14
+        attackSpeed: 1.6
+  demonite_sword:
+    display_name: display-name-demonite_sword
+    resource:
+      material: DIAMOND_SWORD
+      generate: true
+      textures:
+      - item/demonite_sword
+    durability:
+      max_custom_durability: 2100
+    attribute_modifiers:
+      mainhand:
+        attackDamage: 15
         attackSpeed: 1.6
   #---FACE 3
   cobalt_sword:
@@ -147,7 +164,7 @@ items:
       max_custom_durability: 2250
     attribute_modifiers:
       mainhand:
-        attackDamage: 10
+        attackDamage: 18
         attackSpeed: 1.7
   palladium_sword:
     display_name: display-name-palladium_sword
@@ -160,7 +177,7 @@ items:
       max_custom_durability: 2250
     attribute_modifiers:
       mainhand:
-        attackDamage: 10.5
+        attackDamage: 19
         attackSpeed: 1.7
   orichalcum_sword:
     display_name: display-name-orichalcum_sword
@@ -173,7 +190,7 @@ items:
       max_custom_durability: 2500
     attribute_modifiers:
       mainhand:
-        attackDamage: 11
+        attackDamage: 20
         attackSpeed: 1.7
   mythril_sword:
     display_name: display-name-mythril_sword
@@ -186,7 +203,7 @@ items:
       max_custom_durability: 2500
     attribute_modifiers:
       mainhand:
-        attackDamage: 11.5
+        attackDamage: 21
         attackSpeed: 1.7
   adamantite_sword:
     display_name: display-name-adamantite_sword
@@ -199,7 +216,7 @@ items:
       max_custom_durability: 2750
     attribute_modifiers:
       mainhand:
-        attackDamage: 12
+        attackDamage: 23
         attackSpeed: 1.7
   titanium_sword:
     display_name: display-name-titanium_sword
@@ -212,7 +229,7 @@ items:
       max_custom_durability: 2750
     attribute_modifiers:
       mainhand:
-        attackDamage: 12.5
+        attackDamage: 25
         attackSpeed: 1.7
   #---FACE 4
   chlorophyte_sword:
@@ -226,9 +243,8 @@ items:
       max_custom_durability: 2900
     attribute_modifiers:
       mainhand:
-        attackDamage: 13
+        attackDamage: 30
         attackSpeed: 1.7
-  #shroomite_sword
   luminite_sword:
     display_name: display-name-luminite_sword
     resource:
@@ -240,5 +256,5 @@ items:
       max_custom_durability: 3000
     attribute_modifiers:
       mainhand:
-        attackDamage: 15
+        attackDamage: 36
         attackSpeed: 1.7
