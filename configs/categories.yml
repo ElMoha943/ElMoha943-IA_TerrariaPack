@@ -10,12 +10,12 @@ categories:
       - terraria:tin_ore
       - terraria:lead_ore
       - terraria:silver_ore
-      - terraria:platinum_ore
       - terraria:tungsten_ore
+      - terraria:platinum_ore
+      - terraria:meteorite_ore
+      - terraria:hellstone_ore
       - terraria:crimson_ore
       - terraria:demonite_ore
-      - terraria:hellstone_ore
-      - terraria:meteorite_ore
       - terraria:cobalt_ore
       - terraria:cobalt_ore_deepslate
       - terraria:palladium_ore
@@ -40,12 +40,12 @@ categories:
       - terraria:tin_block
       - terraria:lead_block
       - terraria:silver_block
-      - terraria:platinum_block
       - terraria:tungsten_block
+      - terraria:platinum_block
+      - terraria:meteorite_block
+      - terraria:hellstone_block
       - terraria:crimson_block
       - terraria:demonite_block
-      - terraria:hellstone_block
-      - terraria:meteorite_block
       - terraria:cobalt_block
       - terraria:palladium_block
       - terraria:orichalcum_block
@@ -63,13 +63,15 @@ categories:
       - terraria:copper_sword
       - terraria:tin_sword
       - terraria:lead_sword
+      - terraria:iron_sword
       - terraria:silver_sword
-      - terraria:platinum_sword
+      - terraria:gold_sword
       - terraria:tungsten_sword
+      - terraria:platinum_sword
+      - terraria:meteorite_sword
+      - terraria:hellstone_sword
       - terraria:crimson_sword
       - terraria:demonite_sword
-      - terraria:hellstone_sword
-      - terraria:meteorite_sword
       - terraria:cobalt_sword
       - terraria:palladium_sword
       - terraria:orichalcum_sword
@@ -88,12 +90,12 @@ categories:
       - terraria:tin_pickaxe
       - terraria:lead_pickaxe
       - terraria:silver_pickaxe
-      - terraria:platinum_pickaxe
       - terraria:tungsten_pickaxe
+      - terraria:platinum_pickaxe
+      - terraria:meteorite_pickaxe
+      - terraria:hellstone_pickaxe
       - terraria:crimson_pickaxe
       - terraria:demonite_pickaxe
-      - terraria:hellstone_pickaxe
-      - terraria:meteorite_pickaxe
       - terraria:cobalt_pickaxe
       - terraria:palladium_pickaxe
       - terraria:orichalcum_pickaxe
@@ -111,13 +113,15 @@ categories:
       - terraria:copper_axe
       - terraria:tin_axe
       - terraria:lead_axe
+      - terraria:iron_axe
       - terraria:silver_axe
-      - terraria:platinum_axe
+      - terraria:gold_axe
       - terraria:tungsten_axe
+      - terraria:platinum_axe
+      - terraria:meteorite_axe
+      - terraria:hellstone_axe
       - terraria:crimson_axe
       - terraria:demonite_axe
-      - terraria:hellstone_axe
-      - terraria:meteorite_axe
       - terraria:cobalt_axe
       - terraria:palladium_axe
       - terraria:orichalcum_axe
@@ -136,12 +140,12 @@ categories:
       - terraria:tin_shovel
       - terraria:lead_shovel
       - terraria:silver_shovel
-      - terraria:platinum_shovel
       - terraria:tungsten_shovel
+      - terraria:platinum_shovel
+      - terraria:meteorite_shovel
+      - terraria:hellstone_shovel
       - terraria:crimson_shovel
       - terraria:demonite_shovel
-      - terraria:hellstone_shovel
-      - terraria:meteorite_shovel
       - terraria:cobalt_shovel
       - terraria:palladium_shovel
       - terraria:orichalcum_shovel
@@ -160,12 +164,12 @@ categories:
       - terraria:tin_hoe
       - terraria:lead_hoe
       - terraria:silver_hoe
-      - terraria:platinum_hoe
       - terraria:tungsten_hoe
+      - terraria:platinum_hoe
+      - terraria:meteorite_hoe
+      - terraria:hellstone_hoe
       - terraria:crimson_hoe
       - terraria:demonite_hoe
-      - terraria:hellstone_hoe
-      - terraria:meteorite_hoe
       - terraria:cobalt_hoe
       - terraria:palladium_hoe
       - terraria:orichalcum_hoe
@@ -183,12 +187,12 @@ categories:
       - terraria:tin_bar
       - terraria:lead_bar
       - terraria:silver_bar
-      - terraria:platinum_bar
       - terraria:tungsten_bar
+      - terraria:platinum_bar
+      - terraria:meteorite_bar
+      - terraria:hellstone_bar
       - terraria:crimson_bar
       - terraria:demonite_bar
-      - terraria:hellstone_bar
-      - terraria:meteorite_bar
       - terraria:cobalt_bar
       - terraria:palladium_bar
       - terraria:orichalcum_bar
@@ -208,10 +212,10 @@ categories:
       - terraria:raw_silver
       - terraria:raw_tungsten
       - terraria:raw_platinum
+      - terraria:raw_meteorite
+      - terraria:raw_hellstone
       - terraria:raw_crimson
       - terraria:raw_demonite
-      - terraria:raw_hellstone
-      - terraria:raw_meteorite
       - terraria:raw_cobalt
       - terraria:raw_palladium
       - terraria:raw_orichalcum
@@ -238,18 +242,34 @@ categories:
       - terraria:lead_chest
       - terraria:lead_legs
       - terraria:lead_boots
+      - terraria:iron_helmet
+      - terraria:iron_chest
+      - terraria:iron_legs
+      - terraria:iron_boots
       - terraria:silver_helmet
       - terraria:silver_chest
       - terraria:silver_legs
       - terraria:silver_boots
-      - terraria:platinum_helmet
-      - terraria:platinum_chest
-      - terraria:platinum_legs
-      - terraria:platinum_boots
+      - terraria:gold_helmet
+      - terraria:gold_chest
+      - terraria:gold_legs
+      - terraria:gold_boots
       - terraria:tungsten_helmet
       - terraria:tungsten_chest
       - terraria:tungsten_legs
       - terraria:tungsten_boots
+      - terraria:platinum_helmet
+      - terraria:platinum_chest
+      - terraria:platinum_legs
+      - terraria:platinum_boots
+      - terraria:meteorite_helmet
+      - terraria:meteorite_chest
+      - terraria:meteorite_legs
+      - terraria:meteorite_boots
+      - terraria:hellstone_helmet
+      - terraria:hellstone_chest
+      - terraria:hellstone_legs
+      - terraria:hellstone_boots
       - terraria:crimson_helmet
       - terraria:crimson_chest
       - terraria:crimson_legs
@@ -258,14 +278,6 @@ categories:
       - terraria:demonite_chest
       - terraria:demonite_legs
       - terraria:demonite_boots
-      - terraria:hellstone_helmet
-      - terraria:hellstone_chest
-      - terraria:hellstone_legs
-      - terraria:hellstone_boots
-      - terraria:meteorite_helmet
-      - terraria:meteorite_chest
-      - terraria:meteorite_legs
-      - terraria:meteorite_boots
       - terraria:cobalt_helmet
       - terraria:cobalt_chest
       - terraria:cobalt_legs
