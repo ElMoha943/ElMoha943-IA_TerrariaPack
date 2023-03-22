@@ -17,15 +17,13 @@ This pack is not intended to be used as it is in production servers, most stats 
 
 ## Features
 
-* 16 NEW ORES
-* SWORDS AND ARMORS
-* PICKAXES, AXES, SHOVELS AND HOES
-* TRANSLATION FILES
-* CRAFTING RECIPES
-* WORLD POPULATORS
-* 29 NEW FISHES
-* 10 FISHING RODS
-* 5 FOODS
+   * 17 new ores, including world populators, deepslate variants, raw material, ingot and block.
+   * 18 armors & tool sets ready to use with stats and recipes.
+   * 29 new fishes and 10 fishing rods
+   * 5 new foods
+   * 1 music disk
+   * categories and translation files
+
 
 ## Planned Features
 
