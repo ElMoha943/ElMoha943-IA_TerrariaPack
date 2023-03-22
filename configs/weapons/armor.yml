@@ -421,7 +421,7 @@ items:
 #      max_custom_durability: 400
 #    attribute_modifiers:
 #      chest:
-#        armor: 6.5
+#        armor: 6
 #  gold_legs:
 #    display_name: display-name-gold_legs
 #    permission: gold_armor
@@ -1408,7 +1408,7 @@ items:
       chest:
         armor: 15
         armorToughness: 5
-        max_health: 12
+        max_health: 13
         knockback_resistance: 0.1
   luminite_legs:
     display_name: display-name-luminite_legs
@@ -1427,7 +1427,7 @@ items:
       legs:
         armor: 13
         armorToughness: 5
-        max_health: 12
+        max_health: 13
         knockback_resistance: 0.1
   luminite_boots:
     display_name: display-name-luminite_boots
