@@ -331,6 +331,7 @@ dictionary:
   lore-fish-rock_lobster: "&3&oBut it wasnt a rock!"
   lore-fish-golden_carp: "&3Quite shiny. This will probably sell well."
 # Blocks
+  display-category-blocks: "&eBloques"
   display-name-tin_block: "&7Tin Block"
   display-name-lead_block: "&7Lead Block"
   display-name-silver_block: "&7Silver Block"
